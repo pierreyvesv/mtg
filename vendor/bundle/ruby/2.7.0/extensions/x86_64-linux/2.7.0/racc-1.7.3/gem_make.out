@@ -1,0 +1,15 @@
+current directory: /home/pyverdon/git/github/pierreyvesv/mtg/vendor/bundle/ruby/2.7.0/gems/racc-1.7.3/ext/racc/cparse
+/usr/bin/ruby2.7 -I /usr/lib/ruby/2.7.0 -r ./siteconf20231114-12179-1144fzv.rb extconf.rb
+creating Makefile
+
+current directory: /home/pyverdon/git/github/pierreyvesv/mtg/vendor/bundle/ruby/2.7.0/gems/racc-1.7.3/ext/racc/cparse
+make "DESTDIR=" clean
+
+current directory: /home/pyverdon/git/github/pierreyvesv/mtg/vendor/bundle/ruby/2.7.0/gems/racc-1.7.3/ext/racc/cparse
+make "DESTDIR="
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/pyverdon/git/github/pierreyvesv/mtg/vendor/bundle/ruby/2.7.0/gems/racc-1.7.3/ext/racc/cparse
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20231114-12179-1csc4yt/racc

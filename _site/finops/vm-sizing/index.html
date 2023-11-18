@@ -1,0 +1,552 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.22.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Tips to size Azure VM - Magic The Gathering</title>
+<meta name="description" content="VM Sizing guide  This vm sizing guide is based on my experience. It’s a prerequisite before using the Azure-Calculator.  This guide give hints on how to choose the best vm size for your workload.  This is mostly a list of concept and document that you should use. Once you know them it’s pretty easy to reuse it.  Impact of choosing the wrong size:     over size your vm is over spending   low size will lead to bad performance and potentially extra work to resize the vm.   VM Sizing convention  Sizing your VM is crucial to avoid over spending. Before using the Azure calculator first you should understand the naming convention used by Azure.  If Standard_D4s_v3 or Standard_E4ds_v4 means nothing to you then read on.  Read https://docs.microsoft.com/en-us/azure/virtual-machines/vm-naming-conventions  One or more lower case letters denote additive features, such as:     a = AMD-based processor   d = disk (local temp disk is present); this is for newer Azure VMs, see Ddv4 and Ddsv4-series:   temp disk is not persisted if the vm restart   h = hibernation capable   i = isolated size:   isolated machine by hardware are dedicated to a single customer this is used with huge server: isolated   l = low memory; a lower amount of memory than the memory intensive size   m = memory intensive; the most amount of memory in a particular size:   that’s the biggest memory available for this server type, if you need more, upgrade to a bigger server type   t = tiny memory; the smallest amount of memory in a particular size   r = RDMA capable:   used for massively parallel computing see RDMA-capable   s = Premium Storage capable, including possible use of Ultra SSD (Note: some newer sizes without the attribute of s can still support Premium Storage e.g. M128, M64, etc.)   Understand the right type  Go to vm-size and read and understand all series.  Take a specific attention on the summary at the top of each page. By example here is the one for the Compute-Fseries     ACU: 195 - 210 This is the Microsoft benchmark to compare CPU, since there is various one. It give you hints.   Premium Storage: Supported   SSD support   Premium Storage caching: Supported   Read Only Cache   Live Migration: Supported   this will allow you to change server type in this series without reboot   Memory Preserving Updates: Supported   VM is paused during the update, no reboot is needed. Otherwise a notification email is sent to you.   VM Generation Support: Generation 1 and 2   Accelerated Networking: Supported (Requires a minimum of 4 vCPU)   Ephemeral OS Disks: Supported   useful for stateless workloads   VCPU vs CPU  When you’ll walk through the sizes, you’ll see notice that some have VCPU and other CPU. One is virtual the second is not. You can get more detail about it here vm-acu  This list provide for each vm the number of vcpu per core available and cpu specificities.  You have to go through this list to chose the best cpu matching your workload, and also some of your need might guide you to one or an other server type.     *ACUs use Intel® Turbo technology to increase CPU frequency and provide a performance increase. The amount of the performance increase can vary based on the VM size, workload, and other workloads running on the same host.   **ACUs use AMD® Boost technology to increase CPU frequency and provide a performance increase. The amount of the performance increase can vary based on the VM size, workload, and other workloads running on the same host.   ***Hyper-threaded and capable of running nested virtualization   **AMD Simultaneous multithreading technology   Recommended size  Some size will better match your needs.  Vendor specific recommendation  In some case, to help you do the right sizing your software vendor may provide you with advice. By example Couchbase recommends you to use “DS v3, ES v3, FS and GS machines” and more than 4 cpu. couchbase-azure-best-practices  B Series  B Series servers are burstable , in short when the server is not use it accumulate credits that can be spend in a higher cpu freq at peak load.  This is a recommended series to use for AKS preproduction AKS-BSeries  There is a downside: small cpu and a low number of disk that can be attached  F Series  The F Series are compute optimized AND have the option accelerated-networking. This is a good choice for Haproxy load balancer Compute-Fseries  Ephemeral disk  Ephemerl OS Disk are supported only on VM sizes that supports Premium storage such as DSv1, DSv2, DSv3, Esv3, Fs, FsV2, GS, M  ”“Important When a user does not explicitly request managed disks for the OS, AKS will default to ephemeral OS if possible for a given nodepool configuration.””  AKS-Ephemeral-Disks  “Ephemeral OS disks are free, you incur no storage cost for OS disk.” Ephemeral-os-disks  How to choose the right server versus it’s pricing  There is different tool available which compare servers cost, I use azureprice.net to filter by needs and cost  That’s it, you are now read to use the Azure-Calculator">
+
+
+  <meta name="author" content="Pierre-Yves Verdon">
+  
+  <meta property="article:author" content="Pierre-Yves Verdon">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Magic The Gathering">
+<meta property="og:title" content="Tips to size Azure VM">
+<meta property="og:url" content="http://localhost:4000/mtg/finops/vm-sizing/">
+
+
+  <meta property="og:description" content="VM Sizing guide  This vm sizing guide is based on my experience. It’s a prerequisite before using the Azure-Calculator.  This guide give hints on how to choose the best vm size for your workload.  This is mostly a list of concept and document that you should use. Once you know them it’s pretty easy to reuse it.  Impact of choosing the wrong size:     over size your vm is over spending   low size will lead to bad performance and potentially extra work to resize the vm.   VM Sizing convention  Sizing your VM is crucial to avoid over spending. Before using the Azure calculator first you should understand the naming convention used by Azure.  If Standard_D4s_v3 or Standard_E4ds_v4 means nothing to you then read on.  Read https://docs.microsoft.com/en-us/azure/virtual-machines/vm-naming-conventions  One or more lower case letters denote additive features, such as:     a = AMD-based processor   d = disk (local temp disk is present); this is for newer Azure VMs, see Ddv4 and Ddsv4-series:   temp disk is not persisted if the vm restart   h = hibernation capable   i = isolated size:   isolated machine by hardware are dedicated to a single customer this is used with huge server: isolated   l = low memory; a lower amount of memory than the memory intensive size   m = memory intensive; the most amount of memory in a particular size:   that’s the biggest memory available for this server type, if you need more, upgrade to a bigger server type   t = tiny memory; the smallest amount of memory in a particular size   r = RDMA capable:   used for massively parallel computing see RDMA-capable   s = Premium Storage capable, including possible use of Ultra SSD (Note: some newer sizes without the attribute of s can still support Premium Storage e.g. M128, M64, etc.)   Understand the right type  Go to vm-size and read and understand all series.  Take a specific attention on the summary at the top of each page. By example here is the one for the Compute-Fseries     ACU: 195 - 210 This is the Microsoft benchmark to compare CPU, since there is various one. It give you hints.   Premium Storage: Supported   SSD support   Premium Storage caching: Supported   Read Only Cache   Live Migration: Supported   this will allow you to change server type in this series without reboot   Memory Preserving Updates: Supported   VM is paused during the update, no reboot is needed. Otherwise a notification email is sent to you.   VM Generation Support: Generation 1 and 2   Accelerated Networking: Supported (Requires a minimum of 4 vCPU)   Ephemeral OS Disks: Supported   useful for stateless workloads   VCPU vs CPU  When you’ll walk through the sizes, you’ll see notice that some have VCPU and other CPU. One is virtual the second is not. You can get more detail about it here vm-acu  This list provide for each vm the number of vcpu per core available and cpu specificities.  You have to go through this list to chose the best cpu matching your workload, and also some of your need might guide you to one or an other server type.     *ACUs use Intel® Turbo technology to increase CPU frequency and provide a performance increase. The amount of the performance increase can vary based on the VM size, workload, and other workloads running on the same host.   **ACUs use AMD® Boost technology to increase CPU frequency and provide a performance increase. The amount of the performance increase can vary based on the VM size, workload, and other workloads running on the same host.   ***Hyper-threaded and capable of running nested virtualization   **AMD Simultaneous multithreading technology   Recommended size  Some size will better match your needs.  Vendor specific recommendation  In some case, to help you do the right sizing your software vendor may provide you with advice. By example Couchbase recommends you to use “DS v3, ES v3, FS and GS machines” and more than 4 cpu. couchbase-azure-best-practices  B Series  B Series servers are burstable , in short when the server is not use it accumulate credits that can be spend in a higher cpu freq at peak load.  This is a recommended series to use for AKS preproduction AKS-BSeries  There is a downside: small cpu and a low number of disk that can be attached  F Series  The F Series are compute optimized AND have the option accelerated-networking. This is a good choice for Haproxy load balancer Compute-Fseries  Ephemeral disk  Ephemerl OS Disk are supported only on VM sizes that supports Premium storage such as DSv1, DSv2, DSv3, Esv3, Fs, FsV2, GS, M  ”“Important When a user does not explicitly request managed disks for the OS, AKS will default to ephemeral OS if possible for a given nodepool configuration.””  AKS-Ephemeral-Disks  “Ephemeral OS disks are free, you incur no storage cost for OS disk.” Ephemeral-os-disks  How to choose the right server versus it’s pricing  There is different tool available which compare servers cost, I use azureprice.net to filter by needs and cost  That’s it, you are now read to use the Azure-Calculator">
+
+
+
+
+
+  <meta name="twitter:site" content="@pverdon">
+  <meta name="twitter:title" content="Tips to size Azure VM">
+  <meta name="twitter:description" content="VM Sizing guide  This vm sizing guide is based on my experience. It’s a prerequisite before using the Azure-Calculator.  This guide give hints on how to choose the best vm size for your workload.  This is mostly a list of concept and document that you should use. Once you know them it’s pretty easy to reuse it.  Impact of choosing the wrong size:     over size your vm is over spending   low size will lead to bad performance and potentially extra work to resize the vm.   VM Sizing convention  Sizing your VM is crucial to avoid over spending. Before using the Azure calculator first you should understand the naming convention used by Azure.  If Standard_D4s_v3 or Standard_E4ds_v4 means nothing to you then read on.  Read https://docs.microsoft.com/en-us/azure/virtual-machines/vm-naming-conventions  One or more lower case letters denote additive features, such as:     a = AMD-based processor   d = disk (local temp disk is present); this is for newer Azure VMs, see Ddv4 and Ddsv4-series:   temp disk is not persisted if the vm restart   h = hibernation capable   i = isolated size:   isolated machine by hardware are dedicated to a single customer this is used with huge server: isolated   l = low memory; a lower amount of memory than the memory intensive size   m = memory intensive; the most amount of memory in a particular size:   that’s the biggest memory available for this server type, if you need more, upgrade to a bigger server type   t = tiny memory; the smallest amount of memory in a particular size   r = RDMA capable:   used for massively parallel computing see RDMA-capable   s = Premium Storage capable, including possible use of Ultra SSD (Note: some newer sizes without the attribute of s can still support Premium Storage e.g. M128, M64, etc.)   Understand the right type  Go to vm-size and read and understand all series.  Take a specific attention on the summary at the top of each page. By example here is the one for the Compute-Fseries     ACU: 195 - 210 This is the Microsoft benchmark to compare CPU, since there is various one. It give you hints.   Premium Storage: Supported   SSD support   Premium Storage caching: Supported   Read Only Cache   Live Migration: Supported   this will allow you to change server type in this series without reboot   Memory Preserving Updates: Supported   VM is paused during the update, no reboot is needed. Otherwise a notification email is sent to you.   VM Generation Support: Generation 1 and 2   Accelerated Networking: Supported (Requires a minimum of 4 vCPU)   Ephemeral OS Disks: Supported   useful for stateless workloads   VCPU vs CPU  When you’ll walk through the sizes, you’ll see notice that some have VCPU and other CPU. One is virtual the second is not. You can get more detail about it here vm-acu  This list provide for each vm the number of vcpu per core available and cpu specificities.  You have to go through this list to chose the best cpu matching your workload, and also some of your need might guide you to one or an other server type.     *ACUs use Intel® Turbo technology to increase CPU frequency and provide a performance increase. The amount of the performance increase can vary based on the VM size, workload, and other workloads running on the same host.   **ACUs use AMD® Boost technology to increase CPU frequency and provide a performance increase. The amount of the performance increase can vary based on the VM size, workload, and other workloads running on the same host.   ***Hyper-threaded and capable of running nested virtualization   **AMD Simultaneous multithreading technology   Recommended size  Some size will better match your needs.  Vendor specific recommendation  In some case, to help you do the right sizing your software vendor may provide you with advice. By example Couchbase recommends you to use “DS v3, ES v3, FS and GS machines” and more than 4 cpu. couchbase-azure-best-practices  B Series  B Series servers are burstable , in short when the server is not use it accumulate credits that can be spend in a higher cpu freq at peak load.  This is a recommended series to use for AKS preproduction AKS-BSeries  There is a downside: small cpu and a low number of disk that can be attached  F Series  The F Series are compute optimized AND have the option accelerated-networking. This is a good choice for Haproxy load balancer Compute-Fseries  Ephemeral disk  Ephemerl OS Disk are supported only on VM sizes that supports Premium storage such as DSv1, DSv2, DSv3, Esv3, Fs, FsV2, GS, M  ”“Important When a user does not explicitly request managed disks for the OS, AKS will default to ephemeral OS if possible for a given nodepool configuration.””  AKS-Ephemeral-Disks  “Ephemeral OS disks are free, you incur no storage cost for OS disk.” Ephemeral-os-disks  How to choose the right server versus it’s pricing  There is different tool available which compare servers cost, I use azureprice.net to filter by needs and cost  That’s it, you are now read to use the Azure-Calculator">
+  <meta name="twitter:url" content="http://localhost:4000/mtg/finops/vm-sizing/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2021-04-30T22:40:46+01:00">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/mtg/finops/vm-sizing/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Pierre-Yves",
+      "url": "http://localhost:4000/mtg/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/mtg/feed.xml" type="application/atom+xml" rel="alternate" title="Magic The Gathering Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/mtg/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single wide">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/mtg/">
+          Magic The Gathering
+          
+        </a>
+        <ul class="visible-links"></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Pierre-Yves Verdon</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Discard your hand</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Angers FR</span>
+        </li>
+      
+
+      
+        
+          
+        
+          
+            <li><a href="https://twitter.com/pverdon" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/pierre-yvesv" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://www.linkedin.com/in/pverdon/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">Linkedin</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Tips to size Azure VM">
+    <meta itemprop="description" content="VM Sizing guideThis vm sizing guide is based on my experience. It’s a prerequisite before using the Azure-Calculator.This guide give hints on how to choose the best vm size for your workload.This is mostly a list of concept and document that you should use. Once you know them it’s pretty easy to reuse it.Impact of choosing the wrong size:  over size your vm is over spending  low size will lead to bad performance and potentially extra work to resize the vm.VM Sizing conventionSizing your VM is crucial to avoid over spending. Before using the Azure calculator first you should understand the naming convention used by Azure.If Standard_D4s_v3 or Standard_E4ds_v4 means nothing to you then read on.Read https://docs.microsoft.com/en-us/azure/virtual-machines/vm-naming-conventionsOne or more lower case letters denote additive features, such as:  a = AMD-based processor  d = disk (local temp disk is present); this is for newer Azure VMs, see Ddv4 and Ddsv4-series:  temp disk is not persisted if the vm restart  h = hibernation capable  i = isolated size:  isolated machine by hardware are dedicated to a single customer this is used with huge server: isolated  l = low memory; a lower amount of memory than the memory intensive size  m = memory intensive; the most amount of memory in a particular size:  that’s the biggest memory available for this server type, if you need more, upgrade to a bigger server type  t = tiny memory; the smallest amount of memory in a particular size  r = RDMA capable:  used for massively parallel computing see RDMA-capable  s = Premium Storage capable, including possible use of Ultra SSD (Note: some newer sizes without the attribute of s can still support Premium Storage e.g. M128, M64, etc.)Understand the right typeGo to vm-size and read and understand all series.Take a specific attention on the summary at the top of each page.By example here is the one for the Compute-Fseries  ACU: 195 - 210This is the Microsoft benchmark to compare CPU, since there is various one. It give you hints.  Premium Storage: Supported  SSD support  Premium Storage caching: Supported  Read Only Cache  Live Migration: Supported  this will allow you to change server type in this series without reboot  Memory Preserving Updates: Supported  VM is paused during the update, no reboot is needed. Otherwise a notification email is sent to you.  VM Generation Support: Generation 1 and 2  Accelerated Networking: Supported (Requires a minimum of 4 vCPU)  Ephemeral OS Disks: Supported  useful for stateless workloadsVCPU vs CPUWhen you’ll walk through the sizes, you’ll see notice that some have VCPU and other CPU. One is virtual the second is not. You can get more detail about it here vm-acuThis list provide for each vm the number of vcpu per core available and cpu specificities.You have to go through this list to chose the best cpu matching your workload, and also some of your need might guide you to one or an other server type.  *ACUs use Intel® Turbo technology to increase CPU frequency and provide a performance increase. The amount of the performance increase can vary based on the VM size, workload, and other workloads running on the same host.  **ACUs use AMD® Boost technology to increase CPU frequency and provide a performance increase. The amount of the performance increase can vary based on the VM size, workload, and other workloads running on the same host.  ***Hyper-threaded and capable of running nested virtualization  **AMD Simultaneous multithreading technologyRecommended sizeSome size will better match your needs.Vendor specific recommendationIn some case, to help you do the right sizing your software vendor may provide you with advice. By example Couchbase recommends you to use “DS v3, ES v3, FS and GS machines” and more than 4 cpu. couchbase-azure-best-practicesB SeriesB Series servers are burstable , in short when the server is not use it accumulate credits that can be spend in a higher cpu freq at peak load.This is a recommended series to use for AKS preproduction AKS-BSeriesThere is a downside: small cpu and a low number of disk that can be attachedF SeriesThe F Series are compute optimized AND have the option accelerated-networking. This is a good choice for Haproxy load balancer Compute-FseriesEphemeral diskEphemerl OS Disk are supported only on VM sizes that supports Premium storage such as DSv1, DSv2, DSv3, Esv3, Fs, FsV2, GS, M”“ImportantWhen a user does not explicitly request managed disks for the OS, AKS will default to ephemeral OS if possible for a given nodepool configuration.””AKS-Ephemeral-Disks“Ephemeral OS disks are free, you incur no storage cost for OS disk.” Ephemeral-os-disksHow to choose the right server versus it’s pricingThere is different tool available which compare servers cost, I use azureprice.net to filter by needs and costThat’s it, you are now read to use the Azure-Calculator">
+    <meta itemprop="datePublished" content="2021-04-30T22:40:46+01:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Tips to size Azure VM
+</h1>
+          
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          4 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <h2 id="vm-sizing-guide">VM Sizing guide</h2>
+
+<p>This vm sizing guide is based on my experience. It’s a prerequisite before using the <a href="https://azure.microsoft.com/en-us/pricing/calculator/">Azure-Calculator</a>.</p>
+
+<p>This guide give hints on how to choose the best vm size for your workload.</p>
+
+<p>This is mostly a list of concept and document that you should use. Once you know them it’s pretty easy to reuse it.</p>
+
+<p>Impact of choosing the wrong size:</p>
+
+<ul>
+  <li>over size your vm is over spending</li>
+  <li>low size will lead to bad performance and potentially extra work to resize the vm.</li>
+</ul>
+
+<h2 id="vm-sizing-convention">VM Sizing convention</h2>
+
+<p>Sizing your VM is crucial to avoid over spending. Before using the Azure calculator first you should understand the naming convention used by Azure.</p>
+
+<p>If <code class="language-plaintext highlighter-rouge">Standard_D4s_v3</code> or <code class="language-plaintext highlighter-rouge">Standard_E4ds_v4</code> means nothing to you then read on.</p>
+
+<p>Read <a href="https://docs.microsoft.com/en-us/azure/virtual-machines/vm-naming-conventions">https://docs.microsoft.com/en-us/azure/virtual-machines/vm-naming-conventions</a></p>
+
+<p>One or more lower case letters denote additive features, such as:</p>
+
+<ul>
+  <li>a = AMD-based processor</li>
+  <li>d = disk (local temp disk is present); this is for newer Azure VMs, see Ddv4 and Ddsv4-series:
+  <strong>temp disk is not persisted if the vm restart</strong></li>
+  <li>h = hibernation capable</li>
+  <li>i = isolated size:
+  <strong>isolated machine by hardware are dedicated to a single customer this is used with huge server:</strong> <a href="https://docs.microsoft.com/en-us/azure/virtual-machines/isolation">isolated</a></li>
+  <li>l = low memory; a lower amount of memory than the memory intensive size</li>
+  <li>m = memory intensive; the most amount of memory in a particular size:
+  <strong>that’s the biggest memory available for this server type, if you need more, upgrade to a bigger server type</strong></li>
+  <li>t = tiny memory; the smallest amount of memory in a particular size</li>
+  <li>r = RDMA capable:
+  <strong>used for massively parallel computing see</strong> <a href="https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-hpc#rdma-capable-instances">RDMA-capable</a></li>
+  <li>s = Premium Storage capable, including possible use of Ultra SSD (Note: some newer sizes without the attribute of s can still support Premium Storage e.g. M128, M64, etc.)</li>
+</ul>
+
+<h2 id="understand-the-right-type">Understand the right type</h2>
+
+<p>Go to <a href="https://docs.microsoft.com/en-us/azure/virtual-machines/sizes">vm-size</a> and read and understand all series.</p>
+
+<p>Take a specific attention on the summary at the top of each page.
+By example here is the one for the <a href="https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-compute">Compute-Fseries</a></p>
+
+<ul>
+  <li>ACU: 195 - 210
+<strong>This is the Microsoft benchmark to compare CPU, since there is various one. It give you hints.</strong></li>
+  <li>Premium Storage: Supported
+  <strong>SSD support</strong></li>
+  <li>Premium Storage caching: Supported
+  <strong>Read Only Cache</strong></li>
+  <li>Live Migration: Supported
+  <strong>this will allow you to change server type in this series without reboot</strong></li>
+  <li>Memory Preserving Updates: Supported
+  <strong>VM is paused during the update, no reboot is needed. Otherwise a notification email is sent to you.</strong></li>
+  <li>VM Generation Support: Generation 1 and 2</li>
+  <li>Accelerated Networking: Supported (Requires a minimum of 4 vCPU)</li>
+  <li>Ephemeral OS Disks: Supported
+  <strong>useful for stateless workloads</strong></li>
+</ul>
+
+<h2 id="vcpu-vs-cpu">VCPU vs CPU</h2>
+
+<p>When you’ll walk through the sizes, you’ll see notice that some have VCPU and other CPU. One is virtual the second is not. You can get more detail about it here <a href="https://docs.microsoft.com/en-us/azure/virtual-machines/acu">vm-acu</a></p>
+
+<p>This list provide for each vm the number of vcpu per core available and cpu specificities.</p>
+
+<p>You have to go through this list to chose the best cpu matching your workload, and also some of your need might guide you to one or an other server type.</p>
+
+<ul>
+  <li>*ACUs use Intel® Turbo technology to increase CPU frequency and provide a performance increase. The amount of the performance increase can vary based on the VM size, workload, and other workloads running on the same host.</li>
+  <li>**ACUs use AMD® Boost technology to increase CPU frequency and provide a performance increase. The amount of the performance increase can vary based on the VM size, workload, and other workloads running on the same host.</li>
+  <li>***Hyper-threaded and capable of running nested virtualization</li>
+  <li><em>**</em>AMD Simultaneous multithreading technology</li>
+</ul>
+
+<h2 id="recommended-size">Recommended size</h2>
+
+<p>Some size will better match your needs.</p>
+
+<h3 id="vendor-specific-recommendation">Vendor specific recommendation</h3>
+
+<p>In some case, to help you do the right sizing your software vendor may provide you with advice. By example Couchbase recommends you to use “DS v3, ES v3, FS and GS machines” and more than 4 cpu. <a href="https://docs.couchbase.com/server/5.0/cloud/couchbase-azure-best-practices.html">couchbase-azure-best-practices</a></p>
+
+<h3 id="b-series">B Series</h3>
+
+<p>B Series servers are burstable , in short when the server is not use it accumulate credits that can be spend in a higher cpu freq at peak load.</p>
+
+<p>This is a recommended series to use for AKS preproduction <a href="https://azure.microsoft.com/en-us/blog/introducing-burstable-vm-support-in-aks/">AKS-BSeries</a></p>
+
+<p>There is a downside: small cpu and a low number of disk that can be attached</p>
+
+<h3 id="f-series">F Series</h3>
+
+<p>The F Series are compute optimized <em>AND</em> have the option <a href="https://docs.microsoft.com/en-us/azure/virtual-network/create-vm-accelerated-networking-cli">accelerated-networking</a>. This is a good choice for Haproxy load balancer <a href="https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-compute">Compute-Fseries</a></p>
+
+<h2 id="ephemeral-disk">Ephemeral disk</h2>
+
+<p>Ephemerl OS Disk are supported only on VM sizes that supports Premium storage such as DSv1, DSv2, DSv3, Esv3, Fs, FsV2, GS, M</p>
+
+<p>”“<em>Important</em>
+When a user does not explicitly request managed disks for the OS, AKS will default to ephemeral OS if possible for a given nodepool configuration.””</p>
+
+<p><a href="shttps://docs.microsoft.com/en-us/azure/aks/cluster-configuration#ephemeral-os">AKS-Ephemeral-Disks</a></p>
+
+<p>“Ephemeral OS disks are free, you incur no storage cost for OS disk.” <a href="https://docs.microsoft.com/en-us/azure/virtual-machines/ephemeral-os-disks">Ephemeral-os-disks</a></p>
+
+<h2 id="how-to-choose-the-right-server-versus-its-pricing">How to choose the right server versus it’s pricing</h2>
+
+<p>There is different tool available which compare servers cost, I use <a href="https://azureprice.net/">azureprice.net</a> to filter by needs and cost</p>
+
+<p>That’s it, you are now read to use the <a href="https://azure.microsoft.com/en-us/pricing/calculator/">Azure-Calculator</a></p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/mtg/categories/#finops" class="page__taxonomy-item" rel="tag">finops</a>
+    
+    </span>
+  </p>
+
+
+        
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-04-30T22:40:46+01:00">April 30, 2021</time></p>
+
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?via=pverdon&text=Tips+to+size+Azure+VM%20http%3A%2F%2Flocalhost%3A4000%2Fmtg%2Ffinops%2Fvm-sizing%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fmtg%2Ffinops%2Fvm-sizing%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fmtg%2Ffinops%2Fvm-sizing%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You May Also Enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+            
+      </div>
+    </div>
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+
+    
+      <li><a href="/mtg/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Pierre-Yves. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/mtg/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+    <script>
+  'use strict';
+
+  (function() {
+    var commentContainer = document.querySelector('#utterances-comments');
+
+    if (!commentContainer) {
+      return;
+    }
+
+    var script = document.createElement('script');
+    script.setAttribute('src', 'https://utteranc.es/client.js');
+    script.setAttribute('repo', 'pierreyvesv/mtg');
+    script.setAttribute('issue-term', 'pathname');
+    script.setAttribute('theme', 'boxy-light');
+    script.setAttribute('crossorigin', 'anonymous');
+
+    commentContainer.appendChild(script);
+  })();
+</script>
+
+  
+
+
+
+
+
+  </body>
+</html>
