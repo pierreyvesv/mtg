@@ -55,9 +55,9 @@ Quel que soit le choix de votre finisher, il faudra oeuvrer pour que celui-ci so
 [sphinx of the final word], [hullbreaker horror], [archfiend of the dross], [vraska the unseen], [approach of the second sun]
 
 Pensez qu'à chaque tour vous devrez:
+
 - soit choisir vos cartes en réponse à votre adversaires
 - soit mettre en place votre stratégie.
-
 
 ## Construire un deck qui tient la route
 
@@ -117,7 +117,7 @@ J'ai mis une carte en x4 dans mon deck, aurais-je ma carte dans la main au dépa
 
 Essayez d'avoir 8 à 10 cartes ayant un coût de mana = 1 cela vous assurera l'avantage dans les premiers tours.
 
-4x[tougtheize], 4x[fatal push], ou 4x[llanowar elves] vous guarantirons un bon départ !
+4x[tougtheize], 4x[fatal push], ou 4x[llanowar elves] vous garantirons un bon départ !
 
 Vous devrez choisir la quantité de chaqu'une de vos cartes 8 cartes de mana 1:
 4x carte 1 + 4x carte 2
@@ -125,27 +125,32 @@ oubien
 4x carte 1 + 3x carte 2 + 1x carte 3
 
 
-il vous faudra 9 à 10 sorts avec un coût de 1, cela vous guarantira d'avoir une ou deux cartes avec un cout de 1 dans votre première main.
+il vous faudra 9 à 10 sorts avec un coût de 1, cela vous garantira d'avoir une ou deux cartes avec un cout de 1 dans votre première main.
 
 ## Déroulement du jeu
 
 ### La bataille
 
 choisir de commencer ou de jouer en second.
-Si vous commencez vous serez le premier à jouer vos cartes. Et le joueurs adverses jouera en réponse à ces tour. Il aura pioché une carte de plus . Notemment au tour 3 et 4 il pourra jouer en réponse à vos choix. Mais vous serez le premier à déployer votre carte
+Si vous commencez vous serez le premier à jouer vos cartes. Et le joueurs adverses jouera en réponse à ces tour. Il aura pioché une carte de plus . Notamment au tour 3 et 4 il pourra jouer en réponse à vos choix. Mais vous serez le premier à déployer votre carte
 
 #### tour 1
 
 ne perdez pas un tour, le tour 1 est important et des cartes clés d'ouverture peuvent être jouées à ce moment, et elle prendrons de la place dans les tours suivants. Certaines peuvent grossir ou se transformer .. [kumano faces kakkazan] [evolve sleeper]
 
-### tour deux.
+### tour deux
+
+Ce tour est un tour de transition:
+
+- soit vous continuez le déploiement de vos cartes.
+- soit vous gardez vos mana pour un contre sort, ou détruire sur le tour de l'adversaire: la carte que posera votre adversaire sur son tour 3.
 
 ### tour 3 et 4
 
 c'est lors de ces tours que vous et votre adversaires essayerons de prendre l'ascendant avant de faire une transition vers une "wincon".
 
-Voici une liste de carte qui peuvent être mise en place au tour 4, 
-- 
+Voici une liste de carte qui peuvent être mise en place au tour 4:
+
 - mastermind acquisition
 - sheoldred the apocalypse
 - karn the great creator
@@ -153,5 +158,6 @@ Voici une liste de carte qui peuvent être mise en place au tour 4,
 
 
 #### La main vide ou top deck
+
 Si votre main est vide vous jouerez alors la carte du dessus de la bibliothèque "top deck".
 C'est une situation à éviter car votre adversaire aura l'avantage d'avoir plus d'option que vous.

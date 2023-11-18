@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://pierreyvesv.github.io//mtg/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pierreyvesv.github.io//mtg/" rel="alternate" type="text/html" /><updated>2023-11-18T13:54:24+00:00</updated><id>https://pierreyvesv.github.io//mtg/feed.xml</id><title type="html">Magic The Gathering</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://pierreyvesv.github.io//mtg/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pierreyvesv.github.io//mtg/" rel="alternate" type="text/html" /><updated>2023-11-18T14:37:53+00:00</updated><id>https://pierreyvesv.github.io//mtg/feed.xml</id><title type="html">Magic The Gathering</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </subtitle><author><name>Pierre-Yves Verdon</name></author><entry><title type="html">comment construire un deck pioneer</title><link href="https://pierreyvesv.github.io//mtg/pioneer/mtg-strategie/" rel="alternate" type="text/html" title="comment construire un deck pioneer" /><published>2023-11-18T13:40:46+00:00</published><updated>2023-11-18T13:40:46+00:00</updated><id>https://pierreyvesv.github.io//mtg/pioneer/mtg-strategie</id><content type="html" xml:base="https://pierreyvesv.github.io//mtg/pioneer/mtg-strategie/">&lt;h1 id=&quot;intro&quot;&gt;intro&lt;/h1&gt;
 &lt;p&gt;Ce post explique comment préparer ton deck, il donne des grandes lignes, des pistes pour avoir un deck équilibré.&lt;/p&gt;
 
@@ -51,6 +51,7 @@
 [sphinx of the final word], [hullbreaker horror], [archfiend of the dross], [vraska the unseen], [approach of the second sun]&lt;/p&gt;
 
 &lt;p&gt;Pensez qu’à chaque tour vous devrez:&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;soit choisir vos cartes en réponse à votre adversaires&lt;/li&gt;
   &lt;li&gt;soit mettre en place votre stratégie.&lt;/li&gt;
@@ -115,33 +116,41 @@ En fonction de leur avantage / limitation évitez de dépasser 4-8 taplands.&lt;
 
 &lt;p&gt;Essayez d’avoir 8 à 10 cartes ayant un coût de mana = 1 cela vous assurera l’avantage dans les premiers tours.&lt;/p&gt;
 
-&lt;p&gt;4x[tougtheize], 4x[fatal push], ou 4x[llanowar elves] vous guarantirons un bon départ !&lt;/p&gt;
+&lt;p&gt;4x[tougtheize], 4x[fatal push], ou 4x[llanowar elves] vous garantirons un bon départ !&lt;/p&gt;
 
 &lt;p&gt;Vous devrez choisir la quantité de chaqu’une de vos cartes 8 cartes de mana 1:
 4x carte 1 + 4x carte 2
 oubien
 4x carte 1 + 3x carte 2 + 1x carte 3&lt;/p&gt;
 
-&lt;p&gt;il vous faudra 9 à 10 sorts avec un coût de 1, cela vous guarantira d’avoir une ou deux cartes avec un cout de 1 dans votre première main.&lt;/p&gt;
+&lt;p&gt;il vous faudra 9 à 10 sorts avec un coût de 1, cela vous garantira d’avoir une ou deux cartes avec un cout de 1 dans votre première main.&lt;/p&gt;
 
 &lt;h2 id=&quot;déroulement-du-jeu&quot;&gt;Déroulement du jeu&lt;/h2&gt;
 
 &lt;h3 id=&quot;la-bataille&quot;&gt;La bataille&lt;/h3&gt;
 
 &lt;p&gt;choisir de commencer ou de jouer en second.
-Si vous commencez vous serez le premier à jouer vos cartes. Et le joueurs adverses jouera en réponse à ces tour. Il aura pioché une carte de plus . Notemment au tour 3 et 4 il pourra jouer en réponse à vos choix. Mais vous serez le premier à déployer votre carte&lt;/p&gt;
+Si vous commencez vous serez le premier à jouer vos cartes. Et le joueurs adverses jouera en réponse à ces tour. Il aura pioché une carte de plus . Notamment au tour 3 et 4 il pourra jouer en réponse à vos choix. Mais vous serez le premier à déployer votre carte&lt;/p&gt;
 
 &lt;h4 id=&quot;tour-1&quot;&gt;tour 1&lt;/h4&gt;
 
 &lt;p&gt;ne perdez pas un tour, le tour 1 est important et des cartes clés d’ouverture peuvent être jouées à ce moment, et elle prendrons de la place dans les tours suivants. Certaines peuvent grossir ou se transformer .. [kumano faces kakkazan] [evolve sleeper]&lt;/p&gt;
 
-&lt;h3 id=&quot;tour-deux&quot;&gt;tour deux.&lt;/h3&gt;
+&lt;h3 id=&quot;tour-deux&quot;&gt;tour deux&lt;/h3&gt;
+
+&lt;p&gt;Ce tour est un tour de transition:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;soit vous continuez le déploiement de vos cartes.&lt;/li&gt;
+  &lt;li&gt;soit vous gardez vos mana pour un contre sort, ou détruire sur le tour de l’adversaire: la carte que posera votre adversaire sur son tour 3.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&quot;tour-3-et-4&quot;&gt;tour 3 et 4&lt;/h3&gt;
 
 &lt;p&gt;c’est lors de ces tours que vous et votre adversaires essayerons de prendre l’ascendant avant de faire une transition vers une “wincon”.&lt;/p&gt;
 
-&lt;h2 id=&quot;voici-une-liste-de-carte-qui-peuvent-être-mise-en-place-au-tour-4&quot;&gt;Voici une liste de carte qui peuvent être mise en place au tour 4,&lt;/h2&gt;
+&lt;p&gt;Voici une liste de carte qui peuvent être mise en place au tour 4:&lt;/p&gt;
+
 &lt;ul&gt;
   &lt;li&gt;mastermind acquisition&lt;/li&gt;
   &lt;li&gt;sheoldred the apocalypse&lt;/li&gt;
@@ -150,5 +159,6 @@ Si vous commencez vous serez le premier à jouer vos cartes. Et le joueurs adver
 &lt;/ul&gt;
 
 &lt;h4 id=&quot;la-main-vide-ou-top-deck&quot;&gt;La main vide ou top deck&lt;/h4&gt;
+
 &lt;p&gt;Si votre main est vide vous jouerez alors la carte du dessus de la bibliothèque “top deck”.
 C’est une situation à éviter car votre adversaire aura l’avantage d’avoir plus d’option que vous.&lt;/p&gt;</content><author><name>Pierre-Yves Verdon</name></author><category term="pioneer" /><summary type="html">intro Ce post explique comment préparer ton deck, il donne des grandes lignes, des pistes pour avoir un deck équilibré.</summary></entry></feed>
