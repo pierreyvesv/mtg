@@ -1,117 +1,154 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/mtg/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/mtg/" rel="alternate" type="text/html" /><updated>2023-11-14T07:17:42+00:00</updated><id>http://localhost:4000/mtg/feed.xml</id><title type="html">Magic The Gathering</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</subtitle><author><name>Pierre-Yves Verdon</name></author><entry><title type="html">Tips to size Azure VM</title><link href="http://localhost:4000/mtg/finops/vm-sizing/" rel="alternate" type="text/html" title="Tips to size Azure VM" /><published>2021-04-30T22:40:46+01:00</published><updated>2021-04-30T22:40:46+01:00</updated><id>http://localhost:4000/mtg/finops/vm-sizing</id><content type="html" xml:base="http://localhost:4000/mtg/finops/vm-sizing/">&lt;h2 id=&quot;vm-sizing-guide&quot;&gt;VM Sizing guide&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://pierreyvesv.github.io//mtg/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pierreyvesv.github.io//mtg/" rel="alternate" type="text/html" /><updated>2023-11-18T13:54:24+00:00</updated><id>https://pierreyvesv.github.io//mtg/feed.xml</id><title type="html">Magic The Gathering</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</subtitle><author><name>Pierre-Yves Verdon</name></author><entry><title type="html">comment construire un deck pioneer</title><link href="https://pierreyvesv.github.io//mtg/pioneer/mtg-strategie/" rel="alternate" type="text/html" title="comment construire un deck pioneer" /><published>2023-11-18T13:40:46+00:00</published><updated>2023-11-18T13:40:46+00:00</updated><id>https://pierreyvesv.github.io//mtg/pioneer/mtg-strategie</id><content type="html" xml:base="https://pierreyvesv.github.io//mtg/pioneer/mtg-strategie/">&lt;h1 id=&quot;intro&quot;&gt;intro&lt;/h1&gt;
+&lt;p&gt;Ce post explique comment préparer ton deck, il donne des grandes lignes, des pistes pour avoir un deck équilibré.&lt;/p&gt;
 
-&lt;p&gt;This vm sizing guide is based on my experience. It’s a prerequisite before using the &lt;a href=&quot;https://azure.microsoft.com/en-us/pricing/calculator/&quot;&gt;Azure-Calculator&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;choisir-une-stratégie&quot;&gt;choisir une stratégie&lt;/h2&gt;
 
-&lt;p&gt;This guide give hints on how to choose the best vm size for your workload.&lt;/p&gt;
+&lt;p&gt;pour construire un deck 60 cartes, il y a plusieurs façon de faire.&lt;/p&gt;
 
-&lt;p&gt;This is mostly a list of concept and document that you should use. Once you know them it’s pretty easy to reuse it.&lt;/p&gt;
+&lt;p&gt;Vous pouvez avoir envi de construire un deck basé sur une carte que vous trouvez sympa. Oubien vouloir utiliser une mechanique que vous avez découvert.&lt;/p&gt;
 
-&lt;p&gt;Impact of choosing the wrong size:&lt;/p&gt;
+&lt;p&gt;pour construire votre deck il faudra combiner les étapes suivantes:&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;over size your vm is over spending&lt;/li&gt;
-  &lt;li&gt;low size will lead to bad performance and potentially extra work to resize the vm.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Stratégie globale x ramp up x win condition&lt;/p&gt;
 
-&lt;h2 id=&quot;vm-sizing-convention&quot;&gt;VM Sizing convention&lt;/h2&gt;
-
-&lt;p&gt;Sizing your VM is crucial to avoid over spending. Before using the Azure calculator first you should understand the naming convention used by Azure.&lt;/p&gt;
-
-&lt;p&gt;If &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Standard_D4s_v3&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Standard_E4ds_v4&lt;/code&gt; means nothing to you then read on.&lt;/p&gt;
-
-&lt;p&gt;Read &lt;a href=&quot;https://docs.microsoft.com/en-us/azure/virtual-machines/vm-naming-conventions&quot;&gt;https://docs.microsoft.com/en-us/azure/virtual-machines/vm-naming-conventions&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;One or more lower case letters denote additive features, such as:&lt;/p&gt;
+&lt;h3 id=&quot;définissez-votre-stratégie-globale-qui-peut-être-un-mix-de-celle-ci&quot;&gt;définissez votre stratégie globale qui peut être un mix de celle-ci.&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;a = AMD-based processor&lt;/li&gt;
-  &lt;li&gt;d = disk (local temp disk is present); this is for newer Azure VMs, see Ddv4 and Ddsv4-series:
-  &lt;strong&gt;temp disk is not persisted if the vm restart&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;h = hibernation capable&lt;/li&gt;
-  &lt;li&gt;i = isolated size:
-  &lt;strong&gt;isolated machine by hardware are dedicated to a single customer this is used with huge server:&lt;/strong&gt; &lt;a href=&quot;https://docs.microsoft.com/en-us/azure/virtual-machines/isolation&quot;&gt;isolated&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;l = low memory; a lower amount of memory than the memory intensive size&lt;/li&gt;
-  &lt;li&gt;m = memory intensive; the most amount of memory in a particular size:
-  &lt;strong&gt;that’s the biggest memory available for this server type, if you need more, upgrade to a bigger server type&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;t = tiny memory; the smallest amount of memory in a particular size&lt;/li&gt;
-  &lt;li&gt;r = RDMA capable:
-  &lt;strong&gt;used for massively parallel computing see&lt;/strong&gt; &lt;a href=&quot;https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-hpc#rdma-capable-instances&quot;&gt;RDMA-capable&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;s = Premium Storage capable, including possible use of Ultra SSD (Note: some newer sizes without the attribute of s can still support Premium Storage e.g. M128, M64, etc.)&lt;/li&gt;
+  &lt;li&gt;aggro : decks mono reds&lt;/li&gt;
+  &lt;li&gt;aggro / stax : deck mono blanc Soldat&lt;/li&gt;
+  &lt;li&gt;aggro / controle : deck mono bleu Esprit.&lt;/li&gt;
+  &lt;li&gt;ramp: deck mono green&lt;/li&gt;
+  &lt;li&gt;combo: deck lotus field, Izzet phenix.
+..&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;understand-the-right-type&quot;&gt;Understand the right type&lt;/h2&gt;
+&lt;p&gt;Aggro : Cette stratégie implique de jouer des créatures rapides et peu coûteuses pour attaquer rapidement l’adversaire, réduisant ainsi ses points de vie à zéro avant qu’il ne puisse réagir. Tour 3 ou 4 l’adversaire à au moins perdu 10 points de vie.&lt;/p&gt;
 
-&lt;p&gt;Go to &lt;a href=&quot;https://docs.microsoft.com/en-us/azure/virtual-machines/sizes&quot;&gt;vm-size&lt;/a&gt; and read and understand all series.&lt;/p&gt;
+&lt;p&gt;Contrôle : Les stratégies de contrôle se concentrent sur la manipulation du jeu en limitant les actions de l’adversaire. Les joueurs utilisent des contresorts, des créatures qui annulent les pouvoirs, et d’autres cartes pour contrôler le plateau et maintenir l’adversaire à distance.&lt;/p&gt;
 
-&lt;p&gt;Take a specific attention on the summary at the top of each page.
-By example here is the one for the &lt;a href=&quot;https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-compute&quot;&gt;Compute-Fseries&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Combo : Les decks de combo sont basés sur des interactions spécifiques entre les cartes pour créer des combos puissants et souvent inattendus. Ces combos peuvent infliger des dégâts massifs, gagner instantanément la partie ou rendre le joueur invincible.&lt;/p&gt;
 
+&lt;p&gt;Ramp : Cette stratégie se concentre sur l’accélération de la production de mana (la ressource du jeu) pour jouer des cartes de coût élevé plus tôt que l’adversaire. Cela permet de déployer des menaces plus grandes et plus puissantes plus rapidement.&lt;/p&gt;
+
+&lt;p&gt;Midrange : Les decks Midrange cherchent un équilibre entre les stratégies agressives et contrôlantes. Ils utilisent des créatures puissantes et polyvalentes pour dominer le milieu de la partie, mettant la pression sur l’adversaire tout en ayant des réponses pour les menaces de l’adversaire.&lt;/p&gt;
+
+&lt;p&gt;Stax : Cette stratégie vise à ralentir et à gêner l’adversaire en jouant des cartes qui limitent sévèrement ses options. Cela peut inclure des cartes qui forcent l’adversaire à sacrifier des permanents, à payer des coûts supplémentaires ou à ne pas pouvoir jouer certaines cartes du tout.&lt;/p&gt;
+
+&lt;h3 id=&quot;les-clé-de-votre-stratégie&quot;&gt;les clé de votre stratégie&lt;/h3&gt;
+
+&lt;p&gt;Votre stratégie sera à mettre en place à chaque tour, et les cartes que vous déploierez:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;ACU: 195 - 210
-&lt;strong&gt;This is the Microsoft benchmark to compare CPU, since there is various one. It give you hints.&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Premium Storage: Supported
-  &lt;strong&gt;SSD support&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Premium Storage caching: Supported
-  &lt;strong&gt;Read Only Cache&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Live Migration: Supported
-  &lt;strong&gt;this will allow you to change server type in this series without reboot&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Memory Preserving Updates: Supported
-  &lt;strong&gt;VM is paused during the update, no reboot is needed. Otherwise a notification email is sent to you.&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;VM Generation Support: Generation 1 and 2&lt;/li&gt;
-  &lt;li&gt;Accelerated Networking: Supported (Requires a minimum of 4 vCPU)&lt;/li&gt;
-  &lt;li&gt;Ephemeral OS Disks: Supported
-  &lt;strong&gt;useful for stateless workloads&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;participeront, ou auront une synergie avec la stratégie et les autres cartes.&lt;/li&gt;
+  &lt;li&gt;protègerons la stratégie&lt;/li&gt;
+  &lt;li&gt;gagnerons du temps pour mettre en place la stratégie&lt;/li&gt;
+  &lt;li&gt;contrera / ralentira la stratégie adverse&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;vcpu-vs-cpu&quot;&gt;VCPU vs CPU&lt;/h2&gt;
+&lt;p&gt;Finisher ces quelques cartes vous permettrons n’ont pas de prendre l’ascendant sur votre adversaires , mais d’en finir avec lui.&lt;/p&gt;
 
-&lt;p&gt;When you’ll walk through the sizes, you’ll see notice that some have VCPU and other CPU. One is virtual the second is not. You can get more detail about it here &lt;a href=&quot;https://docs.microsoft.com/en-us/azure/virtual-machines/acu&quot;&gt;vm-acu&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Quel que soit le choix de votre finisher, il faudra oeuvrer pour que celui-ci soit protégé, vos cartes de début de partie servirons.
+[sphinx of the final word], [hullbreaker horror], [archfiend of the dross], [vraska the unseen], [approach of the second sun]&lt;/p&gt;
 
-&lt;p&gt;This list provide for each vm the number of vcpu per core available and cpu specificities.&lt;/p&gt;
-
-&lt;p&gt;You have to go through this list to chose the best cpu matching your workload, and also some of your need might guide you to one or an other server type.&lt;/p&gt;
-
+&lt;p&gt;Pensez qu’à chaque tour vous devrez:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;*ACUs use Intel® Turbo technology to increase CPU frequency and provide a performance increase. The amount of the performance increase can vary based on the VM size, workload, and other workloads running on the same host.&lt;/li&gt;
-  &lt;li&gt;**ACUs use AMD® Boost technology to increase CPU frequency and provide a performance increase. The amount of the performance increase can vary based on the VM size, workload, and other workloads running on the same host.&lt;/li&gt;
-  &lt;li&gt;***Hyper-threaded and capable of running nested virtualization&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;**&lt;/em&gt;AMD Simultaneous multithreading technology&lt;/li&gt;
+  &lt;li&gt;soit choisir vos cartes en réponse à votre adversaires&lt;/li&gt;
+  &lt;li&gt;soit mettre en place votre stratégie.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;recommended-size&quot;&gt;Recommended size&lt;/h2&gt;
+&lt;h2 id=&quot;construire-un-deck-qui-tient-la-route&quot;&gt;Construire un deck qui tient la route&lt;/h2&gt;
 
-&lt;p&gt;Some size will better match your needs.&lt;/p&gt;
+&lt;p&gt;“le ramp up” est le déploiement progressifs de votre stratégie en fonction de votre mana disponible.&lt;/p&gt;
 
-&lt;h3 id=&quot;vendor-specific-recommendation&quot;&gt;Vendor specific recommendation&lt;/h3&gt;
+&lt;p&gt;Ce que l’on veut éviter c’est d’avoir une ou plusieurs “carte morte” en main.
+Une carte morte a un fort coût en mana qui reste en main tout au long de la partie.&lt;/p&gt;
 
-&lt;p&gt;In some case, to help you do the right sizing your software vendor may provide you with advice. By example Couchbase recommends you to use “DS v3, ES v3, FS and GS machines” and more than 4 cpu. &lt;a href=&quot;https://docs.couchbase.com/server/5.0/cloud/couchbase-azure-best-practices.html&quot;&gt;couchbase-azure-best-practices&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;choisir-ses-cartes&quot;&gt;Choisir ses cartes&lt;/h3&gt;
 
-&lt;h3 id=&quot;b-series&quot;&gt;B Series&lt;/h3&gt;
+&lt;p&gt;Idéalement vous aurez un terrain à poser chaque tour. Pour mettre en place votre stratégie sans perdre de temps. Il vous faudra des cartes avec des coûts de mana variés et croissants.&lt;/p&gt;
 
-&lt;p&gt;B Series servers are burstable , in short when the server is not use it accumulate credits that can be spend in a higher cpu freq at peak load.&lt;/p&gt;
+&lt;p&gt;Les cartes de pioches “stabiliseront” votre jeu et augmenteront la chance d’obtenir les terrains nécessaire et vos cartes maitresses.
+Obtenir un avantage sur votre adversaire en nombre de carte vous donne aussi plus d’option.
+[the restoration of eijango], [sign in blood]&lt;/p&gt;
 
-&lt;p&gt;This is a recommended series to use for AKS preproduction &lt;a href=&quot;https://azure.microsoft.com/en-us/blog/introducing-burstable-vm-support-in-aks/&quot;&gt;AKS-BSeries&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Les cartes “mortes” sont les cartes que vous gardez en main et ne pouvez jouer tout au long de la partie, un “finisher” trop coûteux en mana, ou non adapté ? oubien un sort trop spécialisé qui ne sert pas contre votre adversaires.&lt;/p&gt;
 
-&lt;p&gt;There is a downside: small cpu and a low number of disk that can be attached&lt;/p&gt;
+&lt;p&gt;Ne restez pas à regarder votre adversaires déployer ses forces pendant les premiers tour.
+Ne pas avoir de carte à jouer le premier tour c’est perdre un tour.&lt;/p&gt;
 
-&lt;h3 id=&quot;f-series&quot;&gt;F Series&lt;/h3&gt;
+&lt;h2 id=&quot;combien-de-terrains-mettre-dans-mon-deck&quot;&gt;combien de terrains mettre dans mon deck&lt;/h2&gt;
 
-&lt;p&gt;The F Series are compute optimized &lt;em&gt;AND&lt;/em&gt; have the option &lt;a href=&quot;https://docs.microsoft.com/en-us/azure/virtual-network/create-vm-accelerated-networking-cli&quot;&gt;accelerated-networking&lt;/a&gt;. This is a good choice for Haproxy load balancer &lt;a href=&quot;https://docs.microsoft.com/en-us/azure/virtual-machines/sizes-compute&quot;&gt;Compute-Fseries&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;compte 19 terrains + N terrains ou N est la valeur de mana max de ta plus grosse carte.
+Si ton nombre de terrain devait dépasser 26 , alors il faudra ajouter d’autres source de production de mana [Llanowar elf] ..&lt;/p&gt;
 
-&lt;h2 id=&quot;ephemeral-disk&quot;&gt;Ephemeral disk&lt;/h2&gt;
+&lt;p&gt;Ainsi certains deck ont moins de terrain, ce n’est pas impactant car leur cartes coûtes moins cher en mana.&lt;/p&gt;
 
-&lt;p&gt;Ephemerl OS Disk are supported only on VM sizes that supports Premium storage such as DSv1, DSv2, DSv3, Esv3, Fs, FsV2, GS, M&lt;/p&gt;
+&lt;p&gt;“Miss a land drop” avec les 7 cartes en mains et la pioche vous devriez pouvoir poser ce fameux terrain à chaque tour. Cela peut ne pas sembler évident. Des cartes permettent de “stabiliser” la pioche et parfois garantir que vous piocherez vos terrains.&lt;/p&gt;
 
-&lt;p&gt;”“&lt;em&gt;Important&lt;/em&gt;
-When a user does not explicitly request managed disks for the OS, AKS will default to ephemeral OS if possible for a given nodepool configuration.””&lt;/p&gt;
+&lt;p&gt;Ajouter une touche d’un autre couleur
+SI tu ajoute 4 cartes d’une deuxième couleur, il te faudra au minimum 8 cartes de terrain qui donne ce mana. En effet tu veux avoir les terrains en jeu avant de jouer tes fameuses cartes.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;shttps://docs.microsoft.com/en-us/azure/aks/cluster-configuration#ephemeral-os&quot;&gt;AKS-Ephemeral-Disks&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;les-taplands&quot;&gt;les “taplands”&lt;/h3&gt;
 
-&lt;p&gt;“Ephemeral OS disks are free, you incur no storage cost for OS disk.” &lt;a href=&quot;https://docs.microsoft.com/en-us/azure/virtual-machines/ephemeral-os-disks&quot;&gt;Ephemeral-os-disks&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;les taplands sont souvent tentant , mais en avoir trop en main de départ te ralentira beaucoup.
+En fonction de leur avantage / limitation évitez de dépasser 4-8 taplands.&lt;/p&gt;
 
-&lt;h2 id=&quot;how-to-choose-the-right-server-versus-its-pricing&quot;&gt;How to choose the right server versus it’s pricing&lt;/h2&gt;
+&lt;h3 id=&quot;combien-de-carte-identiques-mettre-dans-votre-deck&quot;&gt;combien de carte identiques mettre dans votre deck&lt;/h3&gt;
 
-&lt;p&gt;There is different tool available which compare servers cost, I use &lt;a href=&quot;https://azureprice.net/&quot;&gt;azureprice.net&lt;/a&gt; to filter by needs and cost&lt;/p&gt;
+&lt;p&gt;sans rentrer dans les statistiques le nombre de fois ou vous mettrez la même cartes dans votre deck impact votre chance de la piocher.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;x4 très souvents&lt;/li&gt;
+  &lt;li&gt;x3 souvent: souvents&lt;/li&gt;
+  &lt;li&gt;x2 parfois: 1 à 2 fois par partie&lt;/li&gt;
+  &lt;li&gt;x1 rarement: moins&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;That’s it, you are now read to use the &lt;a href=&quot;https://azure.microsoft.com/en-us/pricing/calculator/&quot;&gt;Azure-Calculator&lt;/a&gt;&lt;/p&gt;</content><author><name>Pierre-Yves Verdon</name></author><category term="finops" /><summary type="html">VM Sizing guide This vm sizing guide is based on my experience. It’s a prerequisite before using the Azure-Calculator. This guide give hints on how to choose the best vm size for your workload. This is mostly a list of concept and document that you should use. Once you know them it’s pretty easy to reuse it. Impact of choosing the wrong size: over size your vm is over spending low size will lead to bad performance and potentially extra work to resize the vm. VM Sizing convention Sizing your VM is crucial to avoid over spending. Before using the Azure calculator first you should understand the naming convention used by Azure. If Standard_D4s_v3 or Standard_E4ds_v4 means nothing to you then read on. Read https://docs.microsoft.com/en-us/azure/virtual-machines/vm-naming-conventions One or more lower case letters denote additive features, such as: a = AMD-based processor d = disk (local temp disk is present); this is for newer Azure VMs, see Ddv4 and Ddsv4-series: temp disk is not persisted if the vm restart h = hibernation capable i = isolated size: isolated machine by hardware are dedicated to a single customer this is used with huge server: isolated l = low memory; a lower amount of memory than the memory intensive size m = memory intensive; the most amount of memory in a particular size: that’s the biggest memory available for this server type, if you need more, upgrade to a bigger server type t = tiny memory; the smallest amount of memory in a particular size r = RDMA capable: used for massively parallel computing see RDMA-capable s = Premium Storage capable, including possible use of Ultra SSD (Note: some newer sizes without the attribute of s can still support Premium Storage e.g. M128, M64, etc.) Understand the right type Go to vm-size and read and understand all series. Take a specific attention on the summary at the top of each page. By example here is the one for the Compute-Fseries ACU: 195 - 210 This is the Microsoft benchmark to compare CPU, since there is various one. It give you hints. Premium Storage: Supported SSD support Premium Storage caching: Supported Read Only Cache Live Migration: Supported this will allow you to change server type in this series without reboot Memory Preserving Updates: Supported VM is paused during the update, no reboot is needed. Otherwise a notification email is sent to you. VM Generation Support: Generation 1 and 2 Accelerated Networking: Supported (Requires a minimum of 4 vCPU) Ephemeral OS Disks: Supported useful for stateless workloads VCPU vs CPU When you’ll walk through the sizes, you’ll see notice that some have VCPU and other CPU. One is virtual the second is not. You can get more detail about it here vm-acu This list provide for each vm the number of vcpu per core available and cpu specificities. You have to go through this list to chose the best cpu matching your workload, and also some of your need might guide you to one or an other server type. *ACUs use Intel® Turbo technology to increase CPU frequency and provide a performance increase. The amount of the performance increase can vary based on the VM size, workload, and other workloads running on the same host. **ACUs use AMD® Boost technology to increase CPU frequency and provide a performance increase. The amount of the performance increase can vary based on the VM size, workload, and other workloads running on the same host. ***Hyper-threaded and capable of running nested virtualization **AMD Simultaneous multithreading technology Recommended size Some size will better match your needs. Vendor specific recommendation In some case, to help you do the right sizing your software vendor may provide you with advice. By example Couchbase recommends you to use “DS v3, ES v3, FS and GS machines” and more than 4 cpu. couchbase-azure-best-practices B Series B Series servers are burstable , in short when the server is not use it accumulate credits that can be spend in a higher cpu freq at peak load. This is a recommended series to use for AKS preproduction AKS-BSeries There is a downside: small cpu and a low number of disk that can be attached F Series The F Series are compute optimized AND have the option accelerated-networking. This is a good choice for Haproxy load balancer Compute-Fseries Ephemeral disk Ephemerl OS Disk are supported only on VM sizes that supports Premium storage such as DSv1, DSv2, DSv3, Esv3, Fs, FsV2, GS, M ”“Important When a user does not explicitly request managed disks for the OS, AKS will default to ephemeral OS if possible for a given nodepool configuration.”” AKS-Ephemeral-Disks “Ephemeral OS disks are free, you incur no storage cost for OS disk.” Ephemeral-os-disks How to choose the right server versus it’s pricing There is different tool available which compare servers cost, I use azureprice.net to filter by needs and cost That’s it, you are now read to use the Azure-Calculator</summary></entry></feed>
+&lt;p&gt;J’ai mis une carte en x4 dans mon deck, aurais-je ma carte dans la main au départ ?&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;x4 quasi surement&lt;/li&gt;
+  &lt;li&gt;x3 probable&lt;/li&gt;
+  &lt;li&gt;x2 peu probable&lt;/li&gt;
+  &lt;li&gt;x1 non ou alors avec beaucoup de chance&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;préparez-vos-premiers-tours&quot;&gt;Préparez vos premiers tours&lt;/h3&gt;
+
+&lt;p&gt;Essayez d’avoir 8 à 10 cartes ayant un coût de mana = 1 cela vous assurera l’avantage dans les premiers tours.&lt;/p&gt;
+
+&lt;p&gt;4x[tougtheize], 4x[fatal push], ou 4x[llanowar elves] vous guarantirons un bon départ !&lt;/p&gt;
+
+&lt;p&gt;Vous devrez choisir la quantité de chaqu’une de vos cartes 8 cartes de mana 1:
+4x carte 1 + 4x carte 2
+oubien
+4x carte 1 + 3x carte 2 + 1x carte 3&lt;/p&gt;
+
+&lt;p&gt;il vous faudra 9 à 10 sorts avec un coût de 1, cela vous guarantira d’avoir une ou deux cartes avec un cout de 1 dans votre première main.&lt;/p&gt;
+
+&lt;h2 id=&quot;déroulement-du-jeu&quot;&gt;Déroulement du jeu&lt;/h2&gt;
+
+&lt;h3 id=&quot;la-bataille&quot;&gt;La bataille&lt;/h3&gt;
+
+&lt;p&gt;choisir de commencer ou de jouer en second.
+Si vous commencez vous serez le premier à jouer vos cartes. Et le joueurs adverses jouera en réponse à ces tour. Il aura pioché une carte de plus . Notemment au tour 3 et 4 il pourra jouer en réponse à vos choix. Mais vous serez le premier à déployer votre carte&lt;/p&gt;
+
+&lt;h4 id=&quot;tour-1&quot;&gt;tour 1&lt;/h4&gt;
+
+&lt;p&gt;ne perdez pas un tour, le tour 1 est important et des cartes clés d’ouverture peuvent être jouées à ce moment, et elle prendrons de la place dans les tours suivants. Certaines peuvent grossir ou se transformer .. [kumano faces kakkazan] [evolve sleeper]&lt;/p&gt;
+
+&lt;h3 id=&quot;tour-deux&quot;&gt;tour deux.&lt;/h3&gt;
+
+&lt;h3 id=&quot;tour-3-et-4&quot;&gt;tour 3 et 4&lt;/h3&gt;
+
+&lt;p&gt;c’est lors de ces tours que vous et votre adversaires essayerons de prendre l’ascendant avant de faire une transition vers une “wincon”.&lt;/p&gt;
+
+&lt;h2 id=&quot;voici-une-liste-de-carte-qui-peuvent-être-mise-en-place-au-tour-4&quot;&gt;Voici une liste de carte qui peuvent être mise en place au tour 4,&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;mastermind acquisition&lt;/li&gt;
+  &lt;li&gt;sheoldred the apocalypse&lt;/li&gt;
+  &lt;li&gt;karn the great creator&lt;/li&gt;
+  &lt;li&gt;cavalier of thorn&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;la-main-vide-ou-top-deck&quot;&gt;La main vide ou top deck&lt;/h4&gt;
+&lt;p&gt;Si votre main est vide vous jouerez alors la carte du dessus de la bibliothèque “top deck”.
+C’est une situation à éviter car votre adversaire aura l’avantage d’avoir plus d’option que vous.&lt;/p&gt;</content><author><name>Pierre-Yves Verdon</name></author><category term="pioneer" /><summary type="html">intro Ce post explique comment préparer ton deck, il donne des grandes lignes, des pistes pour avoir un deck équilibré.</summary></entry></feed>

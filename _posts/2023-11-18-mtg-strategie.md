@@ -1,8 +1,8 @@
 ---
 layout: single
-title:  "Tips to size Azure VM"
+title:  "comment construire un deck pioneer"
 date:   2023-11-18 14:40:46 +0100
-categories: finops
+categories: pioneer
 ---
 
 

@@ -1,7 +1,7 @@
 var store = [{
-        "title": "Tips to size Azure VM",
-        "excerpt":"VM Sizing guide This vm sizing guide is based on my experience. It’s a prerequisite before using the Azure-Calculator. This guide give hints on how to choose the best vm size for your workload. This is mostly a list of concept and document that you should use. Once you know...","categories": ["finops"],
+        "title": "comment construire un deck pioneer",
+        "excerpt":"intro Ce post explique comment préparer ton deck, il donne des grandes lignes, des pistes pour avoir un deck équilibré. choisir une stratégie pour construire un deck 60 cartes, il y a plusieurs façon de faire. Vous pouvez avoir envi de construire un deck basé sur une carte que vous...","categories": ["pioneer"],
         "tags": [],
-        "url": "/mtg/finops/vm-sizing/",
+        "url": "/mtg/pioneer/mtg-strategie/",
         "teaser": null
       }]
