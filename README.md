@@ -1,2 +1,2 @@
 # mtg
-magic the gathering  notes and thought
+magic the gathering  notes and thought about Pioneer
