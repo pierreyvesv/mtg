@@ -44,6 +44,7 @@ Stax : Cette stratégie vise à ralentir et à gêner l'adversaire en jouant des
 ### les clé de votre stratégie
 
 Votre stratégie sera à mettre en place à chaque tour, et les cartes que vous déploierez:
+
 - participeront, ou auront une synergie avec la stratégie et les autres cartes.
 - protègerons la stratégie
 - gagnerons du temps pour mettre en place la stratégie
@@ -161,3 +162,8 @@ Voici une liste de carte qui peuvent être mise en place au tour 4:
 
 Si votre main est vide vous jouerez alors la carte du dessus de la bibliothèque "top deck".
 C'est une situation à éviter car votre adversaire aura l'avantage d'avoir plus d'option que vous.
+
+#### color death
+
+Si vous jouez plusieurs couleur , l'absence de terrain d'une certaine couleur pendant plusieurs tour, laissera la place à votre adversaire.
+
