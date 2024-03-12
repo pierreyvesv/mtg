@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Lexique Pioneer"o
+title:  "Lexique Pioneer"
 date:   2023-11-18 14:40:46 +0100
 categories: pioneer
 ---
