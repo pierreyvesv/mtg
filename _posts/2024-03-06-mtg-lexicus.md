@@ -8,8 +8,9 @@ categories: pioneer
 
 # intro
 
+les joueurs de Magic ont leur propres termes pour définir des mécaniques du jeu. Voici quelques termes utilisé qui vous permettrons de décrypter des vidéoes ou parties.
 
-# Lexique
+## Lexique
 
 - 1-of : se dit d'une carte unique dans le deck
 - jouer topdeck: avoir 0 cartes en main et jouer avec la carte pioché
