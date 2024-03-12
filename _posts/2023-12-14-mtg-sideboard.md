@@ -5,7 +5,11 @@ date:   2023-11-18 14:40:46 +0100
 categories: pioneer
 ---
 
-# Intro
+# Introduction
+
+Dans l'univers stratégique et complexe de Magic: The Gathering, où chaque carte compte et chaque décision peut changer le cours d'une partie. Dans ce monde de magie et de mystère, le format Pioneer BO3 (Best of Three) offre aux joueurs une arène de compétition exaltante, où la construction d'un deck efficace est essentielle pour réussir.
+
+Dans cet article, nous explorerons l'un des aspects cruciaux de la construction de deck pour le format Pioneer BO3 : le sideboard. Bien plus qu'une simple réserve de cartes, le sideboard est une arme stratégique utilisée pour affronter les decks adverses et s'adapter aux différentes situations rencontrées en cours de match.
 
 En jouant en Pioneer B03, les joueurs jouent 2 à 3 parties. Avant la deuxième partie chaque joueur à la possibilité de remplacer des cartes de son deck par une ou plusieurs cartes présentes dans son side.
 
