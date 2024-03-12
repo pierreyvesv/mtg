@@ -5,10 +5,13 @@ date:   2023-11-18 14:40:46 +0100
 categories: pioneer
 ---
 
+# Introduction
 
-# intro
+Bienvenue dans le monde captivant de Magic: The Gathering, un jeu de cartes à collectionner épique qui a captivé l'imagination des joueurs du monde entier depuis sa création en 1993. En tant que joueur de Magic, vous entrez dans un univers riche de stratégie, de compétition et d'interaction sociale.
 
-les joueurs de Magic ont leur propres termes pour définir des mécaniques du jeu. Voici quelques termes utilisé qui vous permettrons de décrypter des vidéoes ou parties.
+Pour les nouveaux arrivants, le langage et les termes spécifiques utilisés par la communauté de Magic peuvent sembler déroutants. C'est pourquoi nous avons créé ce lexique, un guide essentiel pour comprendre le jargon et les concepts fondamentaux de ce jeu passionnant.
+
+Que vous soyez un joueur débutant cherchant à maîtriser les bases ou un vétéran désireux d'approfondir votre compréhension, ce lexique vous offre une référence complète pour naviguer dans l'univers de Magic: The Gathering. Explorez les termes clés qui vous aideront à devenir un joueur compétent et à apprécier pleinement toutes les facettes de ce jeu emblématique. Que votre voyage dans les plans de Magic commence ici !
 
 ## Lexique
 
