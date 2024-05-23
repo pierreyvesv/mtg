@@ -27,13 +27,28 @@ Vous voudrez que votre sideboard puisse correspondre à plusieurs stratégies ad
 
 # Choisir ses cartes de side
 
-Ne changez pas votre stratégie globale.
+Ne changez pas votre stratégie globale, mais cherchez à améliorer votre deck pour faire face aux menaces spécifiques que vous rencontrerez. Voici quelques conseils pour choisir les cartes à inclure dans votre sideboard :
 
-- Renforcer la quantité d'une carte dans votre deck et passer la quantité d'une carte de 2 à 4 dans votre deck.
-- Ajouter des cartes anti-combo.
-- Ajouter des cartes anti-couleurs, comme "Ray of Enfeeblement" ou "Aether Gust".
-- Ajouter des cartes anti-stratégies : contre les cimetières, board wipes, etc.
-- Accélérer votre deck et remplacer des cartes trop midrange.
+- **Renforcer la quantité d'une carte dans votre deck** : Si une carte est cruciale contre un type de deck spécifique, augmenter sa présence peut être bénéfique. Par exemple, passer d'une carte jouée en deux exemplaires à quatre peut améliorer votre consistance contre certaines stratégies.
+
+- **Ajouter des cartes anti-combo** : Les decks combo peuvent être particulièrement difficiles à gérer. Des cartes comme "Damping Sphere" ou "Pithing Needle" peuvent perturber les combos adverses en limitant leurs actions.
+
+- **Ajouter des cartes anti-couleurs** : Certaines couleurs peuvent poser problème à votre deck. Des cartes comme "Ray of Enfeeblement" (contre les créatures blanches) ou "Aether Gust" (contre les permanents rouges ou verts) peuvent fournir une réponse efficace aux menaces spécifiques de certaines couleurs.
+
+- **Ajouter des cartes anti-stratégies** : Différentes stratégies nécessitent différentes réponses. Par exemple :
+  - **Anti-cimetière** : Utilisez des cartes comme "Rest in Peace" ou "Grafdigger's Cage" pour neutraliser les stratégies basées sur le cimetière.
+  - **Board Wipe** : Contre les decks aggro, des cartes comme "Wrath of God" ou "Supreme Verdict" peuvent nettoyer le plateau de jeu.
+  - **Anti-artéfact/enchantement** : Des cartes comme "Disenchant" ou "Wear // Tear" peuvent détruire les artéfacts ou enchantements gênants.
+  - **Protection contre les contresorts** : Des cartes comme "Veil of Summer" peuvent protéger vos sorts des contresorts adverses.
+
+- **Accélérer votre deck** : Si votre deck est trop midrange, envisagez d'inclure des cartes pour accélérer votre jeu, comme des sorts de ramp ou des créatures à faible coût de mana, pour mettre la pression plus rapidement sur votre adversaire.
+
+- **Prévoir des réponses aux faiblesses spécifiques de votre deck** : Identifiez les points faibles de votre deck et trouvez des cartes qui peuvent pallier ces faiblesses. Par exemple, si votre deck est faible contre les enchantements, assurez-vous d'inclure des cartes de suppression d'enchantements.
+
+En construisant votre sideboard, il est crucial de garder une vue d'ensemble sur la méta du format Pioneer. Sachez quels decks sont les plus joués et quelles sont leurs principales stratégies. Un bon sideboard doit être polyvalent et capable de s'adapter à plusieurs types de decks adverses. Si une carte est trop spécifique et ne sert que contre un seul deck, elle pourrait ne pas être la meilleure inclusion pour votre sideboard.
+
+Enfin, n'oubliez pas de tester votre sideboard lors de vos parties de test. Ce n'est qu'en jouant et en ajustant continuellement que vous pourrez affiner votre sideboard pour qu'il devienne une arme redoutable dans votre arsenal de Magic: The Gathering.
+
 
 # Combien de cartes identiques dans le side
 
@@ -41,14 +56,25 @@ Il est rare de voir un sideboard contenant un carré de 4 cartes identiques.
 
 Évitez de mettre plus de 3 fois la même carte dans le sideboard. Ainsi, à chaque partie, vous trouverez une ou plusieurs cartes pour vous sortir d'un mauvais pas.
 
+
 # Swap
 
-Au moment d'utiliser votre sideboard, analysez la partie précédente : comprenez pourquoi vous avez gagné ou perdu.
+Lorsque vous utilisez votre sideboard, il est crucial d'analyser la partie précédente pour comprendre pourquoi vous avez gagné ou perdu. Cela vous aidera à identifier les faiblesses de votre deck face à la stratégie de votre adversaire et à choisir les meilleures cartes à inclure dans votre sideboard.
 
-Les cartes entrent dans votre jeu en remplacement du même nombre de cartes.
+Les cartes de votre sideboard entrent dans votre jeu en remplacement du même nombre de cartes de votre deck principal. Cependant, il est important de ne pas surcharger votre deck de trop de cartes du sideboard, car cela pourrait diluer la cohérence de votre stratégie principale.
 
-Vous choisirez seulement quelques cartes. Remplacer 15 cartes dans votre deck n'arrivera probablement jamais.
+Lorsque vous choisissez quelles cartes inclure dans votre jeu à partir de votre sideboard, ne sélectionnez que quelques cartes qui sont les plus pertinentes pour la situation actuelle. Remplacer 15 cartes dans votre deck n'arrivera probablement jamais et pourrait compromettre la cohérence de votre stratégie.
+
+Enfin, rappelez-vous que l'objectif du swap est d'améliorer votre position dans le match en ajustant votre deck pour mieux répondre aux menaces spécifiques de votre adversaire. Gardez toujours à l'esprit votre plan de jeu et ne vous éloignez pas trop de votre stratégie principale lors du swap.
+
 
 # Conclusion
 
-Le sideboard est un élément essentiel dans la stratégie de Magic: The Gathering, surtout dans le format Pioneer BO3. En comprenant les forces et les faiblesses de votre deck, ainsi que celles de vos adversaires, vous pouvez utiliser votre sideboard pour transformer des défaites en victoires. Une bonne préparation et une adaptation intelligente aux différentes situations de jeu vous permettront de maximiser vos chances de succès dans chaque match.
+Le sideboard est un élément essentiel dans la stratégie de Magic: The Gathering, surtout dans le format Pioneer BO3. Il offre la possibilité aux joueurs de s'adapter et de répondre aux défis spécifiques présentés par les decks adverses. En comprenant les forces et les faiblesses de votre deck, ainsi que celles de vos adversaires, vous pouvez utiliser votre sideboard pour transformer des défaites en victoires.
+
+Une bonne préparation et une adaptation intelligente aux différentes situations de jeu vous permettront de maximiser vos chances de succès dans chaque match. Assurez-vous de garder un œil sur la méta du format Pioneer pour ajuster votre sideboard en conséquence.
+
+N'oubliez pas que la construction d'un sideboard efficace nécessite du temps, de la pratique et de la réflexion. Testez différentes configurations et soyez prêt à ajuster votre sideboard en fonction des évolutions de la méta et de votre propre expérience en jeu.
+
+En fin de compte, un sideboard bien construit peut faire toute la différence entre la victoire et la défaite dans un tournoi de Magic: The Gathering. Investissez du temps et de l'effort dans la construction et l'optimisation de votre sideboard, et vous serez récompensé par des performances plus cohérentes et des résultats plus satisfaisants sur le champ de bataille.
+
