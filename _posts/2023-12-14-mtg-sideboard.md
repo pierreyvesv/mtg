@@ -32,13 +32,29 @@ Ne changez pas votre stratégie globale, mais cherchez à améliorer votre deck 
 - **Renforcer la quantité d'une carte dans votre deck** : Si une carte est cruciale contre un type de deck spécifique, augmenter sa présence peut être bénéfique. Par exemple, passer d'une carte jouée en deux exemplaires à quatre peut améliorer votre consistance contre certaines stratégies.
 
 - **Ajouter des cartes anti-combo** : Les decks combo peuvent être particulièrement difficiles à gérer. Des cartes comme "Damping Sphere" ou "Pithing Needle" peuvent perturber les combos adverses en limitant leurs actions.
+  - Damping Sphere : Cette carte ralentit considérablement les decks combo en limitant la quantité de mana que les joueurs peuvent produire à chaque tour.
+  - Pithing Needle : Elle peut être utilisée pour bloquer les capacités des cartes-clés dans les decks combo, rendant ainsi leurs stratégies beaucoup moins efficaces.
+  - Grafdigger's Cage : Elle empêche les cartes de fonctionner depuis le cimetière, ce qui est crucial contre de nombreux decks combo qui comptent sur des récursions ou des tutoriels depuis le cimetière.
+  - Leyline of Sanctity : Protège contre les decks qui tentent de gagner via des effets de pioche ou de ciblage direct.
+  - Rest in Peace : Exile tous les cimetières, ce qui est particulièrement puissant contre les decks combo qui se basent sur la récursion de cartes depuis le cimetière.
 
-- **Ajouter des cartes anti-couleurs** : Certaines couleurs peuvent poser problème à votre deck. Des cartes comme "Ray of Enfeeblement" (contre les créatures blanches) ou "Aether Gust" (contre les permanents rouges ou verts) peuvent fournir une réponse efficace aux menaces spécifiques de certaines couleurs.
+- **Ajouter des cartes anti-couleurs** : Dans le format Pioneer, où une variété de decks basés sur différentes combinaisons de couleurs prospèrent, il est important d'avoir des réponses adaptées aux menaces spécifiques posées par chaque couleur. Voici quelques exemples de cartes anti-couleurs à considérer pour votre sideboard :
+  - **Declaration in Stone** : Une carte blanche qui peut exiler n'importe quelle créature ciblée. C'est une réponse efficace aux menaces des decks blancs ou d'autres decks aggro.
+  - **Negate** : Une contre-magie bleue qui peut contrer n'importe quel sort non-créature. C'est une réponse efficace aux sorts clés des decks bleus ou d'autres decks contrôle.
+  - **Abrade** : Une carte rouge qui peut infliger 3 points de dégâts à une créature ciblée ou détruire un artefact. C'est une réponse efficace aux créatures ou artefacts des decks rouges ou d'autres decks aggro.
+  - **Assassin's Trophy** : Une carte noire et verte qui peut détruire n'importe quelle cible non-terrain à un coût de mana relativement bas. C'est une réponse polyvalente aux menaces de diverses couleurs.
+  - **Return to Nature** : Une carte verte qui peut détruire un artefact, un enchantement ou une créature avec endurance 3 ou moins. C'est une réponse polyvalente aux menaces des decks verts ou d'autres decks midrange.  
+  - **Aether gust** : renvoi des permanents rouge ou vert sur le deck
+  - **Ray of Enfeeblement** : -4/-4 sur les creature blanche pour un coût de 1.
+  - des cartes avec Hexproof ou indestructibles.
+
+En choisissant judicieusement des cartes anti-couleurs adaptées à la méta du format Pioneer, vous pouvez renforcer votre deck et améliorer vos chances de succès contre une variété de stratégies adverses.
+
 
 - **Ajouter des cartes anti-stratégies** : Différentes stratégies nécessitent différentes réponses. Par exemple :
   - **Anti-cimetière** : Utilisez des cartes comme "Rest in Peace" ou "Grafdigger's Cage" pour neutraliser les stratégies basées sur le cimetière.
-  - **Board Wipe** : Contre les decks aggro, des cartes comme "Wrath of God" ou "Supreme Verdict" peuvent nettoyer le plateau de jeu.
-  - **Anti-artéfact/enchantement** : Des cartes comme "Disenchant" ou "Wear // Tear" peuvent détruire les artéfacts ou enchantements gênants.
+  - **Board Wipe** : Contre les decks aggro, des cartes comme "Supreme Verdict" peuvent nettoyer le plateau de jeu.
+  - **Anti-gain de vie** : 'knight of dusk's shadow'
   - **Protection contre les contresorts** : Des cartes comme "Veil of Summer" peuvent protéger vos sorts des contresorts adverses.
 
 - **Accélérer votre deck** : Si votre deck est trop midrange, envisagez d'inclure des cartes pour accélérer votre jeu, comme des sorts de ramp ou des créatures à faible coût de mana, pour mettre la pression plus rapidement sur votre adversaire.
