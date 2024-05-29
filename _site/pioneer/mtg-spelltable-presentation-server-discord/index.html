@@ -1,11 +1,12 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.22.0 by Michael Rose
-  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Minimal Mistakes Jekyll Theme 4.26.2 by Michael Rose
+  Copyright 2013-2024 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
-<html lang="en" class="no-js">
+
+<html lang="en-US" class="no-js">
   <head>
     <meta charset="utf-8">
 
@@ -58,16 +59,8 @@
 
 
 
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    
-      "@type": "Person",
-      "name": "Khancell",
-      "url": "https://pierreyvesv.github.io/mtg/mtg/"
-    
-  }
-</script>
+
+
 
 
 
@@ -79,33 +72,18 @@
 
 
   <link href="/mtg/feed.xml" type="application/atom+xml" rel="alternate" title="Magic The Gathering Feed">
-
-
-<!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
 </script>
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="/mtg/assets/css/main.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
 
-<!--[if IE]>
-  <style>
-    /* old IE unsupported flexbox fixes */
-    .greedy-nav .site-title {
-      padding-right: 3em;
-    }
-    .greedy-nav button {
-      position: absolute;
-      top: 0;
-      right: 0;
-      height: 100%;
-    }
-  </style>
-<![endif]-->
 
 
     <!-- start custom head snippets -->
@@ -116,19 +94,14 @@
 
   </head>
 
-  <body class="layout--single wide">
+  <body class="layout--single wide" dir="ltr">
     <nav class="skip-links">
-  <h2 class="screen-reader-text">Skip links</h2>
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
     <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
     <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
   </ul>
 </nav>
-
-    <!--[if lt IE 9]>
-<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
-<![endif]-->
 
     
 
@@ -159,22 +132,24 @@
 
 
 
+
+
 <div id="main" role="main">
   
   <div class="sidebar sticky">
   
 
 
-<div itemscope itemtype="https://schema.org/Person">
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
 
   
 
   <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="https://pierreyvesv.github.io/mtg/mtg/" itemprop="url">Khancell</a>
+    </h3>
     
-      <h3 class="author__name" itemprop="name">Khancell</h3>
-    
-    
-      <div class="author__bio" itemprop="description">
+      <div class="author__bio p-note" itemprop="description">
         <p>Discard your hand</p>
 
       </div>
@@ -186,7 +161,7 @@
     <ul class="author__urls social-icons">
       
         <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Angers FR</span>
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">Angers FR</span>
         </li>
       
 
@@ -195,19 +170,19 @@
           
         
           
-            <li><a href="https://twitter.com/spelltableduels" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+            <li><a href="https://twitter.com/spelltableduels" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
           
         
           
-            <li><a href="https://github.com/pierreyvesv/mtg" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+            <li><a href="https://github.com/pierreyvesv/mtg" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
           
         
           
-            <li><a href="https://www.facebook.com/profile.php?id=61561511954519&notif_id=1724284140418899&notif_t=page_user_activity" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span class="label">Facebook</span></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=61561511954519&notif_id=1724284140418899&notif_t=page_user_activity" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span class="label">Facebook</span></a></li>
           
         
           
-            <li><a href="https://discord.gg/9eYZCpQMU2" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-discord" aria-hidden="true"></i><span class="label">Discord</span></a></li>
+            <li><a href="https://discord.gg/9eYZCpQMU2" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-discord" aria-hidden="true"></i><span class="label">Discord</span></a></li>
           
         
       
@@ -262,7 +237,7 @@
 
       <!--
   <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
       <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
     </a>
   </li>
@@ -285,8 +260,10 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">MTG Spelltable Duels: présentation du serveur Discord
-</h1>
+          <h1 id="page-title" class="page__title" itemprop="headline">
+            <a href="https://pierreyvesv.github.io/mtg/mtg/pioneer/mtg-spelltable-presentation-server-discord/" itemprop="url">MTG Spelltable Duels: présentation du serveur Discord
+</a>
+          </h1>
           
 
   <p class="page__meta">
@@ -427,26 +404,26 @@
     <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
     <span itemprop="keywords">
     
-      <a href="/mtg/categories/#pioneer" class="page__taxonomy-item" rel="tag">pioneer</a>
+      <a href="/mtg/categories/#pioneer" class="page__taxonomy-item p-category" rel="tag">pioneer</a>
     
     </span>
   </p>
 
 
         
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2024-06-25T14:40:46+01:00">June 25, 2024</time></p>
 
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2024-06-25T14:40:46+01:00">June 25, 2024</time></p>
 
       </footer>
 
       <section class="page__share">
-  
+  <h4 class="page__share-title">Share on</h4>
 
   <a href="https://twitter.com/intent/tweet?via=spelltableduels&text=MTG+Spelltable+Duels%3A+pr%C3%A9sentation+du+serveur+Discord%20https%3A%2F%2Fpierreyvesv.github.io%2Fmtg%2Fmtg%2Fpioneer%2Fmtg-spelltable-presentation-server-discord%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpierreyvesv.github.io%2Fmtg%2Fmtg%2Fpioneer%2Fmtg-spelltable-presentation-server-discord%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fpierreyvesv.github.io%2Fmtg%2Fmtg%2Fpioneer%2Fmtg-spelltable-presentation-server-discord%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://pierreyvesv.github.io/mtg/mtg/pioneer/mtg-spelltable-presentation-server-discord/" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
@@ -469,11 +446,14 @@
 
   
   
-    <div class="page__related">
-      <h4 class="page__related-title">You May Also Enjoy</h4>
-      <div class="grid__wrapper">
-        
-          
+    
+<div class="page__related">
+  
+  <h2 class="page__related-title">You May Also Enjoy</h2>
+  <div class="grid__wrapper">
+    
+      
+      
 
 
 
@@ -513,8 +493,9 @@
   </article>
 </div>
 
-        
-          
+    
+      
+      
 
 
 
@@ -554,8 +535,9 @@
   </article>
 </div>
 
-        
-          
+    
+      
+      
 
 
 
@@ -595,8 +577,9 @@
   </article>
 </div>
 
-        
-          
+    
+      
+      
 
 
 
@@ -605,7 +588,7 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/mtg/pioneer/mtg-Pioneer-deck/" rel="permalink">comment construire un deck Pioneer
+        <a href="/mtg/pioneer/test/" rel="permalink">test
 </a>
       
     </h2>
@@ -623,7 +606,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          5 minute read
+          less than 1 minute read
         
       </span>
     
@@ -631,18 +614,25 @@
 
 
     <p class="archive__item-excerpt" itemprop="description">
+  
+    
+    
+    &quot;Knight of the Reliquary&quot;
+  
 
 </p>
   </article>
 </div>
 
-        
-      </div>
-    </div>
+    
+  </div>
+</div>
+
   
   
 </div>
 
+      
     </div>
 
     
@@ -664,7 +654,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2024 Khancell. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2024 <a href="https://pierreyvesv.github.io/mtg">Magic The Gathering</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
@@ -692,6 +682,7 @@
     script.setAttribute('src', 'https://utteranc.es/client.js');
     script.setAttribute('repo', 'pierreyvesv/mtg');
     script.setAttribute('issue-term', 'pathname');
+    script.setAttribute('label', 'comment 💬');
     script.setAttribute('theme', 'boxy-light');
     script.setAttribute('crossorigin', 'anonymous');
 
@@ -700,7 +691,6 @@
 </script>
 
   
-
 
 
 

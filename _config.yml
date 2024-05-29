@@ -121,7 +121,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
 # Conversion
-markdown: kramdown
+
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
@@ -152,7 +152,7 @@ paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: "Europe/London" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-
+plugins_dir: _plugins # takes an array of strings and loads plugins in that order
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
@@ -161,6 +161,13 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-redirect-from
+  - jekyll-default-layout
+#  - include-cache
+
+# plugin_dirs:
+safe: false
+plugins_dir: _plugins
+#  - _plugins/mtg_card.rb
 
 # mimic GitHub Pages with --safe
 whitelist:
