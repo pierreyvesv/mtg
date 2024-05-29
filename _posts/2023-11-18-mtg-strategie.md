@@ -120,5 +120,6 @@ Ces tours sont décisifs en Pioneer pour prendre l'ascendant. Voici quelques car
 
 Jouer plusieurs couleurs nécessite une gestion attentive des terrains. L'absence de terrains d'une couleur spécifique pendant plusieurs tours peut offrir un avantage à votre adversaire.
 
-En suivant ces conseils, vous pourrez construire un deck Magic: The Gathering équilibré et compétitif, prêt à affronter divers adversaires.
+#### Conclusion
 
+En suivant ces conseils, vous pourrez construire un deck Magic: The Gathering équilibré et compétitif, prêt à affronter divers adversaires.
