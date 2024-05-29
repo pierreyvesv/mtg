@@ -157,6 +157,8 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-redirect-from
+  - jekyll-default-layout
+  - _plugins/mtg_card.rb
 
 # mimic GitHub Pages with --safe
 whitelist:
