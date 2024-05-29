@@ -5,7 +5,7 @@ date:   2023-11-18 14:40:46 +0100
 categories: pioneer
 ---
 
-# Lexique franco anglais des termes utilisé dans le jeu Pioneer
+# Lexique des termes utilisé dans le jeu Pioneer
 
 Bienvenue dans le monde captivant de Magic: The Gathering, un jeu de cartes à collectionner épique qui a captivé l'imagination des joueurs du monde entier depuis sa création en 1993. En tant que joueur de Magic, vous entrez dans un univers riche de stratégie, de compétition et d'interaction sociale.
 
