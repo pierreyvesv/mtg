@@ -9,3 +9,5 @@ magic the gathering  notes and thought about Pioneer
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_pyverdon_ymail_com
 ```
+bundle exec jekyll build
+bundle exec jekyll serve
