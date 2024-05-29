@@ -1,1 +1,1 @@
-Sitemap: http://localhost:4000/mtg/sitemap.xml
+Sitemap: https://pierreyvesv.github.io//mtg/sitemap.xml
