@@ -5,13 +5,13 @@ date:   2023-11-18 14:40:46 +0100
 categories: pioneer
 ---
 
-# Introduction
+# Conseils pour préparer un deck Pioneer
 
 Cet article offre des conseils essentiels pour préparer un deck Magic: The Gathering. Vous y trouverez des lignes directrices et des stratégies pour créer un deck équilibré et performant.
 
 ## Choisir une Stratégie
 
-Pour construire un deck de 60 cartes, plusieurs approches sont possibles. Vous pouvez baser votre deck sur une carte que vous appréciez ou exploiter une mécanique que vous avez découverte. 
+Pour construire un deck de 60 cartes, plusieurs approches sont possibles. Vous pouvez baser votre deck sur une carte que vous appréciez ou exploiter une mécanique que vous avez découverte.
 
 Pour concevoir votre deck, suivez les étapes suivantes :
 
@@ -31,7 +31,7 @@ Votre stratégie globale peut être un mélange des suivantes :
 
 **Contrôle** : Les stratégies de contrôle se concentrent sur la manipulation du jeu en limitant les actions de l'adversaire. Utilisez des contresorts, des créatures qui annulent des pouvoirs, et d'autres cartes pour maintenir l'adversaire à distance.
 
-**Combo** : Les decks de combo reposent sur des interactions spécifiques entre les cartes pour créer des combinaisons puissantes et souvent inattendues, permettant de gagner instantanément ou de rendre le joueur invincible.
+**Combo** : Les decks de combo reposent sur des interactions spécifiques entre les cartes pour créer des combinaisons puissantes et souvent inattendues, permettant de gagner instantanément.
 
 **Ramp** : Cette stratégie se concentre sur l'accélération de la production de mana pour jouer des cartes coûteuses plus tôt, déployant des menaces plus grandes et puissantes plus rapidement.
 
@@ -66,11 +66,11 @@ Assurez-vous d'avoir un terrain à poser chaque tour pour mettre en place votre 
 
 **Équilibrer les premiers tours** : Ne restez pas passif en début de partie. Jouez des cartes dès le premier tour pour prendre l'avantage.
 
+**Stabilisation** : Utilisez des cartes pour stabiliser la pioche et garantir que vous piocherez vos terrains, ou vos cartes clés.
+
 ## Nombre de Terrains
 
 Comptez 19 terrains + N terrains, où N est le coût de mana maximum de votre carte la plus coûteuse. Si le nombre de terrains dépasse 26, ajoutez d'autres sources de production de mana comme Llanowar Elves. Certains decks peuvent se permettre moins de terrains si leurs cartes sont moins coûteuses en mana.
-
-**Stabilisation** : Utilisez des cartes pour stabiliser la pioche et garantir que vous piocherez vos terrains.
 
 ### Taplands
 
@@ -95,7 +95,7 @@ Choisissez la quantité de chaque carte pour garantir une main de départ équil
 
 ### La Bataille
 
-**Choisir de commencer ou de jouer en second** : Si vous commencez, vous jouerez vos cartes en premier, obligeant l'adversaire à réagir à vos choix.
+**Choisir de commencer ou de jouer en second** : Gagner le jet de dé vous permet de choisir si vous commencez de jouer en premier (sur le play) ou en second (sur la draw). Si vous commencez, vous jouerez vos cartes en premier, obligeant l'adversaire à réagir à vos choix, mais ne piochez pas de carte en début de partie. Le second a droit de piocher une carte.
 
 #### Tour 1
 
@@ -110,7 +110,7 @@ Tour de transition :
 
 #### Tours 3 et 4
 
-Ces tours sont décisifs pour prendre l'ascendant. Voici quelques cartes à jouer au tour 4 : Mastermind's Acquisition, Sheoldred, the Apocalypse, Karn, the Great Creator, Cavalier of Thorns.
+Ces tours sont décisifs en Pioneer pour prendre l'ascendant. Voici quelques cartes à jouer au tour 4 : Mastermind's Acquisition, Sheoldred, the Apocalypse, Cavalier of Thorns.
 
 #### Main Vide ou Top Deck
 
