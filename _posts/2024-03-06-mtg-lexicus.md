@@ -15,8 +15,6 @@ Que vous soyez un joueur débutant cherchant à maîtriser les bases ou un vét�
 
 ## Lexique
 
-## Lexique
-
 - 1-of : se dit d'une carte unique dans le deck
 - jouer topdeck : avoir 0 cartes en main et jouer avec la carte piochée
 - side : les 15 cartes de côté qui peuvent être utilisées pour customiser le jeu

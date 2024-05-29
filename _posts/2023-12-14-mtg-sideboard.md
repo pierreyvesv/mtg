@@ -5,7 +5,7 @@ date:   2023-11-18 14:40:46 +0100
 categories: pioneer
 ---
 
-# Introduction
+# retour d'experience sur la construction de sideboard
 
 Dans l'univers stratégique et complexe de Magic: The Gathering, où chaque carte compte et chaque décision peut changer le cours d'une partie. Dans ce monde de magie et de mystère, le format Pioneer BO3 (Best of Three) offre aux joueurs une arène de compétition exaltante, où la construction d'un deck efficace est essentielle pour réussir.
 
