@@ -5,7 +5,7 @@ date:   2023-11-18 14:40:46 +0100
 categories: pioneer
 ---
 
-# retour d'experience sur la construction de sideboard
+# Retour d'experience sur la construction de sideboard
 
 Dans l'univers stratégique et complexe de Magic: The Gathering, où chaque carte compte et chaque décision peut changer le cours d'une partie. Dans ce monde de magie et de mystère, le format Pioneer BO3 (Best of Three) offre aux joueurs une arène de compétition exaltante, où la construction d'un deck efficace est essentielle pour réussir.
 
@@ -42,20 +42,18 @@ Ne changez pas votre stratégie globale, mais cherchez à améliorer votre deck 
   - **Declaration in Stone** : Une carte blanche qui peut exiler n'importe quelle créature ciblée. C'est une réponse efficace aux menaces des decks blancs ou d'autres decks aggro.
   - **Negate** : Une contre-magie bleue qui peut contrer n'importe quel sort non-créature. C'est une réponse efficace aux sorts clés des decks bleus ou d'autres decks contrôle.
   - **Abrade** : Une carte rouge qui peut infliger 3 points de dégâts à une créature ciblée ou détruire un artefact. C'est une réponse efficace aux créatures ou artefacts des decks rouges ou d'autres decks aggro.
-  - **Assassin's Trophy** : Une carte noire et verte qui peut détruire n'importe quelle cible non-terrain à un coût de mana relativement bas. C'est une réponse polyvalente aux menaces de diverses couleurs.
-  - **Return to Nature** : Une carte verte qui peut détruire un artefact, un enchantement ou une créature avec endurance 3 ou moins. C'est une réponse polyvalente aux menaces des decks verts ou d'autres decks midrange.  
+  - **Assassin's Trophy** : Une carte noire et verte qui peut détruire n'importe quelle cible non-terrain à un coût de mana relativement bas. C'est une réponse polyvalente aux menaces de diverses couleurs.  
   - **Aether gust** : renvoi des permanents rouge ou vert sur le deck
   - **Ray of Enfeeblement** : -4/-4 sur les creature blanche pour un coût de 1.
   - des cartes avec Hexproof ou indestructibles.
 
 En choisissant judicieusement des cartes anti-couleurs adaptées à la méta du format Pioneer, vous pouvez renforcer votre deck et améliorer vos chances de succès contre une variété de stratégies adverses.
 
-
 - **Ajouter des cartes anti-stratégies** : Différentes stratégies nécessitent différentes réponses. Par exemple :
   - **Anti-cimetière** : Utilisez des cartes comme "Rest in Peace" ou "Grafdigger's Cage" pour neutraliser les stratégies basées sur le cimetière.
   - **Board Wipe** : Contre les decks aggro, des cartes comme "Supreme Verdict" peuvent nettoyer le plateau de jeu.
   - **Anti-gain de vie** : 'knight of dusk's shadow'
-  - **Protection contre les contresorts** : Des cartes comme "Veil of Summer" peuvent protéger vos sorts des contresorts adverses.
+  - **Protection des créatures** : Des cartes comme "Smuggler's surprise" peuvent protéger vos créatures de sorts adverses.
 
 - **Accélérer votre deck** : Si votre deck est trop midrange, envisagez d'inclure des cartes pour accélérer votre jeu, comme des sorts de ramp ou des créatures à faible coût de mana, pour mettre la pression plus rapidement sur votre adversaire.
 
@@ -64,7 +62,6 @@ En choisissant judicieusement des cartes anti-couleurs adaptées à la méta du 
 En construisant votre sideboard, il est crucial de garder une vue d'ensemble sur la méta du format Pioneer. Sachez quels decks sont les plus joués et quelles sont leurs principales stratégies. Un bon sideboard doit être polyvalent et capable de s'adapter à plusieurs types de decks adverses. Si une carte est trop spécifique et ne sert que contre un seul deck, elle pourrait ne pas être la meilleure inclusion pour votre sideboard.
 
 Enfin, n'oubliez pas de tester votre sideboard lors de vos parties de test. Ce n'est qu'en jouant et en ajustant continuellement que vous pourrez affiner votre sideboard pour qu'il devienne une arme redoutable dans votre arsenal de Magic: The Gathering.
-
 
 # Combien de cartes identiques dans le side
 
