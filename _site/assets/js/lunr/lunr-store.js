@@ -1,7 +1,25 @@
 var store = [{
-        "title": "comment construire un deck pioneer",
-        "excerpt":"intro Ce post explique comment préparer ton deck, il donne des grandes lignes, des pistes pour avoir un deck équilibré. choisir une stratégie pour construire un deck 60 cartes, il y a plusieurs façon de faire. Vous pouvez avoir envi de construire un deck basé sur une carte que vous...","categories": ["pioneer"],
+        "title": "comment construire un deck Pioneer",
+        "excerpt":"Conseils pour préparer un deck Pioneer Cet article offre des conseils essentiels pour préparer un deck Magic: The Gathering. Vous y trouverez des lignes directrices et des stratégies pour créer un deck équilibré et performant. Choisir une Stratégie Pour construire un deck de 60 cartes, plusieurs approches sont possibles. Vous...","categories": ["pioneer"],
         "tags": [],
-        "url": "/mtg/pioneer/mtg-strategie/",
+        "url": "/mtg/pioneer/mtg-Pioneer-deck/",
+        "teaser": null
+      },{
+        "title": "comment construire préparer un sideboard",
+        "excerpt":"Retour d’experience sur la construction de sideboard Dans l’univers stratégique et complexe de Magic: The Gathering, où chaque carte compte et chaque décision peut changer le cours d’une partie. Dans ce monde de magie et de mystère, le format Pioneer BO3 (Best of Three) offre aux joueurs une arène de...","categories": ["pioneer"],
+        "tags": [],
+        "url": "/mtg/pioneer/mtg-sideboard/",
+        "teaser": null
+      },{
+        "title": "Lexique Pioneer",
+        "excerpt":"Lexique des termes utilisé dans le jeu Pioneer Bienvenue dans le monde captivant de Magic: The Gathering, un jeu de cartes à collectionner épique qui a captivé l’imagination des joueurs du monde entier depuis sa création en 1993. En tant que joueur de Magic, vous entrez dans un univers riche...","categories": ["pioneer"],
+        "tags": [],
+        "url": "/mtg/pioneer/mtg-lexicus/",
+        "teaser": null
+      },{
+        "title": "Pioneer un format compétitif",
+        "excerpt":"Les Atouts du Format Pioneer dans Magic: The Gathering Pioneer est un format très apprécié dans Magic: The Gathering, offrant une combinaison unique de stabilité, diversité et profondeur stratégique. Voici pourquoi il se démarque : Combos vs Contre Pioneer propose une grande variété de combos, permettant des parties dynamiques et...","categories": ["pioneer"],
+        "tags": [],
+        "url": "/mtg/pioneer/mtg-pioneer-avantage/",
         "teaser": null
       }]

@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "comment construire un deck pioneer"
+title:  "comment construire un deck Pioneer"
 date:   2023-11-18 14:40:46 +0100
 categories: pioneer
 ---
