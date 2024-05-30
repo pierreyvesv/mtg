@@ -64,7 +64,8 @@ Vos options lors du choix de vos cartes:
 
 - **Prévoir des réponses aux faiblesses spécifiques de votre deck** : Identifiez les points faibles de votre deck et trouvez des cartes qui peuvent pallier ces faiblesses.
 
-Garder une vue d'ensemble sur la méta du format Pioneer ou sur les decks que joue vos potes.. 
+Garder une vue d'ensemble sur la méta du format Pioneer ou sur les decks que joue vos potes ...
+
 # Combien de cartes identiques dans le side
 
 Il est rare de voir un sideboard contenant un carré de 4 cartes identiques.
@@ -77,9 +78,7 @@ Lorsque vous utilisez votre sideboard, il est crucial d'analyser la partie préc
 
 Les cartes de votre sideboard entrent dans votre jeu en remplacement du même nombre de cartes de votre deck principal.
 
-Sélectionnez les cartes les plus pertinentes. Remplacer 15 cartes dans votre deck n'arrivera probablement jamais et pourrait compromettre votre stratégie.
-
-Gardez toujours à l'esprit votre plan de jeu et ne vous éloignez pas trop de votre stratégie principale lors du swap.
+Sélectionnez les cartes les plus pertinentes. Remplacer 15 cartes dans votre deck n'arrivera probablement jamais et ne vous mènera probablement à rien.
 
 # Retour d'experience
 
