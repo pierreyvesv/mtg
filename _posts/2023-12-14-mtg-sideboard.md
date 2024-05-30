@@ -72,11 +72,11 @@ Il est rare de voir un sideboard contenant un carré de 4 cartes identiques.
 
 # Swap
 
-Lorsque vous utilisez votre sideboard, il est crucial d'analyser la partie précédente pour comprendre pourquoi vous avez gagné ou perdu.
+Lorsque vous utilisez votre sideboard, vous analyserez la partie précédente pour comprendre pourquoi vous avez gagné ou perdu.
 
 Les cartes de votre sideboard entrent dans votre jeu en remplacement du même nombre de cartes de votre deck principal.
 
-Sélectionnez les cartes les plus pertinentes. Remplacer 15 cartes dans votre deck n'arrivera probablement jamais et ne vous mènera probablement à rien.
+Sélectionnez les cartes les plus pertinentes. Remplacer 15 cartes dans votre deck n'arrivera probablement jamais et ne vous mènera à rien.
 
 # Quelques exemples
 
