@@ -5,7 +5,7 @@ date:   2023-11-18 14:40:46 +0100
 categories: pioneer
 ---
 
-# Retour d'experience sur la construction de sideboard
+# Introduction et retour d'experience sur la construction de sideboard
 
 Le format Pioneer BO3 (Best of Three) offre aux joueurs une arène de compétition exaltante, où la construction d'un deck efficace est essentielle pour réussir.
 
@@ -17,13 +17,11 @@ C'est l'occasion de prendre sa revanche et d'empêcher l'adversaire de jouer tel
 
 Le sideboard contient au maximum 15 cartes. Certaines cartes permettent d'y accéder au cours du jeu, comme "Mastermind's Acquisition", mais celles-ci sont peu couramment utilisées.
 
-Le sideboard doit également prendre en compte les faiblesses de votre deck face à certaines stratégies.
+Le sideboard doit également prendre en compte les faiblesses de votre deck face à certaines stratégies ou decks.
 
 Cela implique de connaître les decks que vous rencontrerez ou, à défaut, la meta.
 
-Vous voudrez que votre sideboard puisse correspondre à plusieurs stratégies adverses. S'il n'est utile que contre un deck spécifique, il sera peu utilisé.
-
-# Choisir ses cartes de side
+## Choisir ses cartes de side
 
 Cherchez à améliorer votre deck pour faire face aux menaces spécifiques, ou les plus fréquentes que vous rencontrerez. Voici quelques conseils pour choisir les cartes à inclure dans votre sideboard.
 
@@ -80,7 +78,7 @@ Les cartes de votre sideboard entrent dans votre jeu en remplacement du même no
 
 Sélectionnez les cartes les plus pertinentes. Remplacer 15 cartes dans votre deck n'arrivera probablement jamais et ne vous mènera probablement à rien.
 
-# Retour d'experience
+# Quelques exemples
 
 - La stratégie de mon adversaire ciblait mes créatures, j'en ai remplacé le plus possible.
 
