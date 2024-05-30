@@ -37,10 +37,10 @@ Vos options lors du choix de vos cartes:
 - **Renforcer la quantité d'une carte dans votre deck** : Passer d'une carte jouée en deux exemplaires à quatre peut améliorer votre consistance contre certaines stratégies.
 
 - **Ajouter des cartes anti-combo** : Les decks combo peuvent être particulièrement difficiles à gérer. Des cartes comme "Damping Sphere" ou "Pithing Needle" peuvent perturber les combos adverses en limitant leurs actions.
-  - Damping Sphere : Cette carte ralentit considérablement les decks combo en limitant la quantité de mana que les joueurs peuvent produire à chaque tour.
-  - Pithing Needle : Elle peut être utilisée pour bloquer les capacités des cartes-clés dans les decks combo, rendant ainsi leurs stratégies beaucoup moins efficaces.
+  - Damping Sphere : Cette carte ralentit considérablement les decks combo comme Izzet Phoenix et Lotus Field.
+  - Pithing Needle : Elle peut être utilisée pour bloquer les capacités de cartes-clés, pour un coût de 1, c'est une très bonne carte.
   - Grafdigger's Cage : Elle empêche les cartes de fonctionner depuis le cimetière, ce qui est crucial contre de nombreux decks combo qui comptent sur des récursions ou des tutoriels depuis le cimetière.
-  - Leyline of Sanctity : Protège contre les decks qui tentent de gagner via des effets de pioche ou de ciblage direct.
+  - Leyline of Sanctity : vous donne Hexproof contre un deck discard ou mono red burn elle fera des ravage .
   - Rest in Peace : Exile tous les cimetières, ce qui est particulièrement puissant contre les decks combo qui se basent sur la récursion de cartes depuis le cimetière.
 
 - **Ajouter des cartes anti-couleurs** : Voici quelques exemples de cartes anti-couleurs à considérer pour votre sideboard :
@@ -82,13 +82,17 @@ Sélectionnez les cartes les plus pertinentes. Remplacer 15 cartes dans votre de
 
 - La stratégie de mon adversaire ciblait mes créatures, j'en ai remplacé le plus possible.
 
-- Mon adversaire en mono vert met de son side des creatures hexproof / protection contre le noir "Garruk's Harbringer".
+- Mon adversaire en mono vert a dans son side des creatures hexproof / protection contre le noir "Garruk's Harbringer".
 
 - j'ai quelques cartes pour contrer les stratégies du cimetière comme celle de Izzet Phoenix:  "Ashiok, Dream Render", "cling to dust". Je trouve qu'Ashiok est pas mal contre les decks combos .
 
 - contre les decks rapide j'enlève presque toutes mes grosses cartes.
 
 - j'hésite à mettre 'Knight of dusk shadows' dans mon side. En plus d'empècher l'adversaire de gagner des points de vie, elle a menace et un boost.
+
+- Damping sphere au tour deux contre un deck lotus field, ca change la donne .
+
+- Mon adversaire a posé "Leyline of Sanctity" contre mon deck discard, rendant beaucoup de mes cartes inutilisables.
 
 # Conclusion
 
