@@ -84,7 +84,7 @@ Sélectionnez les cartes les plus pertinentes. Remplacer 15 cartes dans votre de
 
 - Mon adversaire en mono vert met de son side des creatures hexproof / protection contre le noir "Garruk's Harbringer".
 
-- j'ai quelques cartes pour contrer les stratégies du cimetière comme celle de Izzet Phoenix:  "Ashiok, Dream Render", "cling to dust". Ashiok est pas mal contre les decks combos .
+- j'ai quelques cartes pour contrer les stratégies du cimetière comme celle de Izzet Phoenix:  "Ashiok, Dream Render", "cling to dust". Je trouve qu'Ashiok est pas mal contre les decks combos .
 
 - contre les decks rapide j'enlève presque toutes mes grosses cartes.
 
