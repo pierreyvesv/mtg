@@ -6,7 +6,7 @@ var store = [{
         "teaser": null
       },{
         "title": "comment construire préparer un sideboard",
-        "excerpt":"Retour d’experience sur la construction de sideboard Dans l’univers stratégique et complexe de Magic: The Gathering, où chaque carte compte et chaque décision peut changer le cours d’une partie. Dans ce monde de magie et de mystère, le format Pioneer BO3 (Best of Three) offre aux joueurs une arène de...","categories": ["pioneer"],
+        "excerpt":"Retour d’experience sur la construction de sideboard Le format Pioneer BO3 (Best of Three) offre aux joueurs une arène de compétition exaltante, où la construction d’un deck efficace est essentielle pour réussir. Il permet de s’adapter aux différentes situations rencontrées en cours de match. En Pioneer B01 il n’y a...","categories": ["pioneer"],
         "tags": [],
         "url": "/mtg/pioneer/mtg-sideboard/",
         "teaser": null
