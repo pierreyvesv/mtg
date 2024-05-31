@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://pierreyvesv.github.io//mtg/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pierreyvesv.github.io//mtg/" rel="alternate" type="text/html" /><updated>2024-05-30T22:40:46+01:00</updated><id>https://pierreyvesv.github.io//mtg/feed.xml</id><title type="html">Magic The Gathering</title><subtitle>MTG Pioneer blog post.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://pierreyvesv.github.io//mtg/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pierreyvesv.github.io//mtg/" rel="alternate" type="text/html" /><updated>2024-05-31T21:09:43+01:00</updated><id>https://pierreyvesv.github.io//mtg/feed.xml</id><title type="html">Magic The Gathering</title><subtitle>MTG Pioneer blog post.
 </subtitle><author><name>Khancell</name></author><entry><title type="html">Pioneer un format compétitif</title><link href="https://pierreyvesv.github.io//mtg/pioneer/mtg-pioneer-avantage/" rel="alternate" type="text/html" title="Pioneer un format compétitif" /><published>2024-05-29T14:40:46+01:00</published><updated>2024-05-29T14:40:46+01:00</updated><id>https://pierreyvesv.github.io//mtg/pioneer/mtg-pioneer-avantage</id><content type="html" xml:base="https://pierreyvesv.github.io//mtg/pioneer/mtg-pioneer-avantage/">&lt;h1 id=&quot;les-atouts-du-format-pioneer-dans-magic-the-gathering&quot;&gt;Les Atouts du Format Pioneer dans Magic: The Gathering&lt;/h1&gt;
 
 &lt;p&gt;Pioneer est un format très apprécié dans Magic: The Gathering, offrant une combinaison unique de stabilité, diversité et profondeur stratégique. Voici pourquoi il se démarque :&lt;/p&gt;
@@ -233,11 +233,11 @@
 
 &lt;p&gt;Le format Pioneer BO3 (Best of Three) offre aux joueurs une arène de compétition exaltante, où la construction d’un deck efficace est essentielle pour réussir.&lt;/p&gt;
 
-&lt;p&gt;Il permet de s’adapter aux différentes situations rencontrées en cours de match.&lt;/p&gt;
+&lt;p&gt;Le side permet de s’adapter aux différentes situations rencontrées en cours de match.&lt;/p&gt;
 
 &lt;p&gt;En Pioneer B01 il n’y a pas de sideboard. En Pioneer B03, les joueurs jouent 2 à 3 parties. Avant la deuxième partie, chaque joueur a la possibilité de remplacer des cartes de son deck par celles présentes dans son sideboard.&lt;/p&gt;
 
-&lt;p&gt;C’est l’occasion de prendre sa revanche et d’empêcher l’adversaire de jouer tel qu’il avait prévu pendant la deuxième partie.&lt;/p&gt;
+&lt;p&gt;C’est l’occasion de prendre votre revanche et d’empêcher l’adversaire de jouer tel qu’il avait prévu pendant la deuxième partie et peut être troisième partie.&lt;/p&gt;
 
 &lt;p&gt;Le sideboard contient au maximum 15 cartes. Certaines cartes permettent d’y accéder au cours du jeu, comme “Mastermind’s Acquisition”, mais celles-ci sont peu couramment utilisées.&lt;/p&gt;
 
@@ -253,6 +253,8 @@
 
 &lt;p&gt;Si vous participer à un tournois renseignez vous sur les decks les plus joués, comblez vos faiblesses et surtout testez vos decks.&lt;/p&gt;
 
+&lt;p&gt;Par exemple comme le deck “Amalia Combo” basé sur le gain massif de point de vie est très représenté dans la Meta , mettez ‘Knight of dusk shadows’ en side, il empèche l’adversaire de gagner des points de vie. Si ce deck venait à être moins représenté, retirez la carte du side.&lt;/p&gt;
+
 &lt;p&gt;Si votre adversaire se décompose quand vous lancez une carte de side, alors c’est la bonne !!!&lt;/p&gt;
 
 &lt;p&gt;Vos options lors du choix de vos cartes:&lt;/p&gt;
@@ -261,13 +263,13 @@
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;Renforcer la quantité d’une carte dans votre deck&lt;/strong&gt; : Passer d’une carte jouée en deux exemplaires à quatre peut améliorer votre consistance contre certaines stratégies.&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Ajouter des cartes anti-combo&lt;/strong&gt; : Les decks combo peuvent être particulièrement difficiles à gérer. Des cartes comme “Damping Sphere” ou “Pithing Needle” peuvent perturber les combos adverses en limitant leurs actions.
+  &lt;li&gt;&lt;strong&gt;Ajouter des cartes anti-combo&lt;/strong&gt; :
     &lt;ul&gt;
       &lt;li&gt;Damping Sphere : Cette carte ralentit considérablement les decks combo comme Izzet Phoenix et Lotus Field.&lt;/li&gt;
       &lt;li&gt;Pithing Needle : Elle peut être utilisée pour bloquer les capacités de cartes-clés, pour un coût de 1, c’est une très bonne carte.&lt;/li&gt;
-      &lt;li&gt;Grafdigger’s Cage : Elle empêche les cartes de fonctionner depuis le cimetière, ce qui est crucial contre de nombreux decks combo qui comptent sur des récursions ou des tutoriels depuis le cimetière.&lt;/li&gt;
+      &lt;li&gt;Grafdigger’s Cage : Elle empêche les cartes de fonctionner depuis le cimetière.&lt;/li&gt;
       &lt;li&gt;Leyline of Sanctity : vous donne Hexproof contre un deck discard ou mono red burn elle fera des ravage .&lt;/li&gt;
-      &lt;li&gt;Rest in Peace : Exile tous les cimetières, ce qui est particulièrement puissant contre les decks combo qui se basent sur la récursion de cartes depuis le cimetière.&lt;/li&gt;
+      &lt;li&gt;Rest in Peace : Exile tous les cimetières.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Ajouter des cartes anti-couleurs&lt;/strong&gt; : Voici quelques exemples de cartes anti-couleurs à considérer pour votre sideboard :
@@ -278,7 +280,7 @@
       &lt;li&gt;&lt;strong&gt;Assassin’s Trophy&lt;/strong&gt; : Une carte noire et verte qui peut détruire n’importe quelle cible non-terrain à un coût de mana relativement bas.&lt;/li&gt;
       &lt;li&gt;&lt;strong&gt;Aether gust&lt;/strong&gt; : renvoi des permanents rouge ou vert sur le deck&lt;/li&gt;
       &lt;li&gt;&lt;strong&gt;Ray of Enfeeblement&lt;/strong&gt; : -4/-4 sur les creature blanche pour un coût de 1.&lt;/li&gt;
-      &lt;li&gt;des cartes avec Hexproof ou indestructibles.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;hexproof&lt;/strong&gt; : des cartes avec Hexproof ou indestructibles comme ‘Thrun, Breaker of Silence’&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Ajouter des cartes anti-stratégies&lt;/strong&gt; : Différentes stratégies nécessitent différentes réponses. Par exemple :
@@ -287,6 +289,7 @@
       &lt;li&gt;&lt;strong&gt;Board Wipe&lt;/strong&gt; : Contre les decks aggro, des cartes comme “Supreme Verdict” peuvent nettoyer le plateau de jeu.&lt;/li&gt;
       &lt;li&gt;&lt;strong&gt;Anti-gain de vie&lt;/strong&gt; : ‘knight of dusk’s shadow’&lt;/li&gt;
       &lt;li&gt;&lt;strong&gt;Protection des créatures&lt;/strong&gt; : Des cartes comme “Smuggler’s surprise” peuvent protéger vos créatures de sorts adverses.&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;deck aggro rapide&lt;/strong&gt;: - ‘Anger of the god’, ‘witch’s vengeance’, ‘Brother’s hood end’&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;
@@ -310,6 +313,8 @@
 &lt;p&gt;Les cartes de votre sideboard entrent dans votre jeu en remplacement du même nombre de cartes de votre deck principal.&lt;/p&gt;
 
 &lt;p&gt;Sélectionnez les cartes les plus pertinentes. Remplacer 15 cartes dans votre deck n’arrivera probablement jamais et ne vous mènera à rien.&lt;/p&gt;
+
+&lt;p&gt;Il arrive qu’aucune carte de votre side ne puisse vous aider.&lt;/p&gt;
 
 &lt;h1 id=&quot;quelques-exemples&quot;&gt;Quelques exemples&lt;/h1&gt;
 
@@ -335,13 +340,16 @@
   &lt;li&gt;
     &lt;p&gt;Mon adversaire a posé “Leyline of Sanctity” contre mon deck discard, rendant beaucoup de mes cartes inutilisables.&lt;/p&gt;
   &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;contre les decks aggro ‘ ‘Meathook Massacre’ permet de faire des dégâts dès le tour 3 cette carte marche aussi bien contre les decks sacrifice rackdos.&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
 
-&lt;p&gt;Pas de sideboard en Pioneer Bo1 . Ce n’est pas un prérequis pour le Pioneer Bo3. Mais il vous donnera peut-être quelques victoire.&lt;/p&gt;
+&lt;p&gt;Pas de sideboard en Pioneer Bo1 . Ce n’est pas un prérequis pour le Pioneer Bo3. Mais avec un side bien construit vous obtiendrez quelques victoires supplémentaires..&lt;/p&gt;
 
-&lt;p&gt;N’oubliez pas que la construction d’un sideboard efficace nécessite du temps, de la pratique et de la réflexion. Testez différentes configurations et soyez prêt à ajuster votre sideboard en fonction des évolutions de la méta et de votre propre expérience en jeu.&lt;/p&gt;</content><author><name>Khancell</name></author><category term="pioneer" /><summary type="html">Introduction et retour d’experience sur la construction de sideboard</summary></entry><entry><title type="html">Lexique Pioneer</title><link href="https://pierreyvesv.github.io//mtg/pioneer/mtg-lexicus/" rel="alternate" type="text/html" title="Lexique Pioneer" /><published>2023-11-18T13:40:46+00:00</published><updated>2023-11-18T13:40:46+00:00</updated><id>https://pierreyvesv.github.io//mtg/pioneer/mtg-lexicus</id><content type="html" xml:base="https://pierreyvesv.github.io//mtg/pioneer/mtg-lexicus/">&lt;h1 id=&quot;lexique-des-termes-utilisé-dans-le-jeu-pioneer&quot;&gt;Lexique des termes utilisé dans le jeu Pioneer&lt;/h1&gt;
+&lt;p&gt;Testez différentes configurations et soyez prêt à ajuster votre sideboard en fonction des évolutions de la méta et de votre propre expérience en jeu.&lt;/p&gt;</content><author><name>Khancell</name></author><category term="pioneer" /><summary type="html">Introduction et retour d’experience sur la construction de sideboard</summary></entry><entry><title type="html">Lexique Pioneer</title><link href="https://pierreyvesv.github.io//mtg/pioneer/mtg-lexicus/" rel="alternate" type="text/html" title="Lexique Pioneer" /><published>2023-11-18T13:40:46+00:00</published><updated>2023-11-18T13:40:46+00:00</updated><id>https://pierreyvesv.github.io//mtg/pioneer/mtg-lexicus</id><content type="html" xml:base="https://pierreyvesv.github.io//mtg/pioneer/mtg-lexicus/">&lt;h1 id=&quot;lexique-des-termes-utilisé-dans-le-jeu-pioneer&quot;&gt;Lexique des termes utilisé dans le jeu Pioneer&lt;/h1&gt;
 
 &lt;p&gt;Bienvenue dans le monde captivant de Magic: The Gathering, un jeu de cartes à collectionner épique qui a captivé l’imagination des joueurs du monde entier depuis sa création en 1993. En tant que joueur de Magic, vous entrez dans un univers riche de stratégie, de compétition et d’interaction sociale.&lt;/p&gt;
 
