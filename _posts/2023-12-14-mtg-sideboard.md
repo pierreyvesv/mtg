@@ -9,11 +9,11 @@ categories: pioneer
 
 Le format Pioneer BO3 (Best of Three) offre aux joueurs une arène de compétition exaltante, où la construction d'un deck efficace est essentielle pour réussir.
 
-Il permet de s'adapter aux différentes situations rencontrées en cours de match.
+Le side permet de s'adapter aux différentes situations rencontrées en cours de match.
 
 En Pioneer B01 il n'y a pas de sideboard. En Pioneer B03, les joueurs jouent 2 à 3 parties. Avant la deuxième partie, chaque joueur a la possibilité de remplacer des cartes de son deck par celles présentes dans son sideboard.
 
-C'est l'occasion de prendre sa revanche et d'empêcher l'adversaire de jouer tel qu'il avait prévu pendant la deuxième partie.
+C'est l'occasion de prendre votre revanche et d'empêcher l'adversaire de jouer tel qu'il avait prévu pendant la deuxième partie et peut être troisième partie.
 
 Le sideboard contient au maximum 15 cartes. Certaines cartes permettent d'y accéder au cours du jeu, comme "Mastermind's Acquisition", mais celles-ci sont peu couramment utilisées.
 
@@ -29,19 +29,20 @@ Bon j'avoue comme je joue souvent et je perds souvent contre "mono blanc humain"
 
 Si vous participer à un tournois renseignez vous sur les decks les plus joués, comblez vos faiblesses et surtout testez vos decks.
 
-Si votre adversaire se décompose quand vous lancez une carte de side, alors c'est la bonne !!!
+Par exemple comme le deck "Amalia Combo" basé sur le gain massif de point de vie est très représenté dans la Meta , mettez 'Knight of dusk shadows' en side, il empèche l'adversaire de gagner des points de vie. Si ce deck venait à être moins représenté, retirez la carte du side.
 
+Si votre adversaire se décompose quand vous lancez une carte de side, alors c'est la bonne !!!
 
 Vos options lors du choix de vos cartes:
 
 - **Renforcer la quantité d'une carte dans votre deck** : Passer d'une carte jouée en deux exemplaires à quatre peut améliorer votre consistance contre certaines stratégies.
 
-- **Ajouter des cartes anti-combo** : Les decks combo peuvent être particulièrement difficiles à gérer. Des cartes comme "Damping Sphere" ou "Pithing Needle" peuvent perturber les combos adverses en limitant leurs actions.
+- **Ajouter des cartes anti-combo** :
   - Damping Sphere : Cette carte ralentit considérablement les decks combo comme Izzet Phoenix et Lotus Field.
   - Pithing Needle : Elle peut être utilisée pour bloquer les capacités de cartes-clés, pour un coût de 1, c'est une très bonne carte.
-  - Grafdigger's Cage : Elle empêche les cartes de fonctionner depuis le cimetière, ce qui est crucial contre de nombreux decks combo qui comptent sur des récursions ou des tutoriels depuis le cimetière.
+  - Grafdigger's Cage : Elle empêche les cartes de fonctionner depuis le cimetière.
   - Leyline of Sanctity : vous donne Hexproof contre un deck discard ou mono red burn elle fera des ravage .
-  - Rest in Peace : Exile tous les cimetières, ce qui est particulièrement puissant contre les decks combo qui se basent sur la récursion de cartes depuis le cimetière.
+  - Rest in Peace : Exile tous les cimetières.
 
 - **Ajouter des cartes anti-couleurs** : Voici quelques exemples de cartes anti-couleurs à considérer pour votre sideboard :
   - **Declaration in Stone** : Une carte blanche qui peut exiler n'importe quelle créature ciblée.
@@ -50,13 +51,14 @@ Vos options lors du choix de vos cartes:
   - **Assassin's Trophy** : Une carte noire et verte qui peut détruire n'importe quelle cible non-terrain à un coût de mana relativement bas.
   - **Aether gust** : renvoi des permanents rouge ou vert sur le deck
   - **Ray of Enfeeblement** : -4/-4 sur les creature blanche pour un coût de 1.
-  - des cartes avec Hexproof ou indestructibles.
+  - **hexproof** : des cartes avec Hexproof ou indestructibles comme 'Thrun, Breaker of Silence'
 
 - **Ajouter des cartes anti-stratégies** : Différentes stratégies nécessitent différentes réponses. Par exemple :
   - **Anti-cimetière** : Utilisez des cartes comme "Rest in Peace" ou "Grafdigger's Cage" pour neutraliser les stratégies basées sur le cimetière.
   - **Board Wipe** : Contre les decks aggro, des cartes comme "Supreme Verdict" peuvent nettoyer le plateau de jeu.
   - **Anti-gain de vie** : 'knight of dusk's shadow'
   - **Protection des créatures** : Des cartes comme "Smuggler's surprise" peuvent protéger vos créatures de sorts adverses.
+  - **deck aggro rapide**: - 'Anger of the god', 'witch's vengeance', 'Brother's hood end'
 
 - **Accélérer votre deck** : Si votre deck est trop midrange, envisagez d'inclure des cartes pour accélérer votre jeu, comme des sorts de ramp ou des créatures à faible coût de mana, pour mettre la pression plus rapidement sur votre adversaire.
 
@@ -78,6 +80,8 @@ Les cartes de votre sideboard entrent dans votre jeu en remplacement du même no
 
 Sélectionnez les cartes les plus pertinentes. Remplacer 15 cartes dans votre deck n'arrivera probablement jamais et ne vous mènera à rien.
 
+Il arrive qu'aucune carte de votre side ne puisse vous aider.
+
 # Quelques exemples
 
 - La stratégie de mon adversaire ciblait mes créatures, j'en ai remplacé le plus possible.
@@ -94,8 +98,14 @@ Sélectionnez les cartes les plus pertinentes. Remplacer 15 cartes dans votre de
 
 - Mon adversaire a posé "Leyline of Sanctity" contre mon deck discard, rendant beaucoup de mes cartes inutilisables.
 
+- contre les decks aggro ' 'Meathook Massacre' permet de faire des dégâts dès le tour 3 cette carte marche aussi bien contre les decks sacrifice rackdos.
+
+
+
 # Conclusion
 
-Pas de sideboard en Pioneer Bo1 . Ce n'est pas un prérequis pour le Pioneer Bo3. Mais il vous donnera peut-être quelques victoire.
+Pas de sideboard en Pioneer Bo1 . Ce n'est pas un prérequis pour le Pioneer Bo3. Mais avec un side bien construit vous obtiendrez quelques victoires supplémentaires..
 
-N'oubliez pas que la construction d'un sideboard efficace nécessite du temps, de la pratique et de la réflexion. Testez différentes configurations et soyez prêt à ajuster votre sideboard en fonction des évolutions de la méta et de votre propre expérience en jeu.
+Testez différentes configurations et soyez prêt à ajuster votre sideboard en fonction des évolutions de la méta et de votre propre expérience en jeu.
+
+
