@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://pierreyvesv.github.io//mtg/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pierreyvesv.github.io//mtg/" rel="alternate" type="text/html" /><updated>2024-05-31T21:09:43+01:00</updated><id>https://pierreyvesv.github.io//mtg/feed.xml</id><title type="html">Magic The Gathering</title><subtitle>MTG Pioneer blog post.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://pierreyvesv.github.io//mtg/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pierreyvesv.github.io//mtg/" rel="alternate" type="text/html" /><updated>2024-05-31T21:22:11+01:00</updated><id>https://pierreyvesv.github.io//mtg/feed.xml</id><title type="html">Magic The Gathering</title><subtitle>MTG Pioneer blog post.
 </subtitle><author><name>Khancell</name></author><entry><title type="html">Pioneer un format compétitif</title><link href="https://pierreyvesv.github.io//mtg/pioneer/mtg-pioneer-avantage/" rel="alternate" type="text/html" title="Pioneer un format compétitif" /><published>2024-05-29T14:40:46+01:00</published><updated>2024-05-29T14:40:46+01:00</updated><id>https://pierreyvesv.github.io//mtg/pioneer/mtg-pioneer-avantage</id><content type="html" xml:base="https://pierreyvesv.github.io//mtg/pioneer/mtg-pioneer-avantage/">&lt;h1 id=&quot;les-atouts-du-format-pioneer-dans-magic-the-gathering&quot;&gt;Les Atouts du Format Pioneer dans Magic: The Gathering&lt;/h1&gt;
 
 &lt;p&gt;Pioneer est un format très apprécié dans Magic: The Gathering, offrant une combinaison unique de stabilité, diversité et profondeur stratégique. Voici pourquoi il se démarque :&lt;/p&gt;
@@ -351,11 +351,9 @@
 
 &lt;p&gt;Testez différentes configurations et soyez prêt à ajuster votre sideboard en fonction des évolutions de la méta et de votre propre expérience en jeu.&lt;/p&gt;</content><author><name>Khancell</name></author><category term="pioneer" /><summary type="html">Introduction et retour d’experience sur la construction de sideboard</summary></entry><entry><title type="html">Lexique Pioneer</title><link href="https://pierreyvesv.github.io//mtg/pioneer/mtg-lexicus/" rel="alternate" type="text/html" title="Lexique Pioneer" /><published>2023-11-18T13:40:46+00:00</published><updated>2023-11-18T13:40:46+00:00</updated><id>https://pierreyvesv.github.io//mtg/pioneer/mtg-lexicus</id><content type="html" xml:base="https://pierreyvesv.github.io//mtg/pioneer/mtg-lexicus/">&lt;h1 id=&quot;lexique-des-termes-utilisé-dans-le-jeu-pioneer&quot;&gt;Lexique des termes utilisé dans le jeu Pioneer&lt;/h1&gt;
 
-&lt;p&gt;Bienvenue dans le monde captivant de Magic: The Gathering, un jeu de cartes à collectionner épique qui a captivé l’imagination des joueurs du monde entier depuis sa création en 1993. En tant que joueur de Magic, vous entrez dans un univers riche de stratégie, de compétition et d’interaction sociale.&lt;/p&gt;
+&lt;p&gt;Pour les nouveaux joueurs de Magic, le langage et les termes spécifiques utilisés par la communauté peuvent sembler déroutants. Par exemple les Youtubeurs commencent souvent à jouer en disant “ok I am on the play” ou “ok I am on the draw” .&lt;/p&gt;
 
-&lt;p&gt;Pour les nouveaux arrivants, le langage et les termes spécifiques utilisés par la communauté de Magic peuvent sembler déroutants. C’est pourquoi nous avons créé ce lexique, un guide essentiel pour comprendre le jargon et les concepts fondamentaux de ce jeu passionnant.&lt;/p&gt;
-
-&lt;p&gt;Que vous soyez un joueur débutant cherchant à maîtriser les bases ou un vétéran désireux d’approfondir votre compréhension, ce lexique vous offre une référence complète pour naviguer dans l’univers de Magic: The Gathering. Explorez les termes clés qui vous aideront à devenir un joueur compétent et à apprécier pleinement toutes les facettes de ce jeu emblématique. Que votre voyage dans les plans de Magic commence ici !&lt;/p&gt;
+&lt;p&gt;C’est pour comprendre ce jargon que ce lexique a été créé.&lt;/p&gt;
 
 &lt;h2 id=&quot;lexique&quot;&gt;Lexique&lt;/h2&gt;
 
@@ -372,19 +370,17 @@
   &lt;li&gt;commit : s’engager dans une action risquée engageant toutes les ressources&lt;/li&gt;
   &lt;li&gt;overextend : déployer trop de créatures sur le board alors que ce n’est pas nécessaire&lt;/li&gt;
   &lt;li&gt;la clock : clock de 5 signifie que l’on a déployé les cartes pour gagner en 5 tours&lt;/li&gt;
-  &lt;li&gt;la race : faire la course aux dégâts avec l’adversaire quand les deux adversaires ont une clock&lt;/li&gt;
+  &lt;li&gt;the race : faire la course aux dégâts avec l’adversaire quand les deux adversaires ont une clock&lt;/li&gt;
   &lt;li&gt;attaque létale : attaque mortelle pour l’adversaire&lt;/li&gt;
   &lt;li&gt;board : le terrain où l’on pose les permanents&lt;/li&gt;
   &lt;li&gt;board sweeper / wrath : cartes qui détruisent toutes les créatures ou permanents du board&lt;/li&gt;
   &lt;li&gt;chump block : bloquer avec une petite créature pour protéger ses points de vie&lt;/li&gt;
-  &lt;li&gt;trade : sacrifier une carte contre une autre&lt;/li&gt;
+  &lt;li&gt;trade : sacrifier une carte contre une autre, ou bloquer avec une creature et la perdre pour en tuer une attaquante.&lt;/li&gt;
   &lt;li&gt;removal : anti-bête ou sort qui détruit une autre carte&lt;/li&gt;
   &lt;li&gt;burn : sort de dégâts directs&lt;/li&gt;
   &lt;li&gt;bounce : renvoyer une carte dans la main de son propriétaire ou la bibliothèque&lt;/li&gt;
-  &lt;li&gt;out : carte qui va permettre de prendre l’avantage sur la partie&lt;/li&gt;
   &lt;li&gt;early, mid, late game : début 3 à 4 premiers tours, milieu, fin de partie&lt;/li&gt;
   &lt;li&gt;être full tap : avoir tous ses terrains engagés&lt;/li&gt;
-  &lt;li&gt;dé-tap : dégager&lt;/li&gt;
   &lt;li&gt;BO1 : jeu Pioneer sans sideboard, se gagne en 1 partie&lt;/li&gt;
   &lt;li&gt;BO3 : jeu Pioneer avec sideboard, se gagne en 2 parties gagnées sur 3&lt;/li&gt;
   &lt;li&gt;graveyard hate : carte annulant les plans de jeu basés sur le cimetière&lt;/li&gt;
@@ -394,9 +390,6 @@
   &lt;li&gt;cantrip : sort à faible coût qui permet de piocher une carte en plus de son effet&lt;/li&gt;
   &lt;li&gt;tutor : carte ou sort qui permet de chercher une carte spécifique dans le deck et de l’ajouter à sa main&lt;/li&gt;
   &lt;li&gt;tempo : contrôle du rythme du jeu en utilisant des cartes ou actions pour retarder les plans de l’adversaire tout en avançant les siens&lt;/li&gt;
-  &lt;li&gt;token : jeton représentant une créature ou un autre permanent créé par une carte ou une capacité&lt;/li&gt;
   &lt;li&gt;splash damage : effets ou dégâts affectant plusieurs cibles ou joueurs&lt;/li&gt;
   &lt;li&gt;hardcast : jouer une carte en payant son coût de mana total&lt;/li&gt;
-  &lt;li&gt;mana screw : situation où un joueur n’a pas assez de terrains pour jouer ses cartes&lt;/li&gt;
-  &lt;li&gt;mana flood : situation où un joueur pioche trop de terrains et pas assez de sorts&lt;/li&gt;
 &lt;/ul&gt;</content><author><name>Khancell</name></author><category term="pioneer" /><summary type="html">Lexique des termes utilisé dans le jeu Pioneer</summary></entry></feed>

@@ -12,7 +12,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Lexique Pioneer",
-        "excerpt":"Lexique des termes utilisé dans le jeu Pioneer Bienvenue dans le monde captivant de Magic: The Gathering, un jeu de cartes à collectionner épique qui a captivé l’imagination des joueurs du monde entier depuis sa création en 1993. En tant que joueur de Magic, vous entrez dans un univers riche...","categories": ["pioneer"],
+        "excerpt":"Lexique des termes utilisé dans le jeu Pioneer Pour les nouveaux joueurs de Magic, le langage et les termes spécifiques utilisés par la communauté peuvent sembler déroutants. Par exemple les Youtubeurs commencent souvent à jouer en disant “ok I am on the play” ou “ok I am on the draw”...","categories": ["pioneer"],
         "tags": [],
         "url": "/mtg/pioneer/mtg-lexicus/",
         "teaser": null
