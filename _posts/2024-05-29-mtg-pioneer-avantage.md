@@ -28,9 +28,11 @@ Ces échanges améliorent le niveau des joueurs et leur connaissance des straté
 
 Les joueurs de notre serveur Discord jouent dans une ambiance serieuse et bienveillante.
 
-Certains joueurs maitrisent plusieurs decks basé sur ceux de la meta et aussi des decks de leurs cru !
+Certains joueurs maitrisent plusieurs decks basés sur ceux de la meta et aussi des decks de leurs cru !
 
 S'entrainer à plusieurs et relever les défis est bien plus captivant.
+
+Annoncez vou
 
 ## Compétitions Améliorée
 

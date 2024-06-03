@@ -10,22 +10,21 @@ categories: pioneer
 Cet article offre des conseils essentiels pour préparer un deck Magic: The Gathering. Vous y trouverez des lignes directrices et des stratégies pour créer un deck équilibré et performant.
 
 
-Ayez en tête que le Pioneer est un format très rapide , au touur 4 ou 5 vous devriez être fixé.
+Ayez en tête que le Pioneer est un format très rapide , au tour 4 ou 5 vous devriez être fixé.
 
 ## Choisir une Stratégie
 
 Pour construire un deck de 60 cartes, plusieurs approches sont possibles:
 
-Vous pouvez baser votre deck sur une carte que vous appréciez ou exploiter une mécanique que vous avez découverte:
+Vous pouvez baser votre deck sur une carte que vous appréciez ou exploiter une mécanique que vous avez découverte. Pas besoin de se faire des noeuds , d'autres personnes on déjà tester / éprouver
 
-    - renseignez vous sur son classement dans la Meta qui est aussi un indicateur de stabilité.
+    - regardez la meta : https://thegathering.gg/pioneer-tier-list/
+    - renseignez vous sur son classement et aussi sur sa complexité et facilité de mise en place.
     - sur ses forces et faiblesses
     - ne faites pas confiances à certaines vidéos youtube ayant en face des decks peu préparer, ou combattant des decks trop lents.
-    - regardez la meta : https://thegathering.gg/pioneer-tier-list/
     - adapter avec vos cartes préférées.
 
-
-Ayez en tête que votre deck doit faire correspondre les composantes suivantes :
+Ayez en tête que votre deck fera correspondre les composantes suivantes :
 
 Stratégie globale x Accélération (ramp) x Condition de victoire (win condition).
 
@@ -51,13 +50,6 @@ Votre stratégie globale peut être un mélange des suivantes :
 **Midrange** : Les decks Midrange cherchent un équilibre entre les stratégies agressives et contrôlantes, utilisant des créatures polyvalentes pour dominer le milieu de la partie.
 
 **Stax** : Cette stratégie vise à ralentir et gêner l'adversaire en jouant des cartes qui limitent ses options, comme forcer la perte de permanents ou augmenter les coûts de mana.
-
-### 
-
-MTG Meta Tier List - MTG Arena Zone​ (MTG Arena Zone)​
-Best Pioneer Decks - MTG Rocks​ (MTG Rocks)​
-Pioneer Tier List - The Gathering​ (The Gathering)​
-
 
 ### Les Clés de votre Stratégie
 
@@ -91,6 +83,8 @@ Assurez-vous d'avoir un terrain à poser chaque tour pour mettre en place votre 
 ## Nombre de Terrains
 
 Comptez 19 terrains + N terrains, où N est le coût de mana maximum de votre carte la plus coûteuse. Si le nombre de terrains dépasse 26, ajoutez d'autres sources de production de mana comme Llanowar Elves. Certains decks peuvent se permettre moins de terrains si leurs cartes sont moins coûteuses en mana.
+
+Dans le doute vous pouvez aussi commencer avec 25 terrains, oubien avoir une répartition 20 terrains, 20 créatures 20 sorts.
 
 ### Taplands
 

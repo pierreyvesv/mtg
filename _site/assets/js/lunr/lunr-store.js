@@ -1,6 +1,6 @@
 var store = [{
         "title": "comment construire un deck Pioneer",
-        "excerpt":"Conseils pour préparer un deck Pioneer Cet article offre des conseils essentiels pour préparer un deck Magic: The Gathering. Vous y trouverez des lignes directrices et des stratégies pour créer un deck équilibré et performant. Choisir une Stratégie Pour construire un deck de 60 cartes, plusieurs approches sont possibles. Vous...","categories": ["pioneer"],
+        "excerpt":"Conseils pour préparer un deck Pioneer Cet article offre des conseils essentiels pour préparer un deck Magic: The Gathering. Vous y trouverez des lignes directrices et des stratégies pour créer un deck équilibré et performant. Ayez en tête que le Pioneer est un format très rapide , au tour 4...","categories": ["pioneer"],
         "tags": [],
         "url": "/mtg/pioneer/mtg-Pioneer-deck/",
         "teaser": null
@@ -18,7 +18,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Pioneer un format compétitif",
-        "excerpt":"Les Atouts du Format Pioneer dans Magic: The Gathering Pioneer est un format très apprécié dans Magic: The Gathering, offrant une combinaison unique de stabilité, diversité et profondeur stratégique. Voici pourquoi il se démarque : Combos vs Contre Pioneer propose une grande variété de combos, permettant des parties dynamiques et...","categories": ["pioneer"],
+        "excerpt":"Les Atouts du Format Pioneer dans Magic: The Gathering Le format Pioneer de Magic: The Gathering offre une combinaison unique de stabilité, diversité et profondeur stratégique. Voici pourquoi il se démarque : Stratégie Générale Le format encourage le développement de stratégies cohérentes. Le format 60 cartes , avec maximum 4...","categories": ["pioneer"],
         "tags": [],
         "url": "/mtg/pioneer/mtg-pioneer-avantage/",
         "teaser": null
