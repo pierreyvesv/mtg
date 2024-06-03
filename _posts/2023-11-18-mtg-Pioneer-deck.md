@@ -9,13 +9,26 @@ categories: pioneer
 
 Cet article offre des conseils essentiels pour préparer un deck Magic: The Gathering. Vous y trouverez des lignes directrices et des stratégies pour créer un deck équilibré et performant.
 
+
+Ayez en tête que le Pioneer est un format très rapide , au touur 4 ou 5 vous devriez être fixé.
+
 ## Choisir une Stratégie
 
-Pour construire un deck de 60 cartes, plusieurs approches sont possibles. Vous pouvez baser votre deck sur une carte que vous appréciez ou exploiter une mécanique que vous avez découverte.
+Pour construire un deck de 60 cartes, plusieurs approches sont possibles:
 
-Pour concevoir votre deck, suivez les étapes suivantes :
+Vous pouvez baser votre deck sur une carte que vous appréciez ou exploiter une mécanique que vous avez découverte:
+
+    - renseignez vous sur son classement dans la Meta qui est aussi un indicateur de stabilité.
+    - sur ses forces et faiblesses
+    - ne faites pas confiances à certaines vidéos youtube ayant en face des decks peu préparer, ou combattant des decks trop lents.
+    - regardez la meta : https://thegathering.gg/pioneer-tier-list/
+    - adapter avec vos cartes préférées.
+
+
+Ayez en tête que votre deck doit faire correspondre les composantes suivantes :
 
 Stratégie globale x Accélération (ramp) x Condition de victoire (win condition).
+
 
 ### Définir votre Stratégie Globale
 
@@ -31,13 +44,20 @@ Votre stratégie globale peut être un mélange des suivantes :
 
 **Contrôle** : Les stratégies de contrôle se concentrent sur la manipulation du jeu en limitant les actions de l'adversaire. Utilisez des contresorts, des créatures qui annulent des pouvoirs, et d'autres cartes pour maintenir l'adversaire à distance.
 
-**Combo** : Les decks de combo reposent sur des interactions spécifiques entre les cartes pour créer des combinaisons puissantes et souvent inattendues, permettant de gagner instantanément.
+**Combo** : Les decks de combo reposent sur des interactions spécifiques entre les cartes pour créer des combinaisons puissantes et souvent inattendues, permettant de gagner instantanément. Mais se faisant bloquer si une des cartes vient à manquer.
 
 **Ramp** : Cette stratégie se concentre sur l'accélération de la production de mana pour jouer des cartes coûteuses plus tôt, déployant des menaces plus grandes et puissantes plus rapidement.
 
 **Midrange** : Les decks Midrange cherchent un équilibre entre les stratégies agressives et contrôlantes, utilisant des créatures polyvalentes pour dominer le milieu de la partie.
 
 **Stax** : Cette stratégie vise à ralentir et gêner l'adversaire en jouant des cartes qui limitent ses options, comme forcer la perte de permanents ou augmenter les coûts de mana.
+
+### 
+
+MTG Meta Tier List - MTG Arena Zone​ (MTG Arena Zone)​
+Best Pioneer Decks - MTG Rocks​ (MTG Rocks)​
+Pioneer Tier List - The Gathering​ (The Gathering)​
+
 
 ### Les Clés de votre Stratégie
 
