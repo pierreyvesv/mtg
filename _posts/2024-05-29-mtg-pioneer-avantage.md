@@ -7,24 +7,40 @@ categories: pioneer
 
 # Les Atouts du Format Pioneer dans Magic: The Gathering
 
-Pioneer est un format très apprécié dans Magic: The Gathering, offrant une combinaison unique de stabilité, diversité et profondeur stratégique. Voici pourquoi il se démarque :
-
-## Combos vs Contre
-
-Pioneer propose une grande variété de combos, permettant des parties dynamiques et captivantes. Les joueurs peuvent concevoir et exécuter des combos complexes, ou les contrer. ce qui ajoutant une dimension stratégique importante. Affronter des decks combo nécessite anticipation et une connaissance stratégiques.
+Le format Pioneer de Magic: The Gathering offre une combinaison unique de stabilité, diversité et profondeur stratégique. Voici pourquoi il se démarque :
 
 ## Stratégie Générale
 
-Le format encourage le développement de stratégies globales cohérentes. Pioneer permet l'utilisation d'un large éventail de cartes et d'archétypes. Cela permet aux joueurs de construire des decks robustes avec des plans de jeu bien définis, qu'ils soient axés sur l'agression, le contrôle, la combo, ou le midrange.
+Le format encourage le développement de stratégies cohérentes. Le format 60 cartes , avec maximum 4 cartes identiques permet aux joueurs de construire des decks robustes avec des plans de jeu bien définis. Les combos se déploient plus facilement chez les deux adversaires.
 
 ## Qualité de Jeu
 
-Pioneer récompense la compétence individuelle et la maîtrise du jeu. La diversité des decks et des stratégies signifie que chaque partie est une nouvelle opportunité de prouver vos capacités. La compréhension des interactions complexes, la gestion des ressources et la prise de décision sous pression sont des compétences cruciales en Pioneer.
+Pioneer récompense la compétence individuelle et la maîtrise du jeu. Le fait d'avoir 60 cartes et pas 100 comme dans le commander. De nouvelles cartes et de nouvelles stratégies émergent régulièrement, ce qui maintient l'intérêt et le défi du format. Cette évolution continue incite les joueurs à rester informés et à adapter leurs decks en conséquence.
+e dans le Commander permet de mettre en place des stratégies permettant un enchainement de cartes qui arrivent facilement par pioche naturelle.
 
-## Compétition Améliorée
+Lors des parties organisées, une partie en Pioneer BO3 se déroulent en générale sur 1heures de jeu et permet de caller 3 manches !
 
-Pioneer favorise une compétition saine et stimulante. Les tournois attirent des joueurs sérieux désireux de prouver leur valeur, améliorant le niveau général de jeu et incitant les joueurs à affiner leurs stratégies et à perfectionner leurs compétences. Nos parties sur Spelltable se terminent toujours par un échange et des conseils de jeu et de stratégie.
- 
+Nos parties sur spelltable finissent régulièrement par une discussion sur les points fort et faibles de chaques decks, pour permettre à chacun d'améliorer sa stratégie et de se remémorer les points chaud de la partie.
+
+Ces échanges améliorent le niveau des joueurs et leur connaissance des stratégies.
+
+## Profils de la communauté
+
+Les joueurs de notre serveur Discord jouent dans une ambiance serieuse et bienveillante.
+
+Certains joueurs maitrisent plusieurs decks basé sur ceux de la meta et aussi des decks de leurs cru !
+
+S'entrainer à plusieurs et relever les défis est bien plus captivant.
+
+## Compétitions Améliorée
+
+Nos joueurs jouent pour:
+
+- se préparer aux tournois en magasins
+- visent de participer au RCQ "Regional Championship Qualifier"
+- d'autres jouent de façon casual
+- certains participent au tournois en ligne que nous organisons.
+
 ## Stabilité sans Rotation de Carte
 
 L'un des plus grands avantages de Pioneer est sa stabilité. Contrairement à des formats comme Standard, Pioneer ne subit pas de rotations fréquentes. Les cartes restent jouables plus longtemps, rendant l'investissement dans des cartes de Pioneer plus rentable à long terme et permettant aux joueurs de construire des collections et des decks durables.
@@ -47,7 +63,7 @@ L'un des plus grands avantages de Pioneer est sa stabilité. Contrairement à de
 
 ## Métagame en évolution
 
-Le métagame de Pioneer est dynamique et en constante évolution. De nouvelles cartes et de nouvelles stratégies émergent régulièrement, ce qui maintient l'intérêt et le défi du format. Cette évolution continue incite les joueurs à rester informés et à adapter leurs decks en conséquence. 
+Le métagame de Pioneer est en constante évolution, les nouvelles sorties des séries Magic altèrent la meta, mais ceci est fait très progressivement. Certains decks s'en trouvent parfois renforcés.
 
 ## Utilisation du Sideboard
 
