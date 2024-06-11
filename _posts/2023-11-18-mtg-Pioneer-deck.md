@@ -21,13 +21,21 @@ Vous pouvez baser votre deck sur une carte que vous appréciez ou exploiter une 
     - regardez la meta : https://thegathering.gg/pioneer-tier-list/
     - renseignez vous sur son classement et aussi sur sa complexité et facilité de mise en place.
     - sur ses forces et faiblesses
-    - ne faites pas confiances à certaines vidéos youtube ayant en face des decks peu préparer, ou combattant des decks trop lents.
+    - ne faites pas confiances à certaines vidéos youtube ayant en face des decks peu préparer, ou ceval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_pyverdon_ymail_comombattant des decks trop lents.
     - adapter avec vos cartes préférées.
 
 Ayez en tête que votre deck fera correspondre les composantes suivantes :
 
 Stratégie globale x Accélération (ramp) x Condition de victoire (win condition).
 
+### la Meta
+
+Ci dessous un lien vers la meta qui vous donnera une vision des decks les plus pratiqués / performant.
+
+Attention chaque deck est unique, et une stratégie très connue peut être contrecarré plus facilement
+
+<https://thegathering.gg/pioneer-tier-list/>
 
 ### Définir votre Stratégie Globale
 
