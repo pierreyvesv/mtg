@@ -15,10 +15,9 @@ Le format encourage le développement de stratégies cohérentes. Le format 60 c
 
 ## Qualité de Jeu
 
-Pioneer récompense la compétence individuelle et la maîtrise du jeu. Le fait d'avoir 60 cartes et pas 100 comme dans le commander. De nouvelles cartes et de nouvelles stratégies émergent régulièrement, ce qui maintient l'intérêt et le défi du format. Cette évolution continue incite les joueurs à rester informés et à adapter leurs decks en conséquence.
-e dans le Commander permet de mettre en place des stratégies permettant un enchainement de cartes qui arrivent facilement par pioche naturelle.
+Le Pioneer plus que dans le Commander permet de mettre en place des stratégies permettant un enchainement de cartes qui arrivent facilement par pioche naturelle / filtrage sans avoir besoin de passer par des cartes permettant de trouver une carte spécifique dans le deck ( cartes de "fetchs" ) !
 
-Lors des parties organisées, une partie en Pioneer BO3 se déroulent en générale sur 1heures de jeu et permet de caller 3 manches !
+Lors des parties organisées, une partie en Pioneer BO3 se déroulent en générale sur 1heures de jeu et permet de caller 3 manches ! Nos tournois FNM "Fun Night Magic" définissent une limite de temps pour permettre à un maximum de joueurs de se rencontrer / et de jouer.
 
 Nos parties sur spelltable finissent régulièrement par une discussion sur les points fort et faibles de chaques decks, pour permettre à chacun d'améliorer sa stratégie et de se remémorer les points chaud de la partie.
 
@@ -77,8 +76,8 @@ La construction d'un sideboard bien pensé et son utilisation stratégique dans 
 
 ## Accessibilité
 
-Certains type de deck restent constant dans leur résultat ce qui donne une accessibilité au format. Aussi les deck Pioneer du commerce donne un bon début dans el format, et sont évolutif.
+Certains type de deck restent constant dans leur résultat ce qui donne une accessibilité au format. Aussi les deck Pioneer du commerce sont une bonne base pour leur format, leur choix et leur évolutivité..
 
 ## Conclusion
 
-En conclusion, le format Pioneer offre un équilibre parfait entre profondeur stratégique, compétition intense et stabilité. Que vous soyez un vétéran de MTG ou un nouveau joueur cherchant un format riche en défis, Pioneer a de quoi séduire. Embrassez la diversité des combos, développez des stratégies globales, perfectionnez votre jeu et plongez dans un métagame en perpétuelle évolution. Pioneer est plus qu'un format de jeu, c'est une véritable expérience MTG.
+En conclusion, le format Pioneer offre un équilibre parfait entre stratégie, compétition intense et stabilité. Que vous soyez un vétéran de MTG ou un nouveau joueur Pioneer, la communauté prend facilement sous son aile les nouveaux. Alliez Combos et stratégies globales pour rivaliser avec les adversaires de la communauté. Que vous prépariez un tournois, essayiez de nouveau concept ou jouer juste de façon occasionnel, ne laissez pas votre deck sous clé !
