@@ -94,6 +94,8 @@ Comptez 19 terrains + N terrains, où N est le coût de mana maximum de votre ca
 
 Dans le doute vous pouvez aussi commencer avec 25 terrains, oubien avoir une répartition 20 terrains, 20 créatures 20 sorts.
 
+Pour plus de détails vous pouvez lire cet article : <https://www.channelfireball.com/article/how-many-sources-do-you-need-to-consistently-cast-your-spells-a-2022-update/dc23a7d2-0a16-4c0b-ad36-586fcca03ad8/>
+
 ### Taplands
 
 Les taplands peuvent être tentants, mais en avoir trop ralentira votre jeu. Évitez d'en dépasser 4-8 en fonction de leurs avantages et limitations.
@@ -136,7 +138,7 @@ Ces tours sont décisifs en Pioneer pour prendre l'ascendant. Voici quelques car
 
 #### Main Vide ou Top Deck
 
-Évitez d'être à court de cartes en main, ce qui donnerait un avantage à l'adversaire.
+Évitez d'être à court de cartes en main, ce qui donnerait un avantage à l'adversaire. Avoir une main vide est très pénalisante dans le format Pioneer.
 
 #### Color Death
 
