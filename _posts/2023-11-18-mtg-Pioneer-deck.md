@@ -33,7 +33,7 @@ Stratégie globale x Accélération (ramp) x Condition de victoire (win conditio
 
 Ci dessous un lien vers la meta qui vous donnera une vision des decks les plus pratiqués / performant.
 
-Attention chaque deck est unique, et une stratégie très connue peut être contrecarré plus facilement
+Attention chaque deck est unique, et une stratégie très connue peut être contrecarré plus facilement.
 
 <https://thegathering.gg/pioneer-tier-list/>
 
