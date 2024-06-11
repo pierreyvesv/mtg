@@ -146,4 +146,4 @@ Jouer plusieurs couleurs nécessite une gestion attentive des terrains. L'absenc
 
 #### Conclusion
 
-En suivant ces conseils, vous pourrez construire un deck Magic: The Gathering équilibré et compétitif, prêt à affronter divers adversaires.
+En suivant ces conseils, vous pourrez construire un deck Magic: The Gathering équilibré et compétitif. Soyez prêt a affronter divers adversaires.
