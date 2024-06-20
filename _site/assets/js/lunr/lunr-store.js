@@ -22,4 +22,10 @@ var store = [{
         "tags": [],
         "url": "/mtg/pioneer/mtg-pioneer-avantage/",
         "teaser": null
+      },{
+        "title": "améliorer son deck avec l'IA",
+        "excerpt":"Conseils pour utiliser l’IA et améliorer vos decks Dans cet article je vous montre comment améliorer votre deck à l’aide de l’IA. Seul GPT4o permet d’obtenir des réponses avec les maj des derniers sets. les bases de l’intérogation de l’IA 1 définir le context 2 poser une question 3 poser...","categories": ["pioneer"],
+        "tags": [],
+        "url": "/mtg/pioneer/mtg-Ia-deck/",
+        "teaser": null
       }]

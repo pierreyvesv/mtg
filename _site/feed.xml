@@ -1,5 +1,71 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://pierreyvesv.github.io//mtg/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pierreyvesv.github.io//mtg/" rel="alternate" type="text/html" /><updated>2024-06-11T21:41:38+01:00</updated><id>https://pierreyvesv.github.io//mtg/feed.xml</id><title type="html">Magic The Gathering</title><subtitle>MTG Pioneer blog post.
-</subtitle><author><name>Khancell</name></author><entry><title type="html">Pioneer un format compétitif</title><link href="https://pierreyvesv.github.io//mtg/pioneer/mtg-pioneer-avantage/" rel="alternate" type="text/html" title="Pioneer un format compétitif" /><published>2024-05-29T14:40:46+01:00</published><updated>2024-05-29T14:40:46+01:00</updated><id>https://pierreyvesv.github.io//mtg/pioneer/mtg-pioneer-avantage</id><content type="html" xml:base="https://pierreyvesv.github.io//mtg/pioneer/mtg-pioneer-avantage/">&lt;h1 id=&quot;les-atouts-du-format-pioneer-dans-magic-the-gathering&quot;&gt;Les Atouts du Format Pioneer dans Magic: The Gathering&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://pierreyvesv.github.io//mtg/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pierreyvesv.github.io//mtg/" rel="alternate" type="text/html" /><updated>2024-06-20T22:01:15+01:00</updated><id>https://pierreyvesv.github.io//mtg/feed.xml</id><title type="html">Magic The Gathering</title><subtitle>MTG Pioneer blog post.
+</subtitle><author><name>Khancell</name></author><entry><title type="html">améliorer son deck avec l’IA</title><link href="https://pierreyvesv.github.io//mtg/pioneer/mtg-Ia-deck/" rel="alternate" type="text/html" title="améliorer son deck avec l’IA" /><published>2024-06-11T14:40:46+01:00</published><updated>2024-06-11T14:40:46+01:00</updated><id>https://pierreyvesv.github.io//mtg/pioneer/mtg-Ia-deck</id><content type="html" xml:base="https://pierreyvesv.github.io//mtg/pioneer/mtg-Ia-deck/">&lt;h1 id=&quot;conseils-pour-utiliser-lia-et-améliorer-vos-decks&quot;&gt;Conseils pour utiliser l’IA et améliorer vos decks&lt;/h1&gt;
+
+&lt;p&gt;Dans cet article je vous montre comment améliorer votre deck à l’aide de l’IA.&lt;/p&gt;
+
+&lt;p&gt;Seul GPT4o permet d’obtenir des réponses avec les maj des derniers sets.&lt;/p&gt;
+
+&lt;h2 id=&quot;les-bases-de-lintérogation-de-lia&quot;&gt;les bases de l’intérogation de l’IA&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1 définir le context&lt;/li&gt;
+  &lt;li&gt;2 poser une question&lt;/li&gt;
+  &lt;li&gt;3 poser une autre question ou faites corriger la réponse.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;indiquer-votre-deck-et-format&quot;&gt;indiquer votre deck et format.&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;pour entrer votre deck , ajoutez le comme de code entre triple “back quote”.&lt;/li&gt;
+  &lt;li&gt;ou indiquer lui le deck “mono green stompy Pioneer”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;rentrer votre deck&lt;/p&gt;
+
+&lt;h2 id=&quot;example-de-demande&quot;&gt;example de demande&lt;/h2&gt;
+
+&lt;h3 id=&quot;hello-please-create-a-mtg-explorer-deck-using-the-latest-set-outlow-thunder-of-junction-the-deck-should-be-a-mono-green-stompy-deck&quot;&gt;Hello, please create a MTG explorer deck using the latest set Outlow thunder of Junction. The deck should be a mono green stompy deck&lt;/h3&gt;
+
+&lt;p&gt;Qualité de la réponse: 2/5&lt;/p&gt;
+
+&lt;p&gt;/### Hello, create a Mono Green Stompy MTG explorer deck using the latest set Outlow thunder of Junction.&lt;/p&gt;
+
+&lt;p&gt;Qualité de la réponse: 2/5&lt;/p&gt;
+
+&lt;p&gt;il ne prend pas de cartes du set.&lt;/p&gt;
+
+&lt;h3 id=&quot;hello-create-a-mono-green-stompy-mtg-explorer-deck-using-deck-since-2022&quot;&gt;Hello, create a Mono Green Stompy MTG explorer deck using deck since 2022”.&lt;/h3&gt;
+
+&lt;p&gt;Qualité de la réponse 4/5&lt;/p&gt;
+
+&lt;p&gt;C’est beaucoup mieux mais il ne prend toujours pas de cartes du set OTJ.&lt;/p&gt;
+
+&lt;h3 id=&quot;polukranos-is-a-legendary-creature-you-set-too-much-of-them&quot;&gt;Polukranos is a legendary creature, you set too much of them”&lt;/h3&gt;
+
+&lt;p&gt;Qualité de la réponse 5/5&lt;/p&gt;
+
+&lt;p&gt;il réduit le nombre de Polukranos de 4 à 2.&lt;/p&gt;
+
+&lt;h3 id=&quot;update-the-deck-so-that-it-can-compete-with-the-2024-explorer-meta&quot;&gt;update the deck so that it can compete with the 2024 Explorer meta&lt;/h3&gt;
+
+&lt;p&gt;Qualité de la réponse 5/5”&lt;/p&gt;
+
+&lt;p&gt;exemple il change les forets basique et met les terrain suivants&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;18 Forest
+2 Boseiju, Who Endures
+2 Lair of the Hydra
+2 Nykthos, Shrine to Nyx
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;improve-the-sideboard-to-tackle-with-other-2024-decks-like-rakdos-vampire-izzert-phenix-or-blue-white-control-deck&quot;&gt;improve the sideboard to tackle with other 2024 decks like “rakdos vampire”, “Izzert Phenix” or “blue white control” deck”&lt;/h3&gt;
+
+&lt;p&gt;Qualité 5/5&lt;/p&gt;
+
+&lt;p&gt;il ajoute les cartes suivantes et explique pourquoi.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;2 Carnage Tyrant
+3 Pithing Needle
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Khancell</name></author><category term="pioneer" /><summary type="html">Conseils pour utiliser l’IA et améliorer vos decks</summary></entry><entry><title type="html">Pioneer un format compétitif</title><link href="https://pierreyvesv.github.io//mtg/pioneer/mtg-pioneer-avantage/" rel="alternate" type="text/html" title="Pioneer un format compétitif" /><published>2024-05-29T14:40:46+01:00</published><updated>2024-05-29T14:40:46+01:00</updated><id>https://pierreyvesv.github.io//mtg/pioneer/mtg-pioneer-avantage</id><content type="html" xml:base="https://pierreyvesv.github.io//mtg/pioneer/mtg-pioneer-avantage/">&lt;h1 id=&quot;les-atouts-du-format-pioneer-dans-magic-the-gathering&quot;&gt;Les Atouts du Format Pioneer dans Magic: The Gathering&lt;/h1&gt;
 
 &lt;p&gt;Le format Pioneer de Magic: The Gathering offre une combinaison unique de stabilité, diversité et profondeur stratégique. Voici pourquoi il se démarque :&lt;/p&gt;
 
@@ -24,8 +90,6 @@
 &lt;p&gt;Certains joueurs maitrisent plusieurs decks basés sur ceux de la meta et aussi des decks de leurs cru !&lt;/p&gt;
 
 &lt;p&gt;S’entrainer à plusieurs et relever les défis est bien plus captivant.&lt;/p&gt;
-
-&lt;p&gt;Annoncez vou&lt;/p&gt;
 
 &lt;h2 id=&quot;compétitions-améliorée&quot;&gt;Compétitions Améliorée&lt;/h2&gt;
 
@@ -123,7 +187,9 @@
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
 
-&lt;p&gt;En conclusion, le format Pioneer offre un équilibre parfait entre stratégie, compétition intense et stabilité. Que vous soyez un vétéran de MTG ou un nouveau joueur Pioneer, la communauté prend facilement sous son aile les nouveaux. Alliez Combos et stratégies globales pour rivaliser avec les adversaires de la communauté. Que vous prépariez un tournois, essayiez de nouveau concept ou jouer juste de façon occasionnel, ne laissez pas votre deck sous clé !&lt;/p&gt;</content><author><name>Khancell</name></author><category term="pioneer" /><summary type="html">Les Atouts du Format Pioneer dans Magic: The Gathering</summary></entry><entry><title type="html">comment construire un deck Pioneer</title><link href="https://pierreyvesv.github.io//mtg/pioneer/mtg-Pioneer-deck/" rel="alternate" type="text/html" title="comment construire un deck Pioneer" /><published>2023-11-18T13:40:46+00:00</published><updated>2023-11-18T13:40:46+00:00</updated><id>https://pierreyvesv.github.io//mtg/pioneer/mtg-Pioneer-deck</id><content type="html" xml:base="https://pierreyvesv.github.io//mtg/pioneer/mtg-Pioneer-deck/">&lt;h1 id=&quot;conseils-pour-préparer-un-deck-pioneer&quot;&gt;Conseils pour préparer un deck Pioneer&lt;/h1&gt;
+&lt;p&gt;En conclusion, le format Pioneer offre un équilibre parfait entre stratégie, compétition intense et stabilité. Que vous soyez un vétéran de MTG ou un nouveau joueur Pioneer, la communauté prend facilement sous son aile les nouveaux. Alliez Combos et stratégies globales pour rivaliser avec les adversaires de la communauté.&lt;/p&gt;
+
+&lt;p&gt;Que vous prépariez un tournois, essayiez de nouveau concept ou jouer juste de façon occasionnel, ne laissez pas votre deck sous clé ! Venez trouvez des adversaires pour vos parties de Modern et de Pioneer sur notre serveur Discord “Spelltable Duels” =» https://discord.gg/9eYZCpQMU2.&lt;/p&gt;</content><author><name>Khancell</name></author><category term="pioneer" /><summary type="html">Les Atouts du Format Pioneer dans Magic: The Gathering</summary></entry><entry><title type="html">comment construire un deck Pioneer</title><link href="https://pierreyvesv.github.io//mtg/pioneer/mtg-Pioneer-deck/" rel="alternate" type="text/html" title="comment construire un deck Pioneer" /><published>2023-11-18T13:40:46+00:00</published><updated>2023-11-18T13:40:46+00:00</updated><id>https://pierreyvesv.github.io//mtg/pioneer/mtg-Pioneer-deck</id><content type="html" xml:base="https://pierreyvesv.github.io//mtg/pioneer/mtg-Pioneer-deck/">&lt;h1 id=&quot;conseils-pour-préparer-un-deck-pioneer&quot;&gt;Conseils pour préparer un deck Pioneer&lt;/h1&gt;
 
 &lt;p&gt;Cet article offre des conseils essentiels pour préparer un deck Magic: The Gathering. Vous y trouverez des lignes directrices et des stratégies pour créer un deck équilibré et performant.&lt;/p&gt;
 
@@ -271,7 +337,9 @@
 
 &lt;h4 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h4&gt;
 
-&lt;p&gt;En suivant ces conseils, vous pourrez construire un deck Magic: The Gathering équilibré et compétitif. Soyez prêt a affronter divers adversaires.&lt;/p&gt;</content><author><name>Khancell</name></author><category term="pioneer" /><summary type="html">Conseils pour préparer un deck Pioneer</summary></entry><entry><title type="html">comment construire préparer un sideboard</title><link href="https://pierreyvesv.github.io//mtg/pioneer/mtg-sideboard/" rel="alternate" type="text/html" title="comment construire préparer un sideboard" /><published>2023-11-18T13:40:46+00:00</published><updated>2023-11-18T13:40:46+00:00</updated><id>https://pierreyvesv.github.io//mtg/pioneer/mtg-sideboard</id><content type="html" xml:base="https://pierreyvesv.github.io//mtg/pioneer/mtg-sideboard/">&lt;h1 id=&quot;introduction-et-retour-dexperience-sur-la-construction-de-sideboard&quot;&gt;Introduction et retour d’experience sur la construction de sideboard&lt;/h1&gt;
+&lt;p&gt;En suivant ces conseils, vous pourrez construire un deck Magic: The Gathering équilibré et compétitif.&lt;/p&gt;
+
+&lt;p&gt;Que vous soyez débutant ou compétiteur venez trouvez des adversaires pour vos parties de Pioneer et Modern sur notre serveur Discord “Spelltable Duels” =» https://discord.gg/9eYZCpQMU2.&lt;/p&gt;</content><author><name>Khancell</name></author><category term="pioneer" /><summary type="html">Conseils pour préparer un deck Pioneer</summary></entry><entry><title type="html">comment construire préparer un sideboard</title><link href="https://pierreyvesv.github.io//mtg/pioneer/mtg-sideboard/" rel="alternate" type="text/html" title="comment construire préparer un sideboard" /><published>2023-11-18T13:40:46+00:00</published><updated>2023-11-18T13:40:46+00:00</updated><id>https://pierreyvesv.github.io//mtg/pioneer/mtg-sideboard</id><content type="html" xml:base="https://pierreyvesv.github.io//mtg/pioneer/mtg-sideboard/">&lt;h1 id=&quot;introduction-et-retour-dexperience-sur-la-construction-de-sideboard&quot;&gt;Introduction et retour d’experience sur la construction de sideboard&lt;/h1&gt;
 
 &lt;p&gt;Le format Pioneer BO3 (Best of Three) offre aux joueurs une arène de compétition exaltante, où la construction d’un deck efficace est essentielle pour réussir.&lt;/p&gt;
 
