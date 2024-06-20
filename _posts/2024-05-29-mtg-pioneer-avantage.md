@@ -31,8 +31,6 @@ Certains joueurs maitrisent plusieurs decks basés sur ceux de la meta et aussi 
 
 S'entrainer à plusieurs et relever les défis est bien plus captivant.
 
-Annoncez vou
-
 ## Compétitions Améliorée
 
 Nos joueurs jouent pour:
@@ -80,4 +78,6 @@ Certains type de deck restent constant dans leur résultat ce qui donne une acce
 
 ## Conclusion
 
-En conclusion, le format Pioneer offre un équilibre parfait entre stratégie, compétition intense et stabilité. Que vous soyez un vétéran de MTG ou un nouveau joueur Pioneer, la communauté prend facilement sous son aile les nouveaux. Alliez Combos et stratégies globales pour rivaliser avec les adversaires de la communauté. Que vous prépariez un tournois, essayiez de nouveau concept ou jouer juste de façon occasionnel, ne laissez pas votre deck sous clé !
+En conclusion, le format Pioneer offre un équilibre parfait entre stratégie, compétition intense et stabilité. Que vous soyez un vétéran de MTG ou un nouveau joueur Pioneer, la communauté prend facilement sous son aile les nouveaux. Alliez Combos et stratégies globales pour rivaliser avec les adversaires de la communauté.
+
+Que vous prépariez un tournois, essayiez de nouveau concept ou jouer juste de façon occasionnel, ne laissez pas votre deck sous clé ! Venez trouvez des adversaires pour vos parties de Modern et de Pioneer sur notre serveur Discord "Spelltable Duels" =>> https://discord.gg/9eYZCpQMU2.

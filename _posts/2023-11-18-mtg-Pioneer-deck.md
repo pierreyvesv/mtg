@@ -146,4 +146,6 @@ Jouer plusieurs couleurs nécessite une gestion attentive des terrains. L'absenc
 
 #### Conclusion
 
-En suivant ces conseils, vous pourrez construire un deck Magic: The Gathering équilibré et compétitif. Soyez prêt a affronter divers adversaires.
+En suivant ces conseils, vous pourrez construire un deck Magic: The Gathering équilibré et compétitif.
+
+Que vous soyez débutant ou compétiteur venez trouvez des adversaires pour vos parties de Pioneer et Modern sur notre serveur Discord "Spelltable Duels" =>> https://discord.gg/9eYZCpQMU2.

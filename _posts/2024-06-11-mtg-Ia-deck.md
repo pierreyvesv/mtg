@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "comment construire un deck Pioneer"
+title:  "améliorer son deck avec l'IA"
 date:   2024-06-11 14:40:46 +0100
 categories: pioneer
 ---
