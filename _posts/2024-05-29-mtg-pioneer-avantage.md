@@ -5,9 +5,9 @@ date:   2024-05-29 14:40:46 +0100
 categories: pioneer
 ---
 
-# Les Atouts du Format Pioneer dans Magic: The Gathering
+# Les Atouts du Format Pioneer dans Magic The Gathering
 
-Le format Pioneer de Magic: The Gathering offre une combinaison unique de stabilité, diversité et profondeur stratégique. Voici pourquoi il se démarque :
+Le format Pioneer offre une combinaison unique de stabilité, diversité et profondeur stratégique. Voici pourquoi il se démarque :
 
 ## Stratégie Générale
 
@@ -17,7 +17,7 @@ Le format encourage le développement de stratégies cohérentes. Le format 60 c
 
 Le Pioneer plus que dans le Commander permet de mettre en place des stratégies permettant un enchainement de cartes qui arrivent facilement par pioche naturelle / filtrage sans avoir besoin de passer par des cartes permettant de trouver une carte spécifique dans le deck ( cartes de "fetchs" ) !
 
-Lors des parties organisées, une partie en Pioneer BO3 se déroulent en générale sur 1heures de jeu et permet de caller 3 manches ! Nos tournois FNM "Fun Night Magic" définissent une limite de temps pour permettre à un maximum de joueurs de se rencontrer / et de jouer.
+Lors des parties organisées, une partie en Pioneer BO3 se déroulent en générale sur 1heures de jeu et permet de caller 3 manches ! Nos tournois FNM "Fun Night Magic" ( en semaine et pas forcément le Vendredi ) sont joués avec une limite de temps pour permettre à un maximum de joueurs de se rencontrer / et de jouer.
 
 Nos parties sur spelltable finissent régulièrement par une discussion sur les points fort et faibles de chaques decks, pour permettre à chacun d'améliorer sa stratégie et de se remémorer les points chaud de la partie.
 
@@ -25,7 +25,7 @@ Ces échanges améliorent le niveau des joueurs et leur connaissance des straté
 
 ## Profils de la communauté
 
-Les joueurs de notre serveur Discord jouent dans une ambiance serieuse et bienveillante.
+Les joueurs de notre serveur Discord jouent sur Spelltable dans une ambiance serieuse et bienveillante. Joueurs, occasionnels ou réguliers 
 
 Certains joueurs maitrisent plusieurs decks basés sur ceux de la meta et aussi des decks de leurs cru !
 
