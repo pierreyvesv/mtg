@@ -15,10 +15,10 @@ Il y a déjà beaucoup de serveur Discord sur le format commander nous éviteron
 
 ## présentation de l'équipe
 
-Khancell nouvel admin
-Hypnotik staff et communication
-Kenshin staff modérateur
-IceAgeGT ancien owner
+Khancell: nouvel admin
+Hypnotik: staff et communication
+Kenshin: staff modérateur
+IceAgeGT: owner
 
 ## Quels deck jouons nous en Pioneer
 
@@ -28,7 +28,7 @@ Voici une liste de decks contre lesquels j'ai pu jouer sur Spelltable ces quelqu
 - Azorius Spirit
 - Azorius planeswalkers
 - Dimir Thieves
-- Artifacts blanc / verts
+- Selenya Hardened scaled Artifacts
 - Orzhov humans
 - Izzet Phoenix
 - Mono blue spirit
@@ -67,6 +67,6 @@ Le ELO ranking est un système de point.
 
 Si je prends l'exemple que vous jouez contre un joueur plus fort que vous:
 
-- en cas de victoire vous serez récompensés avec plus de points et lui en perdra plus
+- en cas de victoire vous serez récompensé avec plus de points et lui en perdra plus
 
-- en cas de défaite vous perdrez peu de points , et lui en gagnera peu car le challenge.
+- en cas de défaite vous perdrez peu de points , et lui en gagnera peu car gagner sans risque rapporte moins.

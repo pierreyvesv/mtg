@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://pierreyvesv.github.io//mtg/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pierreyvesv.github.io//mtg/" rel="alternate" type="text/html" /><updated>2024-06-26T07:06:01+01:00</updated><id>https://pierreyvesv.github.io//mtg/feed.xml</id><title type="html">Magic The Gathering</title><subtitle>MTG Pioneer blog post.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://pierreyvesv.github.io//mtg/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pierreyvesv.github.io//mtg/" rel="alternate" type="text/html" /><updated>2024-06-26T21:16:19+01:00</updated><id>https://pierreyvesv.github.io//mtg/feed.xml</id><title type="html">Magic The Gathering</title><subtitle>MTG Pioneer blog post.
 </subtitle><author><name>Khancell</name></author><entry><title type="html">MTG Spelltable Duels: présentation du serveur</title><link href="https://pierreyvesv.github.io//mtg/pioneer/mtg-spelltable-server-presentation/" rel="alternate" type="text/html" title="MTG Spelltable Duels: présentation du serveur" /><published>2024-06-25T14:40:46+01:00</published><updated>2024-06-25T14:40:46+01:00</updated><id>https://pierreyvesv.github.io//mtg/pioneer/mtg-spelltable-server-presentation</id><content type="html" xml:base="https://pierreyvesv.github.io//mtg/pioneer/mtg-spelltable-server-presentation/">&lt;h1 id=&quot;objectifs&quot;&gt;Objectifs&lt;/h1&gt;
 
 &lt;p&gt;développer le formats 60 cartes Pioneer et Modern sur Spelltable&lt;/p&gt;
@@ -9,10 +9,10 @@
 
 &lt;h2 id=&quot;présentation-de-léquipe&quot;&gt;présentation de l’équipe&lt;/h2&gt;
 
-&lt;p&gt;Khancell nouvel admin
-Hypnotik staff et communication
-Kenshin staff modérateur
-IceAgeGT ancien owner&lt;/p&gt;
+&lt;p&gt;Khancell: nouvel admin
+Hypnotik: staff et communication
+Kenshin: staff modérateur
+IceAgeGT: owner&lt;/p&gt;
 
 &lt;h2 id=&quot;quels-deck-jouons-nous-en-pioneer&quot;&gt;Quels deck jouons nous en Pioneer&lt;/h2&gt;
 
@@ -23,7 +23,7 @@ IceAgeGT ancien owner&lt;/p&gt;
   &lt;li&gt;Azorius Spirit&lt;/li&gt;
   &lt;li&gt;Azorius planeswalkers&lt;/li&gt;
   &lt;li&gt;Dimir Thieves&lt;/li&gt;
-  &lt;li&gt;Artifacts blanc / verts&lt;/li&gt;
+  &lt;li&gt;Selenya Hardened scaled Artifacts&lt;/li&gt;
   &lt;li&gt;Orzhov humans&lt;/li&gt;
   &lt;li&gt;Izzet Phoenix&lt;/li&gt;
   &lt;li&gt;Mono blue spirit&lt;/li&gt;
@@ -64,10 +64,10 @@ IceAgeGT ancien owner&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;en cas de victoire vous serez récompensés avec plus de points et lui en perdra plus&lt;/p&gt;
+    &lt;p&gt;en cas de victoire vous serez récompensé avec plus de points et lui en perdra plus&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;en cas de défaite vous perdrez peu de points , et lui en gagnera peu car le challenge.&lt;/p&gt;
+    &lt;p&gt;en cas de défaite vous perdrez peu de points , et lui en gagnera peu car gagner sans risque rapporte moins.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;</content><author><name>Khancell</name></author><category term="pioneer" /><summary type="html">Objectifs</summary></entry><entry><title type="html">améliorer son deck avec l’IA</title><link href="https://pierreyvesv.github.io//mtg/pioneer/mtg-Ia-deck/" rel="alternate" type="text/html" title="améliorer son deck avec l’IA" /><published>2024-06-11T14:40:46+01:00</published><updated>2024-06-11T14:40:46+01:00</updated><id>https://pierreyvesv.github.io//mtg/pioneer/mtg-Ia-deck</id><content type="html" xml:base="https://pierreyvesv.github.io//mtg/pioneer/mtg-Ia-deck/">&lt;h1 id=&quot;conseils-pour-utiliser-lia-et-améliorer-vos-decks&quot;&gt;Conseils pour utiliser l’IA et améliorer vos decks&lt;/h1&gt;
 
