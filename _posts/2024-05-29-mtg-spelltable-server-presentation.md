@@ -17,12 +17,12 @@ Il y a déjà beaucoup de serveur Discord sur le format commander nous évitons 
 
 - Khancell: nouvel admin
 - Hypnotik: staff et communication
-- Kenshin: staff modérateur
+- Kenshin: staff et modérateur
 - IceAgeGT: owner
 
 ## Quels deck jouons nous en Pioneer
 
-Voici une liste de decks contre lesquels j'ai pu jouer sur Spelltable ces quelques mois:
+Voici une liste de decks contre lesquels j'ai pu jouer sur Spelltable ces derniers mois:
 
 - Azorius control
 - Azorius Spirit
@@ -80,6 +80,8 @@ Pour la mise en place de ton setup je te recommande cette vidéo: https://www.yo
 Si tu as besoin d'aide on a un channel dédié pour t'aider à la mise en place #-aide-spelltable
 
 ## Tu veux nous rejoindre?
+
+
 
 - Rejoins notre serveur Discord "Spelltable Duels" =>> https://discord.gg/9eYZCpQMU2
 - choisi ton format "Pioneer" et/ou "Modern".
