@@ -15,10 +15,10 @@ Il y a déjà beaucoup de serveur Discord sur le format commander nous éviteron
 
 ## présentation de l'équipe
 
-Khancell: nouvel admin
-Hypnotik: staff et communication
-Kenshin: staff modérateur
-IceAgeGT: owner
+- Khancell: nouvel admin
+- Hypnotik: staff et communication
+- Kenshin: staff modérateur
+- IceAgeGT: owner
 
 ## Quels deck jouons nous en Pioneer
 
