@@ -1,18 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://pierreyvesv.github.io//mtg/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pierreyvesv.github.io//mtg/" rel="alternate" type="text/html" /><updated>2024-06-26T21:16:19+01:00</updated><id>https://pierreyvesv.github.io//mtg/feed.xml</id><title type="html">Magic The Gathering</title><subtitle>MTG Pioneer blog post.
-</subtitle><author><name>Khancell</name></author><entry><title type="html">MTG Spelltable Duels: présentation du serveur</title><link href="https://pierreyvesv.github.io//mtg/pioneer/mtg-spelltable-server-presentation/" rel="alternate" type="text/html" title="MTG Spelltable Duels: présentation du serveur" /><published>2024-06-25T14:40:46+01:00</published><updated>2024-06-25T14:40:46+01:00</updated><id>https://pierreyvesv.github.io//mtg/pioneer/mtg-spelltable-server-presentation</id><content type="html" xml:base="https://pierreyvesv.github.io//mtg/pioneer/mtg-spelltable-server-presentation/">&lt;h1 id=&quot;objectifs&quot;&gt;Objectifs&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://pierreyvesv.github.io//mtg/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pierreyvesv.github.io//mtg/" rel="alternate" type="text/html" /><updated>2024-06-26T21:30:25+01:00</updated><id>https://pierreyvesv.github.io//mtg/feed.xml</id><title type="html">Magic The Gathering</title><subtitle>MTG Pioneer blog post.
+</subtitle><author><name>Khancell</name></author><entry><title type="html">MTG Spelltable Duels: présentation du serveur</title><link href="https://pierreyvesv.github.io//mtg/pioneer/mtg-spelltable-server-presentation/" rel="alternate" type="text/html" title="MTG Spelltable Duels: présentation du serveur" /><published>2024-06-25T14:40:46+01:00</published><updated>2024-06-25T14:40:46+01:00</updated><id>https://pierreyvesv.github.io//mtg/pioneer/mtg-spelltable-server-presentation</id><content type="html" xml:base="https://pierreyvesv.github.io//mtg/pioneer/mtg-spelltable-server-presentation/">&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
 
-&lt;p&gt;développer le formats 60 cartes Pioneer et Modern sur Spelltable&lt;/p&gt;
+&lt;p&gt;Nous avons créer ce serveur pour développer le jeu par Spelltable au formats 60 cartes Pioneer et Modern. Cela permet de jouer à distance nos decks contre de multiples adversaires.&lt;/p&gt;
 
 &lt;p&gt;Que vous prépariez un tournois, essayiez de nouveau concept ou jouer juste de façon occasionnel, ne laissez pas votre deck sous clé ! Venez trouvez des adversaires pour vos parties de Modern et de Pioneer sur notre serveur Discord “Spelltable Duels” =» https://discord.gg/9eYZCpQMU2.&lt;/p&gt;
 
-&lt;p&gt;Il y a déjà beaucoup de serveur Discord sur le format commander nous éviterons de faire doublon.&lt;/p&gt;
+&lt;p&gt;Il y a déjà beaucoup de serveur Discord sur le format commander nous évitons de faire doublon.&lt;/p&gt;
 
 &lt;h2 id=&quot;présentation-de-léquipe&quot;&gt;présentation de l’équipe&lt;/h2&gt;
 
-&lt;p&gt;Khancell: nouvel admin
-Hypnotik: staff et communication
-Kenshin: staff modérateur
-IceAgeGT: owner&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Khancell: nouvel admin&lt;/li&gt;
+  &lt;li&gt;Hypnotik: staff et communication&lt;/li&gt;
+  &lt;li&gt;Kenshin: staff modérateur&lt;/li&gt;
+  &lt;li&gt;IceAgeGT: owner&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&quot;quels-deck-jouons-nous-en-pioneer&quot;&gt;Quels deck jouons nous en Pioneer&lt;/h2&gt;
 
@@ -69,7 +71,7 @@ IceAgeGT: owner&lt;/p&gt;
   &lt;li&gt;
     &lt;p&gt;en cas de défaite vous perdrez peu de points , et lui en gagnera peu car gagner sans risque rapporte moins.&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Khancell</name></author><category term="pioneer" /><summary type="html">Objectifs</summary></entry><entry><title type="html">améliorer son deck avec l’IA</title><link href="https://pierreyvesv.github.io//mtg/pioneer/mtg-Ia-deck/" rel="alternate" type="text/html" title="améliorer son deck avec l’IA" /><published>2024-06-11T14:40:46+01:00</published><updated>2024-06-11T14:40:46+01:00</updated><id>https://pierreyvesv.github.io//mtg/pioneer/mtg-Ia-deck</id><content type="html" xml:base="https://pierreyvesv.github.io//mtg/pioneer/mtg-Ia-deck/">&lt;h1 id=&quot;conseils-pour-utiliser-lia-et-améliorer-vos-decks&quot;&gt;Conseils pour utiliser l’IA et améliorer vos decks&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name>Khancell</name></author><category term="pioneer" /><summary type="html">Introduction</summary></entry><entry><title type="html">améliorer son deck avec l’IA</title><link href="https://pierreyvesv.github.io//mtg/pioneer/mtg-Ia-deck/" rel="alternate" type="text/html" title="améliorer son deck avec l’IA" /><published>2024-06-11T14:40:46+01:00</published><updated>2024-06-11T14:40:46+01:00</updated><id>https://pierreyvesv.github.io//mtg/pioneer/mtg-Ia-deck</id><content type="html" xml:base="https://pierreyvesv.github.io//mtg/pioneer/mtg-Ia-deck/">&lt;h1 id=&quot;conseils-pour-utiliser-lia-et-améliorer-vos-decks&quot;&gt;Conseils pour utiliser l’IA et améliorer vos decks&lt;/h1&gt;
 
 &lt;p&gt;Dans cet article je vous montre comment améliorer votre deck à l’aide de l’IA.&lt;/p&gt;
 

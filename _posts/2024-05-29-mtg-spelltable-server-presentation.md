@@ -5,13 +5,13 @@ date:   2024-06-25 14:40:46 +0100
 categories: pioneer
 ---
 
-# Objectifs
+# Introduction
 
-développer le formats 60 cartes Pioneer et Modern sur Spelltable
+Nous avons créer ce serveur pour développer le jeu par Spelltable au formats 60 cartes Pioneer et Modern. Cela permet de jouer à distance nos decks contre de multiples adversaires.
 
 Que vous prépariez un tournois, essayiez de nouveau concept ou jouer juste de façon occasionnel, ne laissez pas votre deck sous clé ! Venez trouvez des adversaires pour vos parties de Modern et de Pioneer sur notre serveur Discord "Spelltable Duels" =>> https://discord.gg/9eYZCpQMU2.
 
-Il y a déjà beaucoup de serveur Discord sur le format commander nous éviterons de faire doublon.
+Il y a déjà beaucoup de serveur Discord sur le format commander nous évitons de faire doublon.
 
 ## présentation de l'équipe
 
