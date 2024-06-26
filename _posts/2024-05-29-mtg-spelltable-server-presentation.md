@@ -22,7 +22,7 @@ Il y a déjà beaucoup de serveur Discord sur le format commander nous évitons 
 
 ## Quels deck jouons nous en Pioneer
 
-Voici une liste de decks contre lesquels j'ai pu jouer sur Spelltable ces quelques mois
+Voici une liste de decks contre lesquels j'ai pu jouer sur Spelltable ces quelques mois:
 
 - Azorius control
 - Azorius Spirit
@@ -46,18 +46,20 @@ Voici une liste de decks contre lesquels j'ai pu jouer sur Spelltable ces quelqu
 
 ## proxy
 
-Vous pouvez jouer des cartes proxys à condition d'en informaer votre adversaire et que celui-ci soit d'accord.
+Vous pouvez jouer des cartes proxys à condition d'en informer votre adversaire et que celui-ci soit d'accord.
 
-## Trouver des joueurs 
+## Trouver des joueurs
 
-Channel #recherches-parties pour les recherches de parties individuelle
+Channel #recherches-parties pour les recherches de parties individuelles.
 
-Channel #organisation-ligues-pioneer pour les soirées organisée.
+Channel #organisation-ligues-pioneer pour les soirées organisées.
 
 
-## nos soirées
+## Nos soirées
 
-Les soirées organisées débutent vers 21h et finissent aux alentours de minuit. Les parties sont limitées en temps 1h, afin qu'il y ai suffisement de matchs dans la soirée pour établir un classement. Pour départager les joueurs et finir le classement les joueurs peuvent s'organiser dans les 7jours pour faire leur partie et communiquer le résultat.
+Les soirées organisées débutent vers 21h et finissent aux alentours de minuit. Les parties sont limitées en temps à 1h, ceci afin qu'il y ai suffisamment de matchs dans la soirée pour établir un classement.
+
+Pour départager les joueurs et finir le classement, les joueurs peuvent s'organiser dans les 7 jours suivant pour faire leur partie et communiquer le résultat.
 
 ## Classement général et Ranking ELO
 
@@ -67,6 +69,18 @@ Le ELO ranking est un système de point.
 
 Si je prends l'exemple que vous jouez contre un joueur plus fort que vous:
 
-- en cas de victoire vous serez récompensé avec plus de points et lui en perdra plus
+- en cas de victoire vous serez récompensé par plus de points et lui en perdra plus.
 
 - en cas de défaite vous perdrez peu de points , et lui en gagnera peu car gagner sans risque rapporte moins.
+
+## Nouveau sur Spelltable?
+
+Pour la mise en place de ton setup je te recommande cette vidéo: https://www.youtube.com/watch?v=i2NFUg_zBvs
+
+Si tu as besoin d'aide on a un channel dédié pour t'aider à la mise en place #-aide-spelltable
+
+## Tu veux nous rejoindre?
+
+- Rejoins notre serveur Discord "Spelltable Duels" =>> https://discord.gg/9eYZCpQMU2
+- choisi ton format "Pioneer" et/ou "Modern".
+- indique tes disponibilités sur #recherche-parties

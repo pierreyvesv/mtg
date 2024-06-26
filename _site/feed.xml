@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://pierreyvesv.github.io//mtg/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pierreyvesv.github.io//mtg/" rel="alternate" type="text/html" /><updated>2024-06-26T21:30:25+01:00</updated><id>https://pierreyvesv.github.io//mtg/feed.xml</id><title type="html">Magic The Gathering</title><subtitle>MTG Pioneer blog post.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://pierreyvesv.github.io//mtg/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pierreyvesv.github.io//mtg/" rel="alternate" type="text/html" /><updated>2024-06-26T22:23:59+01:00</updated><id>https://pierreyvesv.github.io//mtg/feed.xml</id><title type="html">Magic The Gathering</title><subtitle>MTG Pioneer blog post.
 </subtitle><author><name>Khancell</name></author><entry><title type="html">MTG Spelltable Duels: présentation du serveur</title><link href="https://pierreyvesv.github.io//mtg/pioneer/mtg-spelltable-server-presentation/" rel="alternate" type="text/html" title="MTG Spelltable Duels: présentation du serveur" /><published>2024-06-25T14:40:46+01:00</published><updated>2024-06-25T14:40:46+01:00</updated><id>https://pierreyvesv.github.io//mtg/pioneer/mtg-spelltable-server-presentation</id><content type="html" xml:base="https://pierreyvesv.github.io//mtg/pioneer/mtg-spelltable-server-presentation/">&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
 
 &lt;p&gt;Nous avons créer ce serveur pour développer le jeu par Spelltable au formats 60 cartes Pioneer et Modern. Cela permet de jouer à distance nos decks contre de multiples adversaires.&lt;/p&gt;
@@ -18,7 +18,7 @@
 
 &lt;h2 id=&quot;quels-deck-jouons-nous-en-pioneer&quot;&gt;Quels deck jouons nous en Pioneer&lt;/h2&gt;
 
-&lt;p&gt;Voici une liste de decks contre lesquels j’ai pu jouer sur Spelltable ces quelques mois&lt;/p&gt;
+&lt;p&gt;Voici une liste de decks contre lesquels j’ai pu jouer sur Spelltable ces quelques mois:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Azorius control&lt;/li&gt;
@@ -44,17 +44,19 @@
 
 &lt;h2 id=&quot;proxy&quot;&gt;proxy&lt;/h2&gt;
 
-&lt;p&gt;Vous pouvez jouer des cartes proxys à condition d’en informaer votre adversaire et que celui-ci soit d’accord.&lt;/p&gt;
+&lt;p&gt;Vous pouvez jouer des cartes proxys à condition d’en informer votre adversaire et que celui-ci soit d’accord.&lt;/p&gt;
 
 &lt;h2 id=&quot;trouver-des-joueurs&quot;&gt;Trouver des joueurs&lt;/h2&gt;
 
-&lt;p&gt;Channel #recherches-parties pour les recherches de parties individuelle&lt;/p&gt;
+&lt;p&gt;Channel #recherches-parties pour les recherches de parties individuelles.&lt;/p&gt;
 
-&lt;p&gt;Channel #organisation-ligues-pioneer pour les soirées organisée.&lt;/p&gt;
+&lt;p&gt;Channel #organisation-ligues-pioneer pour les soirées organisées.&lt;/p&gt;
 
-&lt;h2 id=&quot;nos-soirées&quot;&gt;nos soirées&lt;/h2&gt;
+&lt;h2 id=&quot;nos-soirées&quot;&gt;Nos soirées&lt;/h2&gt;
 
-&lt;p&gt;Les soirées organisées débutent vers 21h et finissent aux alentours de minuit. Les parties sont limitées en temps 1h, afin qu’il y ai suffisement de matchs dans la soirée pour établir un classement. Pour départager les joueurs et finir le classement les joueurs peuvent s’organiser dans les 7jours pour faire leur partie et communiquer le résultat.&lt;/p&gt;
+&lt;p&gt;Les soirées organisées débutent vers 21h et finissent aux alentours de minuit. Les parties sont limitées en temps à 1h, ceci afin qu’il y ai suffisamment de matchs dans la soirée pour établir un classement.&lt;/p&gt;
+
+&lt;p&gt;Pour départager les joueurs et finir le classement, les joueurs peuvent s’organiser dans les 7 jours suivant pour faire leur partie et communiquer le résultat.&lt;/p&gt;
 
 &lt;h2 id=&quot;classement-général-et-ranking-elo&quot;&gt;Classement général et Ranking ELO&lt;/h2&gt;
 
@@ -66,11 +68,25 @@
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;en cas de victoire vous serez récompensé avec plus de points et lui en perdra plus&lt;/p&gt;
+    &lt;p&gt;en cas de victoire vous serez récompensé par plus de points et lui en perdra plus.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;en cas de défaite vous perdrez peu de points , et lui en gagnera peu car gagner sans risque rapporte moins.&lt;/p&gt;
   &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;nouveau-sur-spelltable&quot;&gt;Nouveau sur Spelltable?&lt;/h2&gt;
+
+&lt;p&gt;Pour la mise en place de ton setup je te recommande cette vidéo: https://www.youtube.com/watch?v=i2NFUg_zBvs&lt;/p&gt;
+
+&lt;p&gt;Si tu as besoin d’aide on a un channel dédié pour t’aider à la mise en place #-aide-spelltable&lt;/p&gt;
+
+&lt;h2 id=&quot;tu-veux-nous-rejoindre&quot;&gt;Tu veux nous rejoindre?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Rejoins notre serveur Discord “Spelltable Duels” =» https://discord.gg/9eYZCpQMU2&lt;/li&gt;
+  &lt;li&gt;choisi ton format “Pioneer” et/ou “Modern”.&lt;/li&gt;
+  &lt;li&gt;indique tes disponibilités sur #recherche-parties&lt;/li&gt;
 &lt;/ul&gt;</content><author><name>Khancell</name></author><category term="pioneer" /><summary type="html">Introduction</summary></entry><entry><title type="html">améliorer son deck avec l’IA</title><link href="https://pierreyvesv.github.io//mtg/pioneer/mtg-Ia-deck/" rel="alternate" type="text/html" title="améliorer son deck avec l’IA" /><published>2024-06-11T14:40:46+01:00</published><updated>2024-06-11T14:40:46+01:00</updated><id>https://pierreyvesv.github.io//mtg/pioneer/mtg-Ia-deck</id><content type="html" xml:base="https://pierreyvesv.github.io//mtg/pioneer/mtg-Ia-deck/">&lt;h1 id=&quot;conseils-pour-utiliser-lia-et-améliorer-vos-decks&quot;&gt;Conseils pour utiliser l’IA et améliorer vos decks&lt;/h1&gt;
 
 &lt;p&gt;Dans cet article je vous montre comment améliorer votre deck à l’aide de l’IA.&lt;/p&gt;
