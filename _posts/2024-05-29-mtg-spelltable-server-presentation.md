@@ -83,4 +83,5 @@ Si tu as besoin d'aide on a un channel dédié pour t'aider à la mise en place 
 
 - Rejoins notre serveur Discord "Spelltable Duels" =>> https://discord.gg/9eYZCpQMU2
 - choisi ton format "Pioneer" et/ou "Modern".
+- présente toi dans le channel #Taverne
 - indique tes disponibilités sur #recherche-parties
