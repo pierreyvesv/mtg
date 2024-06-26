@@ -18,7 +18,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Pioneer un format compétitif",
-        "excerpt":"Les Atouts du Format Pioneer dans Magic: The Gathering Le format Pioneer de Magic: The Gathering offre une combinaison unique de stabilité, diversité et profondeur stratégique. Voici pourquoi il se démarque : Stratégie Générale Le format encourage le développement de stratégies cohérentes. Le format 60 cartes , avec maximum 4...","categories": ["pioneer"],
+        "excerpt":"Les Atouts du Format Pioneer dans Magic The Gathering Le format Pioneer offre une combinaison unique de stabilité, diversité et profondeur stratégique. Voici pourquoi il se démarque : Stratégie Générale Le format encourage le développement de stratégies cohérentes. Le format 60 cartes , avec maximum 4 cartes identiques permet aux...","categories": ["pioneer"],
         "tags": [],
         "url": "/mtg/pioneer/mtg-pioneer-avantage/",
         "teaser": null
@@ -27,5 +27,11 @@ var store = [{
         "excerpt":"Conseils pour utiliser l’IA et améliorer vos decks Dans cet article je vous montre comment améliorer votre deck à l’aide de l’IA. Seul GPT4o permet d’obtenir des réponses avec les maj des derniers sets. les bases de l’intérogation de l’IA 1 définir le context 2 poser une question 3 poser...","categories": ["pioneer"],
         "tags": [],
         "url": "/mtg/pioneer/mtg-Ia-deck/",
+        "teaser": null
+      },{
+        "title": "MTG Spelltable Duels: présentation du serveur",
+        "excerpt":"Objectifs développer le formats 60 cartes Pioneer et Modern sur Spelltable Que vous prépariez un tournois, essayiez de nouveau concept ou jouer juste de façon occasionnel, ne laissez pas votre deck sous clé ! Venez trouvez des adversaires pour vos parties de Modern et de Pioneer sur notre serveur Discord...","categories": ["pioneer"],
+        "tags": [],
+        "url": "/mtg/pioneer/mtg-spelltable-server-presentation/",
         "teaser": null
       }]

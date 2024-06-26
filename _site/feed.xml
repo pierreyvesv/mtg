@@ -1,5 +1,75 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://pierreyvesv.github.io//mtg/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pierreyvesv.github.io//mtg/" rel="alternate" type="text/html" /><updated>2024-06-20T22:01:15+01:00</updated><id>https://pierreyvesv.github.io//mtg/feed.xml</id><title type="html">Magic The Gathering</title><subtitle>MTG Pioneer blog post.
-</subtitle><author><name>Khancell</name></author><entry><title type="html">améliorer son deck avec l’IA</title><link href="https://pierreyvesv.github.io//mtg/pioneer/mtg-Ia-deck/" rel="alternate" type="text/html" title="améliorer son deck avec l’IA" /><published>2024-06-11T14:40:46+01:00</published><updated>2024-06-11T14:40:46+01:00</updated><id>https://pierreyvesv.github.io//mtg/pioneer/mtg-Ia-deck</id><content type="html" xml:base="https://pierreyvesv.github.io//mtg/pioneer/mtg-Ia-deck/">&lt;h1 id=&quot;conseils-pour-utiliser-lia-et-améliorer-vos-decks&quot;&gt;Conseils pour utiliser l’IA et améliorer vos decks&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://pierreyvesv.github.io//mtg/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pierreyvesv.github.io//mtg/" rel="alternate" type="text/html" /><updated>2024-06-26T07:06:01+01:00</updated><id>https://pierreyvesv.github.io//mtg/feed.xml</id><title type="html">Magic The Gathering</title><subtitle>MTG Pioneer blog post.
+</subtitle><author><name>Khancell</name></author><entry><title type="html">MTG Spelltable Duels: présentation du serveur</title><link href="https://pierreyvesv.github.io//mtg/pioneer/mtg-spelltable-server-presentation/" rel="alternate" type="text/html" title="MTG Spelltable Duels: présentation du serveur" /><published>2024-06-25T14:40:46+01:00</published><updated>2024-06-25T14:40:46+01:00</updated><id>https://pierreyvesv.github.io//mtg/pioneer/mtg-spelltable-server-presentation</id><content type="html" xml:base="https://pierreyvesv.github.io//mtg/pioneer/mtg-spelltable-server-presentation/">&lt;h1 id=&quot;objectifs&quot;&gt;Objectifs&lt;/h1&gt;
+
+&lt;p&gt;développer le formats 60 cartes Pioneer et Modern sur Spelltable&lt;/p&gt;
+
+&lt;p&gt;Que vous prépariez un tournois, essayiez de nouveau concept ou jouer juste de façon occasionnel, ne laissez pas votre deck sous clé ! Venez trouvez des adversaires pour vos parties de Modern et de Pioneer sur notre serveur Discord “Spelltable Duels” =» https://discord.gg/9eYZCpQMU2.&lt;/p&gt;
+
+&lt;p&gt;Il y a déjà beaucoup de serveur Discord sur le format commander nous éviterons de faire doublon.&lt;/p&gt;
+
+&lt;h2 id=&quot;présentation-de-léquipe&quot;&gt;présentation de l’équipe&lt;/h2&gt;
+
+&lt;p&gt;Khancell nouvel admin
+Hypnotik staff et communication
+Kenshin staff modérateur
+IceAgeGT ancien owner&lt;/p&gt;
+
+&lt;h2 id=&quot;quels-deck-jouons-nous-en-pioneer&quot;&gt;Quels deck jouons nous en Pioneer&lt;/h2&gt;
+
+&lt;p&gt;Voici une liste de decks contre lesquels j’ai pu jouer sur Spelltable ces quelques mois&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Azorius control&lt;/li&gt;
+  &lt;li&gt;Azorius Spirit&lt;/li&gt;
+  &lt;li&gt;Azorius planeswalkers&lt;/li&gt;
+  &lt;li&gt;Dimir Thieves&lt;/li&gt;
+  &lt;li&gt;Artifacts blanc / verts&lt;/li&gt;
+  &lt;li&gt;Orzhov humans&lt;/li&gt;
+  &lt;li&gt;Izzet Phoenix&lt;/li&gt;
+  &lt;li&gt;Mono blue spirit&lt;/li&gt;
+  &lt;li&gt;Mono black midrange&lt;/li&gt;
+  &lt;li&gt;Lotus field combo&lt;/li&gt;
+  &lt;li&gt;Mono Green&lt;/li&gt;
+  &lt;li&gt;Gruul aggro&lt;/li&gt;
+  &lt;li&gt;Rakdos Discard&lt;/li&gt;
+  &lt;li&gt;Gruul Werewolfs&lt;/li&gt;
+  &lt;li&gt;Abzhan greasefang&lt;/li&gt;
+  &lt;li&gt;Quintorius combo&lt;/li&gt;
+  &lt;li&gt;Dimir Archfiend&lt;/li&gt;
+  &lt;li&gt;Boros aggro&lt;/li&gt;
+  &lt;li&gt;Orzhov Aura&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;proxy&quot;&gt;proxy&lt;/h2&gt;
+
+&lt;p&gt;Vous pouvez jouer des cartes proxys à condition d’en informaer votre adversaire et que celui-ci soit d’accord.&lt;/p&gt;
+
+&lt;h2 id=&quot;trouver-des-joueurs&quot;&gt;Trouver des joueurs&lt;/h2&gt;
+
+&lt;p&gt;Channel #recherches-parties pour les recherches de parties individuelle&lt;/p&gt;
+
+&lt;p&gt;Channel #organisation-ligues-pioneer pour les soirées organisée.&lt;/p&gt;
+
+&lt;h2 id=&quot;nos-soirées&quot;&gt;nos soirées&lt;/h2&gt;
+
+&lt;p&gt;Les soirées organisées débutent vers 21h et finissent aux alentours de minuit. Les parties sont limitées en temps 1h, afin qu’il y ai suffisement de matchs dans la soirée pour établir un classement. Pour départager les joueurs et finir le classement les joueurs peuvent s’organiser dans les 7jours pour faire leur partie et communiquer le résultat.&lt;/p&gt;
+
+&lt;h2 id=&quot;classement-général-et-ranking-elo&quot;&gt;Classement général et Ranking ELO&lt;/h2&gt;
+
+&lt;p&gt;Nous venons de mettre en place un “ranking elo” pour classer les joueurs en fonction du résultat de leurs parties.&lt;/p&gt;
+
+&lt;p&gt;Le ELO ranking est un système de point.&lt;/p&gt;
+
+&lt;p&gt;Si je prends l’exemple que vous jouez contre un joueur plus fort que vous:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;en cas de victoire vous serez récompensés avec plus de points et lui en perdra plus&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;en cas de défaite vous perdrez peu de points , et lui en gagnera peu car le challenge.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Khancell</name></author><category term="pioneer" /><summary type="html">Objectifs</summary></entry><entry><title type="html">améliorer son deck avec l’IA</title><link href="https://pierreyvesv.github.io//mtg/pioneer/mtg-Ia-deck/" rel="alternate" type="text/html" title="améliorer son deck avec l’IA" /><published>2024-06-11T14:40:46+01:00</published><updated>2024-06-11T14:40:46+01:00</updated><id>https://pierreyvesv.github.io//mtg/pioneer/mtg-Ia-deck</id><content type="html" xml:base="https://pierreyvesv.github.io//mtg/pioneer/mtg-Ia-deck/">&lt;h1 id=&quot;conseils-pour-utiliser-lia-et-améliorer-vos-decks&quot;&gt;Conseils pour utiliser l’IA et améliorer vos decks&lt;/h1&gt;
 
 &lt;p&gt;Dans cet article je vous montre comment améliorer votre deck à l’aide de l’IA.&lt;/p&gt;
 
@@ -65,9 +135,9 @@
 &lt;p&gt;il ajoute les cartes suivantes et explique pourquoi.&lt;/p&gt;
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;2 Carnage Tyrant
 3 Pithing Needle
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Khancell</name></author><category term="pioneer" /><summary type="html">Conseils pour utiliser l’IA et améliorer vos decks</summary></entry><entry><title type="html">Pioneer un format compétitif</title><link href="https://pierreyvesv.github.io//mtg/pioneer/mtg-pioneer-avantage/" rel="alternate" type="text/html" title="Pioneer un format compétitif" /><published>2024-05-29T14:40:46+01:00</published><updated>2024-05-29T14:40:46+01:00</updated><id>https://pierreyvesv.github.io//mtg/pioneer/mtg-pioneer-avantage</id><content type="html" xml:base="https://pierreyvesv.github.io//mtg/pioneer/mtg-pioneer-avantage/">&lt;h1 id=&quot;les-atouts-du-format-pioneer-dans-magic-the-gathering&quot;&gt;Les Atouts du Format Pioneer dans Magic: The Gathering&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Khancell</name></author><category term="pioneer" /><summary type="html">Conseils pour utiliser l’IA et améliorer vos decks</summary></entry><entry><title type="html">Pioneer un format compétitif</title><link href="https://pierreyvesv.github.io//mtg/pioneer/mtg-pioneer-avantage/" rel="alternate" type="text/html" title="Pioneer un format compétitif" /><published>2024-05-29T14:40:46+01:00</published><updated>2024-05-29T14:40:46+01:00</updated><id>https://pierreyvesv.github.io//mtg/pioneer/mtg-pioneer-avantage</id><content type="html" xml:base="https://pierreyvesv.github.io//mtg/pioneer/mtg-pioneer-avantage/">&lt;h1 id=&quot;les-atouts-du-format-pioneer-dans-magic-the-gathering&quot;&gt;Les Atouts du Format Pioneer dans Magic The Gathering&lt;/h1&gt;
 
-&lt;p&gt;Le format Pioneer de Magic: The Gathering offre une combinaison unique de stabilité, diversité et profondeur stratégique. Voici pourquoi il se démarque :&lt;/p&gt;
+&lt;p&gt;Le format Pioneer offre une combinaison unique de stabilité, diversité et profondeur stratégique. Voici pourquoi il se démarque :&lt;/p&gt;
 
 &lt;h2 id=&quot;stratégie-générale&quot;&gt;Stratégie Générale&lt;/h2&gt;
 
@@ -77,7 +147,7 @@
 
 &lt;p&gt;Le Pioneer plus que dans le Commander permet de mettre en place des stratégies permettant un enchainement de cartes qui arrivent facilement par pioche naturelle / filtrage sans avoir besoin de passer par des cartes permettant de trouver une carte spécifique dans le deck ( cartes de “fetchs” ) !&lt;/p&gt;
 
-&lt;p&gt;Lors des parties organisées, une partie en Pioneer BO3 se déroulent en générale sur 1heures de jeu et permet de caller 3 manches ! Nos tournois FNM “Fun Night Magic” définissent une limite de temps pour permettre à un maximum de joueurs de se rencontrer / et de jouer.&lt;/p&gt;
+&lt;p&gt;Lors des parties organisées, une partie en Pioneer BO3 se déroulent en générale sur 1heures de jeu et permet de caller 3 manches ! Nos tournois FNM “Fun Night Magic” ( en semaine et pas forcément le Vendredi ) sont joués avec une limite de temps pour permettre à un maximum de joueurs de se rencontrer / et de jouer.&lt;/p&gt;
 
 &lt;p&gt;Nos parties sur spelltable finissent régulièrement par une discussion sur les points fort et faibles de chaques decks, pour permettre à chacun d’améliorer sa stratégie et de se remémorer les points chaud de la partie.&lt;/p&gt;
 
@@ -85,7 +155,7 @@
 
 &lt;h2 id=&quot;profils-de-la-communauté&quot;&gt;Profils de la communauté&lt;/h2&gt;
 
-&lt;p&gt;Les joueurs de notre serveur Discord jouent dans une ambiance serieuse et bienveillante.&lt;/p&gt;
+&lt;p&gt;Les joueurs de notre serveur Discord jouent sur Spelltable dans une ambiance serieuse et bienveillante. Joueurs, occasionnels ou réguliers&lt;/p&gt;
 
 &lt;p&gt;Certains joueurs maitrisent plusieurs decks basés sur ceux de la meta et aussi des decks de leurs cru !&lt;/p&gt;
 
@@ -189,7 +259,7 @@
 
 &lt;p&gt;En conclusion, le format Pioneer offre un équilibre parfait entre stratégie, compétition intense et stabilité. Que vous soyez un vétéran de MTG ou un nouveau joueur Pioneer, la communauté prend facilement sous son aile les nouveaux. Alliez Combos et stratégies globales pour rivaliser avec les adversaires de la communauté.&lt;/p&gt;
 
-&lt;p&gt;Que vous prépariez un tournois, essayiez de nouveau concept ou jouer juste de façon occasionnel, ne laissez pas votre deck sous clé ! Venez trouvez des adversaires pour vos parties de Modern et de Pioneer sur notre serveur Discord “Spelltable Duels” =» https://discord.gg/9eYZCpQMU2.&lt;/p&gt;</content><author><name>Khancell</name></author><category term="pioneer" /><summary type="html">Les Atouts du Format Pioneer dans Magic: The Gathering</summary></entry><entry><title type="html">comment construire un deck Pioneer</title><link href="https://pierreyvesv.github.io//mtg/pioneer/mtg-Pioneer-deck/" rel="alternate" type="text/html" title="comment construire un deck Pioneer" /><published>2023-11-18T13:40:46+00:00</published><updated>2023-11-18T13:40:46+00:00</updated><id>https://pierreyvesv.github.io//mtg/pioneer/mtg-Pioneer-deck</id><content type="html" xml:base="https://pierreyvesv.github.io//mtg/pioneer/mtg-Pioneer-deck/">&lt;h1 id=&quot;conseils-pour-préparer-un-deck-pioneer&quot;&gt;Conseils pour préparer un deck Pioneer&lt;/h1&gt;
+&lt;p&gt;Que vous prépariez un tournois, essayiez de nouveau concept ou jouer juste de façon occasionnel, ne laissez pas votre deck sous clé ! Venez trouvez des adversaires pour vos parties de Modern et de Pioneer sur notre serveur Discord “Spelltable Duels” =» https://discord.gg/9eYZCpQMU2.&lt;/p&gt;</content><author><name>Khancell</name></author><category term="pioneer" /><summary type="html">Les Atouts du Format Pioneer dans Magic The Gathering</summary></entry><entry><title type="html">comment construire un deck Pioneer</title><link href="https://pierreyvesv.github.io//mtg/pioneer/mtg-Pioneer-deck/" rel="alternate" type="text/html" title="comment construire un deck Pioneer" /><published>2023-11-18T13:40:46+00:00</published><updated>2023-11-18T13:40:46+00:00</updated><id>https://pierreyvesv.github.io//mtg/pioneer/mtg-Pioneer-deck</id><content type="html" xml:base="https://pierreyvesv.github.io//mtg/pioneer/mtg-Pioneer-deck/">&lt;h1 id=&quot;conseils-pour-préparer-un-deck-pioneer&quot;&gt;Conseils pour préparer un deck Pioneer&lt;/h1&gt;
 
 &lt;p&gt;Cet article offre des conseils essentiels pour préparer un deck Magic: The Gathering. Vous y trouverez des lignes directrices et des stratégies pour créer un deck équilibré et performant.&lt;/p&gt;
 

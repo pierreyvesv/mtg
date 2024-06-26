@@ -28,6 +28,7 @@ Voici une liste de decks contre lesquels j'ai pu jouer sur Spelltable ces quelqu
 - Azorius Spirit
 - Azorius planeswalkers
 - Dimir Thieves
+- Artifacts blanc / verts
 - Orzhov humans
 - Izzet Phoenix
 - Mono blue spirit
