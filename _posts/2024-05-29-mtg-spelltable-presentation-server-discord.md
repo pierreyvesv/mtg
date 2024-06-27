@@ -5,7 +5,7 @@ date:   2024-06-25 14:40:46 +0100
 categories: pioneer
 ---
 
-# Introduction
+# Présentation du serveur Discord
 
 Nous avons créer ce serveur pour développer le jeu par Spelltable au formats 60 cartes Pioneer et Modern. Cela permet de jouer à distance nos decks contre de multiples adversaires.
 
