@@ -50,7 +50,7 @@ Vous pouvez jouer des cartes proxys à condition d'en informer votre adversaire 
 
 ## Cockatrice
 
-Quelques un de nos joueurs s'organisent des parties sur Cockatrice, toutefois la majorité des joueurs présents utilisent leurs cartes.
+Certains de nos joueurs s'organisent des parties sur Cockatrice, toutefois la majorité des joueurs présents utilisent leurs cartes.
 
 ## Trouver des joueurs
 
