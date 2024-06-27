@@ -11,18 +11,18 @@ Nous avons créer ce serveur pour développer le jeu par Spelltable au formats 6
 
 Que vous prépariez un tournois, essayiez de nouveau concept ou jouer juste de façon occasionnel, ne laissez pas votre deck sous clé ! Venez trouvez des adversaires pour vos parties de Modern et de Pioneer sur notre serveur Discord "Spelltable Duels" =>> https://discord.gg/9eYZCpQMU2.
 
-Il y a déjà beaucoup de serveur Discord sur le format commander nous évitons de faire doublon.
+Il y a déjà beaucoup de serveur Discord sur le format commander nous évitons de faire doublon. Nous nous concentrons uniquement sur les formats construits notamment le Pionner (l'ADN de notre communauté), Modern et autres. Le format "commander" est très populaire sur de nombreux Discord, nous n'avons aucune vocation à nous en charger.
 
 ## présentation de l'équipe
 
-- Khancell: nouvel admin
-- Hypnotik: staff et communication
-- Kenshin: staff et modérateur
-- IceAgeGT: owner
+- Khancell : nouvel admin
+- Hypnotik : staff et communication
+- Kenshin : staff et modérateur
+- IceAgeGT : owner
 
 ## Quels deck jouons nous en Pioneer
 
-Voici une liste de decks contre lesquels j'ai pu jouer sur Spelltable ces derniers mois:
+Voici une liste de decks contre lesquels j'ai pu jouer sur Spelltable ces derniers mois :
 
 - Azorius control
 - Azorius Spirit
@@ -44,9 +44,13 @@ Voici une liste de decks contre lesquels j'ai pu jouer sur Spelltable ces dernie
 - Boros aggro
 - Orzhov Aura
 
-## proxy
+## Proxy
 
 Vous pouvez jouer des cartes proxys à condition d'en informer votre adversaire et que celui-ci soit d'accord.
+
+## Cockatrice
+
+Quelques un de nos joueurs s'organisent des parties sur Cockatrice, toutefois la majorité des joueurs présents utilisent leurs cartes.
 
 ## Trouver des joueurs
 
@@ -67,19 +71,19 @@ Nous venons de mettre en place un "ranking elo" pour classer les joueurs en fonc
 
 Le ELO ranking est un système de point.
 
-Si je prends l'exemple que vous jouez contre un joueur plus fort que vous:
+Si je prends l'exemple que vous jouez contre un joueur plus fort que vous :
 
 - en cas de victoire vous serez récompensé par plus de points et lui en perdra plus.
 
 - en cas de défaite vous perdrez peu de points , et lui en gagnera peu car gagner sans risque rapporte moins.
 
-## Nouveau sur Spelltable?
+## Nouveau sur Spelltable ?
 
-Pour la mise en place de ton setup je te recommande cette vidéo: https://www.youtube.com/watch?v=i2NFUg_zBvs
+Pour la mise en place de ton setup je te recommande cette vidéo : https://www.youtube.com/watch?v=i2NFUg_zBvs
 
 Si tu as besoin d'aide on a un channel dédié pour t'aider à la mise en place #-aide-spelltable
 
-## Tu veux nous rejoindre?
+## Tu veux nous rejoindre ?
 
 - Rejoins notre serveur Discord "Spelltable Duels" =>> https://discord.gg/9eYZCpQMU2
 - choisi ton format "Pioneer" et/ou "Modern" voir même "Standard".
