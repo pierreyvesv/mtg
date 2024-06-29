@@ -4,7 +4,7 @@ title:  "améliorer son deck avec l'IA"
 date:   2024-06-11 14:40:46 +0100
 categories: pioneer
 ---
-![Image]({{ site.baseurl }}/banner_1000x400.png)
+![Image]({{ site.baseurl }}/assets/images/banner_1000x400.png)
 
 # Conseils pour utiliser l'IA et améliorer vos decks
 

@@ -4,6 +4,7 @@ title:  "Pioneer un format compétitif"
 date:   2024-05-29 14:40:46 +0100
 categories: pioneer
 ---
+![Image]({{ site.baseurl }}/assets/images/banner_1000x400.png)
 
 # Les Atouts du Format Pioneer dans Magic The Gathering
 

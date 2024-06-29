@@ -4,6 +4,8 @@ title:  "comment construire un deck Pioneer"
 date:   2023-11-18 14:40:46 +0100
 categories: pioneer
 ---
+![Image]({{ site.baseurl }}/assets/images/banner_1000x400.png)
+
 
 # Conseils pour préparer un deck Pioneer
 

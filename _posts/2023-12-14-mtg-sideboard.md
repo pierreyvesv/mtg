@@ -4,6 +4,8 @@ title:  "comment construire préparer un sideboard"
 date:   2023-11-18 14:40:46 +0100
 categories: pioneer
 ---
+![Image]({{ site.baseurl }}/assets/images/banner_1000x400.png)
+
 
 # Introduction et retour d'experience sur la construction de sideboard
 

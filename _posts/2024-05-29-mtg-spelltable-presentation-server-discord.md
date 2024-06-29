@@ -4,6 +4,7 @@ title:  "MTG Spelltable Duels: présentation du serveur Discord"
 date:   2024-06-25 14:40:46 +0100
 categories: pioneer
 ---
+![Image]({{ site.baseurl }}/assets/images/banner_1000x400.png)
 
 # Présentation du serveur Discord
 
