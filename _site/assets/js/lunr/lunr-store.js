@@ -1,10 +1,4 @@
 var store = [{
-        "title": "comment construire un deck Pioneer",
-        "excerpt":"Conseils pour préparer un deck Pioneer Cet article offre des conseils essentiels pour préparer un deck Magic: The Gathering. Vous y trouverez des lignes directrices et des stratégies pour créer un deck équilibré et performant. Ayez en tête que le Pioneer est un format très rapide , au tour 4...","categories": ["pioneer"],
-        "tags": [],
-        "url": "/mtg/pioneer/mtg-Pioneer-deck/",
-        "teaser": null
-      },{
         "title": "comment construire préparer un sideboard",
         "excerpt":"Introduction et retour d’experience sur la construction de sideboard Le format Pioneer BO3 (Best of Three) offre aux joueurs une arène de compétition exaltante, où la construction d’un deck efficace est essentielle pour réussir. Le side permet de s’adapter aux différentes situations rencontrées en cours de match. En Pioneer B01...","categories": ["pioneer"],
         "tags": [],
