@@ -3,6 +3,7 @@ layout: single
 title:  "améliorer son deck avec l'IA"
 date:   2024-06-11 14:40:46 +0100
 categories: pioneer
+published: false
 ---
 ![Image]({{ site.baseurl }}/assets/images/banner_1000x400.png)
 
