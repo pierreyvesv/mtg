@@ -150,8 +150,11 @@ Azorius Spirit fait son retour progressif en tant que deck agressif et polyvalen
 Pour conclure, mes chèr(e)s duelistes, ce que donne l'état actuel du méta en Pioneer pour juillet 2024. Chaque deck offre un style de jeu unique et compétitif. Que vous préfériez les decks créatures, les combos, ou le contrôle, il y a un deck pour vous en Pioneer ! Faites-nous part de vos impressions dans les commentaires, et à bientôt pour une nouvelle analyse des decks Pioneer.
 
 L’équipe de Spelltable Duels
+
 CybrX et Hypnoptik
+
 Sources :
 
 Metagame Pioneer, mtggoldfish.com, juillet 2024 [en ligne] :
+
 https://www.mtggoldfish.com/metagame/pioneer#paper
