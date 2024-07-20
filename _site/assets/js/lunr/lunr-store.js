@@ -4,4 +4,10 @@ var store = [{
         "tags": [],
         "url": "/mtg/pioneer/mtg-spelltable-presentation-server-discord/",
         "teaser": null
+      },{
+        "title": "Top 5 Pioneer deck in 2024",
+        "excerpt":"Top 5 Pioneer Decks Juillet 2024 Bienvenue valeureux.ses duelistes ! Aujourd’hui, on va s’intéresser aux cinq meilleurs decks Pioneer pour juillet 2024. Beaucoup se concentrent sur Modern Horizons 3 et les changements dans la méta du format Modern, mais n’oublions pas le Pioneer qui est un format que j’apprécie particulièrement,...","categories": ["pioneer"],
+        "tags": [],
+        "url": "/mtg/pioneer/Pioneer-top5-deck/",
+        "teaser": null
       }]
