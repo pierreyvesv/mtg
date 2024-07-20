@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Top 5 Pioneer deck in 2024"
+title:  "Top 5 Pioneer deck en 2024"
 date:   2024-07-20 14:40:46 +0100
 categories: pioneer
 published: true
