@@ -28,13 +28,11 @@ Les conditions de victoires :
     - [Fable of the Mirror-Breaker](https://scryfall.com/card/neo/141) qui permet de multiplier les menaces une fois le champ de bataille stabilisé.
 
 Les + du deck :
-
     - Flexible.
     - Constant.
     - Résilient.
 
 Les - du deck :
-
     - Un peu mis en retrait par la domination de Rakdos Vampires.
     - Peut être un peu lent contre certains matchups.
 
@@ -56,12 +54,10 @@ Les conditions de victoires :
     - Option combo une fois le board rempli grâce à [Nykthos Shrine To Nyx](https://scryfall.com/card/ths/223/nykthos-shrine-to-nyx) et [Kiora](https://scryfall.com/card/war/232/kiora-behemoth-beckoner), permettant d'activer [Storm the Festival](https://scryfall.com/card/mid/200) pour chercher d'autres Nykthos, davantage de créatures, et enfin [Ulvenwald Oddity](https://scryfall.com/card/vow/225/ulvenwald-oddity-ulvenwald-behemoth), que l'on transformera pour donner la célérité à toutes ses nouvelles créatures !
 
 Les + du deck :
-
     - Sentiment de puissance de vomir son deck contre l’adversaire.
     - Peut gagner dès l’instant où il rentre dans une boucle positive, dans le tour.
 
 Les - du deck :
-
     - Match-up compliqué face à UW control.
     - Vulnérable pendant les 3 ou 4 premiers tours où il se passe peu de choses... 
     - Mulligan à bien maîtriser, il ne faut pas hésiter à changer de main régulièrement pour favoriser une sortie fluide.
@@ -79,12 +75,10 @@ Le deck joue également [Chord of Calling](https://scryfall.com/card/rvr/134/cho
 Les conditions de victoires : Assembler les [Wildgrowth Walker](https://scryfall.com/card/xln/216/wildgrowth-walker) & [Amalia](https://scryfall.com/card/lci/221/amalia-benavides-aguirre), puis gagner 1 pt de vie pour lancer la boucle, booster Amalia jusqu’à 20, et raser le board.
 
 Les + du deck :
-
     - Très dur à contrôler, il faut avoir beaucoup de contrôle, de l’anti cimetière, et globalement beaucoup d’interactions pour s’en sortir.
     - Possibilité de gagner dès le tour 3 avec une bonne main, mais en espérant aucune interaction avec l’adversaire.
 
 Les - du deck :
-
     - Peut facilement draw (si Amalia passe les 20 de force, la boucle se poursuit à l’infini et terminer par une égalité).
     - A peu d’interactions avec l’adversaire, notamment à instant-speed.
     - Est contré par certaines cartes comme [Knight of Dusk’s Shadow](https://scryfall.com/card/dmu/96) ou [Rampaging Ferocidon](https://scryfall.com/card/xln/154) qui empêche le gain de vie.
@@ -99,20 +93,17 @@ Izzet Phoenix est un deck de longue date bien connu en Pioneer (il avait déjà 
 C’est un deck tempo qui contient des cantrips, des sorts de contrôle (contresorts et removals), quelques créatures et de quoi manipuler sa main et son cimetière. Certaines listes jouent également [Prof's Eidetic Memory](https://scryfall.com/card/mkm/67/profts-eidetic-memory) pour booster un peu plus fort les créatures et profiter de la pioche abondante du deck. Capable de s'adapter à de nombreux match-ups différents, Izzet Phoenix est toujours un deck très compétitif où la clé est de ne jamais se laisser distancer par son adversaire et d’avoir toujours des options différentes disponibles dans la main.
 
 Les conditions de victoires :
-
     - Réanimer un maximum de [Arclight Phoenix](https://scryfall.com/card/grn/91) depuis le cimetière.
     - Avoir un gros [Ledger Shredder](https://scryfall.com/card/snc/46/ledger-shredder).
     - Le tour supplémentaire de [Temporal Trespass](https://scryfall.com/card/frf/55/temporal-trespass) qui peut surprendre.
 
 Les + du deck :
-
     - Gratifiant lorsqu’on le maîtrise bien.
     - Peut sortir très vite.
     - Flexible.
     - A peu de mauvais match-up.
 
 Les - du deck :
-
     - Pas toujours constant, Izzet Phoenix peut également ne pas sortir.
     - Difficile à piloter.
     - Très représenté et attendu, les adversaires ont souvent un side prêt contre ce deck.
@@ -130,14 +121,12 @@ Contrairement à Rakdos Midrange que nous avons vu plus haut, ce deck ne joue pa
 Ce deck a un plan de jeu plus rapide et plus aggro que son cousin Midrange, bien qu’il offre toujours un bon équilibre entre contrôle et créatures. Rakdos Vampires est un deck très solide et bien équilibré, ce qui explique sa popularité et son succès actuel.
 
 Les + du deck :
-
     - Fiable.
     - Très difficile à gérer une fois Sorin sur le champ de bataille.
     - Très peu de mauvais match-ups.
     - Vein Ripper peut remporter la partie à lui seul et est extrêmement difficile à contrer.
 
 Les - du deck :
-
     - Souffre contre des decks très agressifs.
     - Peut manquer d’options s’il se fait déborder sur le champ de bataille.
 
