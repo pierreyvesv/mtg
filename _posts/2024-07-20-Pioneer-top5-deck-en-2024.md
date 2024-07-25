@@ -28,9 +28,10 @@ Les conditions de victoires :
     - [Fable of the Mirror-Breaker](https://scryfall.com/card/neo/141) qui permet de multiplier les menaces une fois le champ de bataille stabilisé.
 
 Les + du deck :
-    - Flexible.
-    - Constant.
-    - Résilient.
+
+- Flexible.
+- Constant.
+- Résilient.
 
 Les - du deck :
     - Un peu mis en retrait par la domination de Rakdos Vampires.
