@@ -151,7 +151,7 @@ Pour conclure, mes chèr(e)s duelistes, ce que donne l'état actuel du méta en 
 
 L’équipe de Spelltable Duels
 
-CybrX et Hypnoptik
+CybrX et HypnotiK
 
 Sources :
 
