@@ -1,1 +1,1 @@
-Sitemap: https://pierreyvesv.github.io//mtg/sitemap.xml
+Sitemap: https://spelltableduels.github.io/mtg/sitemap.xml
