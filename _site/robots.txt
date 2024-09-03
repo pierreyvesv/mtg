@@ -1,1 +1,1 @@
-Sitemap: https://pierreyvesv.github.io//mtg/sitemap.xml
+Sitemap: https://pierreyvesv.github.io/mtg/mtg/sitemap.xml

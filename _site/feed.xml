@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://pierreyvesv.github.io//mtg/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pierreyvesv.github.io//mtg/" rel="alternate" type="text/html" /><updated>2024-07-20T22:12:41+01:00</updated><id>https://pierreyvesv.github.io//mtg/feed.xml</id><title type="html">Magic The Gathering</title><subtitle>MTG Pioneer blog post.
-</subtitle><author><name>Khancell</name></author><entry><title type="html">Top 5 Pioneer deck en 2024</title><link href="https://pierreyvesv.github.io//mtg/pioneer/Pioneer-top5-deck-en-2024/" rel="alternate" type="text/html" title="Top 5 Pioneer deck en 2024" /><published>2024-07-20T14:40:46+01:00</published><updated>2024-07-20T14:40:46+01:00</updated><id>https://pierreyvesv.github.io//mtg/pioneer/Pioneer-top5-deck-en-2024</id><content type="html" xml:base="https://pierreyvesv.github.io//mtg/pioneer/Pioneer-top5-deck-en-2024/">&lt;p&gt;&lt;img src=&quot;/mtg/assets/images/banner_1000x400.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://pierreyvesv.github.io/mtg/mtg/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pierreyvesv.github.io/mtg/mtg/" rel="alternate" type="text/html" /><updated>2024-09-02T20:55:58+01:00</updated><id>https://pierreyvesv.github.io/mtg/mtg/feed.xml</id><title type="html">Magic The Gathering</title><subtitle>MTG Pioneer blog post.
+</subtitle><author><name>Khancell</name></author><entry><title type="html">Top 5 Pioneer deck en 2024</title><link href="https://pierreyvesv.github.io/mtg/mtg/pioneer/Pioneer-top5-deck-en-2024/" rel="alternate" type="text/html" title="Top 5 Pioneer deck en 2024" /><published>2024-07-20T14:40:46+01:00</published><updated>2024-07-20T14:40:46+01:00</updated><id>https://pierreyvesv.github.io/mtg/mtg/pioneer/Pioneer-top5-deck-en-2024</id><content type="html" xml:base="https://pierreyvesv.github.io/mtg/mtg/pioneer/Pioneer-top5-deck-en-2024/">&lt;p&gt;&lt;img src=&quot;/mtg/assets/images/banner_1000x400.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;top-5-pioneer-decks-juillet-2024&quot;&gt;Top 5 Pioneer Decks Juillet 2024&lt;/h1&gt;
 
@@ -23,16 +23,18 @@
 
 &lt;p&gt;Les + du deck :&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Flexible.
-- Constant.
-- Résilient.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Flexible.&lt;/li&gt;
+  &lt;li&gt;Constant.&lt;/li&gt;
+  &lt;li&gt;Résilient.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Les - du deck :&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Un peu mis en retrait par la domination de Rakdos Vampires.
-- Peut être un peu lent contre certains matchups.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Un peu mis en retrait par la domination de Rakdos Vampires.&lt;/li&gt;
+  &lt;li&gt;Peut être un peu lent contre certains matchups.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.mtggoldfish.com/archetype/pioneer-rakdos-midrange#paper&quot;&gt;https://www.mtggoldfish.com/archetype/pioneer-rakdos-midrange#paper&lt;/a&gt;&lt;/p&gt;
 
@@ -48,22 +50,25 @@
 
 &lt;p&gt;Les conditions de victoires :&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Option agressive et oppressante en début de parti grâce au troll.
-- Option combo une fois le board rempli grâce à [Nykthos Shrine To Nyx](https://scryfall.com/card/ths/223/nykthos-shrine-to-nyx) et [Kiora](https://scryfall.com/card/war/232/kiora-behemoth-beckoner), permettant d'activer [Storm the Festival](https://scryfall.com/card/mid/200) pour chercher d'autres Nykthos, davantage de créatures, et enfin [Ulvenwald Oddity](https://scryfall.com/card/vow/225/ulvenwald-oddity-ulvenwald-behemoth), que l'on transformera pour donner la célérité à toutes ses nouvelles créatures !
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Option agressive et oppressante en début de parti grâce au troll.&lt;/li&gt;
+  &lt;li&gt;Option combo une fois le board rempli grâce à &lt;a href=&quot;https://scryfall.com/card/ths/223/nykthos-shrine-to-nyx&quot;&gt;Nykthos Shrine To Nyx&lt;/a&gt; et &lt;a href=&quot;https://scryfall.com/card/war/232/kiora-behemoth-beckoner&quot;&gt;Kiora&lt;/a&gt;, permettant d’activer &lt;a href=&quot;https://scryfall.com/card/mid/200&quot;&gt;Storm the Festival&lt;/a&gt; pour chercher d’autres Nykthos, davantage de créatures, et enfin &lt;a href=&quot;https://scryfall.com/card/vow/225/ulvenwald-oddity-ulvenwald-behemoth&quot;&gt;Ulvenwald Oddity&lt;/a&gt;, que l’on transformera pour donner la célérité à toutes ses nouvelles créatures !&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Les + du deck :&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Sentiment de puissance de vomir son deck contre l’adversaire.
-- Peut gagner dès l’instant où il rentre dans une boucle positive, dans le tour.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Sentiment de puissance de vomir son deck contre l’adversaire.&lt;/li&gt;
+  &lt;li&gt;Peut gagner dès l’instant où il rentre dans une boucle positive, dans le tour.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Les - du deck :&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Match-up compliqué face à UW control.
-- Vulnérable pendant les 3 ou 4 premiers tours où il se passe peu de choses... 
-- Mulligan à bien maîtriser, il ne faut pas hésiter à changer de main régulièrement pour favoriser une sortie fluide.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Match-up compliqué face à UW control.&lt;/li&gt;
+  &lt;li&gt;Vulnérable pendant les 3 ou 4 premiers tours où il se passe peu de choses…&lt;/li&gt;
+  &lt;li&gt;Mulligan à bien maîtriser, il ne faut pas hésiter à changer de main régulièrement pour favoriser une sortie fluide.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.mtggoldfish.com/archetype/pioneer-nykthos-ramp#paper&quot;&gt;https://www.mtggoldfish.com/archetype/pioneer-nykthos-ramp#paper&lt;/a&gt;&lt;/p&gt;
 
@@ -79,16 +84,18 @@ Le deck joue également &lt;a href=&quot;https://scryfall.com/card/rvr/134/chord
 
 &lt;p&gt;Les + du deck :&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Très dur à contrôler, il faut avoir beaucoup de contrôle, de l’anti cimetière, et globalement beaucoup d’interactions pour s’en sortir.
-- Possibilité de gagner dès le tour 3 avec une bonne main, mais en espérant aucune interaction avec l’adversaire.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Très dur à contrôler, il faut avoir beaucoup de contrôle, de l’anti cimetière, et globalement beaucoup d’interactions pour s’en sortir.&lt;/li&gt;
+  &lt;li&gt;Possibilité de gagner dès le tour 3 avec une bonne main, mais en espérant aucune interaction avec l’adversaire.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Les - du deck :&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Peut facilement draw (si Amalia passe les 20 de force, la boucle se poursuit à l’infini et terminer par une égalité).
-- A peu d’interactions avec l’adversaire, notamment à instant-speed.
-- Est contré par certaines cartes comme [Knight of Dusk’s Shadow](https://scryfall.com/card/dmu/96) ou [Rampaging Ferocidon](https://scryfall.com/card/xln/154) qui empêche le gain de vie.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Peut facilement draw (si Amalia passe les 20 de force, la boucle se poursuit à l’infini et terminer par une égalité).&lt;/li&gt;
+  &lt;li&gt;A peu d’interactions avec l’adversaire, notamment à instant-speed.&lt;/li&gt;
+  &lt;li&gt;Est contré par certaines cartes comme &lt;a href=&quot;https://scryfall.com/card/dmu/96&quot;&gt;Knight of Dusk’s Shadow&lt;/a&gt; ou &lt;a href=&quot;https://scryfall.com/card/xln/154&quot;&gt;Rampaging Ferocidon&lt;/a&gt; qui empêche le gain de vie.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.mtggoldfish.com/archetype/pioneer-abzan-amalia-combo#paper&quot;&gt;https://www.mtggoldfish.com/archetype/pioneer-abzan-amalia-combo#paper&lt;/a&gt;&lt;/p&gt;
 
@@ -101,25 +108,28 @@ C’est un deck tempo qui contient des cantrips, des sorts de contrôle (contres
 
 &lt;p&gt;Les conditions de victoires :&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Réanimer un maximum de [Arclight Phoenix](https://scryfall.com/card/grn/91) depuis le cimetière.
-- Avoir un gros [Ledger Shredder](https://scryfall.com/card/snc/46/ledger-shredder).
-- Le tour supplémentaire de [Temporal Trespass](https://scryfall.com/card/frf/55/temporal-trespass) qui peut surprendre.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Réanimer un maximum de &lt;a href=&quot;https://scryfall.com/card/grn/91&quot;&gt;Arclight Phoenix&lt;/a&gt; depuis le cimetière.&lt;/li&gt;
+  &lt;li&gt;Avoir un gros &lt;a href=&quot;https://scryfall.com/card/snc/46/ledger-shredder&quot;&gt;Ledger Shredder&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Le tour supplémentaire de &lt;a href=&quot;https://scryfall.com/card/frf/55/temporal-trespass&quot;&gt;Temporal Trespass&lt;/a&gt; qui peut surprendre.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Les + du deck :&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Gratifiant lorsqu’on le maîtrise bien.
-- Peut sortir très vite.
-- Flexible.
-- A peu de mauvais match-up.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Gratifiant lorsqu’on le maîtrise bien.&lt;/li&gt;
+  &lt;li&gt;Peut sortir très vite.&lt;/li&gt;
+  &lt;li&gt;Flexible.&lt;/li&gt;
+  &lt;li&gt;A peu de mauvais match-up.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Les - du deck :&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Pas toujours constant, Izzet Phoenix peut également ne pas sortir.
-- Difficile à piloter.
-- Très représenté et attendu, les adversaires ont souvent un side prêt contre ce deck.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Pas toujours constant, Izzet Phoenix peut également ne pas sortir.&lt;/li&gt;
+  &lt;li&gt;Difficile à piloter.&lt;/li&gt;
+  &lt;li&gt;Très représenté et attendu, les adversaires ont souvent un side prêt contre ce deck.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.mtggoldfish.com/archetype/izzet-phoenix-57eb17e3-2b71-4301-99a6-45002ffcfadb#paper&quot;&gt;https://www.mtggoldfish.com/archetype/izzet-phoenix-57eb17e3-2b71-4301-99a6-45002ffcfadb#paper&lt;/a&gt;&lt;/p&gt;
 
@@ -135,17 +145,19 @@ Ce deck a un plan de jeu plus rapide et plus aggro que son cousin Midrange, bien
 
 &lt;p&gt;Les + du deck :&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Fiable.
-- Très difficile à gérer une fois Sorin sur le champ de bataille.
-- Très peu de mauvais match-ups.
-- Vein Ripper peut remporter la partie à lui seul et est extrêmement difficile à contrer.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fiable.&lt;/li&gt;
+  &lt;li&gt;Très difficile à gérer une fois Sorin sur le champ de bataille.&lt;/li&gt;
+  &lt;li&gt;Très peu de mauvais match-ups.&lt;/li&gt;
+  &lt;li&gt;Vein Ripper peut remporter la partie à lui seul et est extrêmement difficile à contrer.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Les - du deck :&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Souffre contre des decks très agressifs.
-- Peut manquer d’options s’il se fait déborder sur le champ de bataille.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;Souffre contre des decks très agressifs.&lt;/li&gt;
+  &lt;li&gt;Peut manquer d’options s’il se fait déborder sur le champ de bataille.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.mtggoldfish.com/archetype/pioneer-rakdos-vampires#paper&quot;&gt;https://www.mtggoldfish.com/archetype/pioneer-rakdos-vampires#paper&lt;/a&gt;&lt;/p&gt;
 
@@ -157,13 +169,13 @@ Ce deck a un plan de jeu plus rapide et plus aggro que son cousin Midrange, bien
 
 &lt;p&gt;L’équipe de Spelltable Duels&lt;/p&gt;
 
-&lt;p&gt;CybrX et Hypnoptik&lt;/p&gt;
+&lt;p&gt;CybrX et HypnotiK&lt;/p&gt;
 
 &lt;p&gt;Sources :&lt;/p&gt;
 
 &lt;p&gt;Metagame Pioneer, mtggoldfish.com, juillet 2024 [en ligne] :&lt;/p&gt;
 
-&lt;p&gt;https://www.mtggoldfish.com/metagame/pioneer#paper&lt;/p&gt;</content><author><name>Khancell</name></author><category term="pioneer" /><summary type="html"></summary></entry><entry><title type="html">MTG Spelltable Duels: présentation du serveur Discord</title><link href="https://pierreyvesv.github.io//mtg/pioneer/mtg-spelltable-presentation-server-discord/" rel="alternate" type="text/html" title="MTG Spelltable Duels: présentation du serveur Discord" /><published>2024-06-25T14:40:46+01:00</published><updated>2024-06-25T14:40:46+01:00</updated><id>https://pierreyvesv.github.io//mtg/pioneer/mtg-spelltable-presentation-server-discord</id><content type="html" xml:base="https://pierreyvesv.github.io//mtg/pioneer/mtg-spelltable-presentation-server-discord/">&lt;p&gt;&lt;img src=&quot;/mtg/assets/images/banner_1000x400.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;https://www.mtggoldfish.com/metagame/pioneer#paper&lt;/p&gt;</content><author><name>Khancell</name></author><category term="pioneer" /><summary type="html"></summary></entry><entry><title type="html">MTG Spelltable Duels: présentation du serveur Discord</title><link href="https://pierreyvesv.github.io/mtg/mtg/pioneer/mtg-spelltable-presentation-server-discord/" rel="alternate" type="text/html" title="MTG Spelltable Duels: présentation du serveur Discord" /><published>2024-06-25T14:40:46+01:00</published><updated>2024-06-25T14:40:46+01:00</updated><id>https://pierreyvesv.github.io/mtg/mtg/pioneer/mtg-spelltable-presentation-server-discord</id><content type="html" xml:base="https://pierreyvesv.github.io/mtg/mtg/pioneer/mtg-spelltable-presentation-server-discord/">&lt;p&gt;&lt;img src=&quot;/mtg/assets/images/banner_1000x400.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;présentation-du-serveur-discord&quot;&gt;Présentation du serveur Discord&lt;/h1&gt;
 
