@@ -12,8 +12,7 @@ published: true
 
 Cet article offre des conseils essentiels pour préparer un deck Magic: The Gathering. Vous y trouverez des lignes directrices et des stratégies pour créer un deck équilibré et performant.
 
-
-Ayez en tête que le Pioneer est un format très rapide , au tour 4 ou 5 vous devriez être fixé.
+Ayez en tête que le Pioneer est un format plus rapide que le Standard , dans la majorité des cas au tour 4 ou 5 vous devriez être fixé sur l'issue de la partie.
 
 ## Choisir une Stratégie
 
@@ -93,7 +92,7 @@ Assurez-vous d'avoir un terrain à poser chaque tour pour mettre en place votre 
 
 ## Nombre de Terrains
 
-Comptez 19 terrains + N terrains, où N est le coût de mana maximum de votre carte la plus coûteuse. Si le nombre de terrains dépasse 26, ajoutez d'autres sources de production de mana comme Llanowar Elves. Certains decks peuvent se permettre moins de terrains si leurs cartes sont moins coûteuses en mana.
+Comptez au minimum 19 terrains + N terrains, où N est le coût de mana maximum de votre carte la plus coûteuse. Si le nombre de terrains dépasse 26, ajoutez d'autres sources de production de mana comme Llanowar Elves. Certains decks peuvent se permettre moins de terrains si leurs cartes sont moins coûteuses en mana.
 
 Dans le doute vous pouvez aussi commencer avec 25 terrains, oubien avoir une répartition 20 terrains, 20 créatures 20 sorts.
 
