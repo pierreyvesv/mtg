@@ -3,13 +3,13 @@ layout: single
 title:  "améliorer son deck avec l'IA"
 date:   2024-06-11 14:40:46 +0100
 categories: pioneer
-published: false
+published: true
 ---
 ![Image]({{ site.baseurl }}/assets/images/banner_1000x400.png)
 
 # Conseils pour utiliser l'IA et améliorer vos decks
 
-Dans cet article je vous montre comment améliorer votre deck à l'aide de l'IA.
+Dans cet article je vous montre comment améliorer votre deck à l'aide de l'IA tchat GPT. J'ai noté la pertinence de ses réponses sur 5.
 
 Seul GPT4o permet d'obtenir des réponses avec les maj des derniers sets.
 
@@ -74,3 +74,7 @@ il ajoute les cartes suivantes et explique pourquoi.
 2 Carnage Tyrant
 3 Pithing Needle
 ```
+
+## Conclusion
+
+C'est un bon moyen de découvrir de nouvelles cartes ou idée, mais il ne révolutionnera pas la meta !
