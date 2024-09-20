@@ -3,7 +3,7 @@ layout: single
 title:  "Pioneer un format compétitif"
 date:   2024-05-29 14:40:46 +0100
 categories: pioneer
-published: false
+published: true
 ---
 ![Image]({{ site.baseurl }}/assets/images/banner_1000x400.png)
 
@@ -18,6 +18,8 @@ Le format encourage le développement de stratégies cohérentes. Le format 60 c
 ## Qualité de Jeu
 
 Le Pioneer plus que dans le Commander permet de mettre en place des stratégies permettant un enchainement de cartes qui arrivent facilement par pioche naturelle / filtrage sans avoir besoin de passer par des cartes permettant de trouver une carte spécifique dans le deck ( cartes de "fetchs" ) !
+
+Le Pioneer n'a pas de combo de cartes permettant de gagner au tour 2 comme en Legacy ou en Modern. La partie sera un peu plus longue et finira dans le meilleur des cas en 4 ou 5 tour.
 
 Lors des parties organisées, une partie en Pioneer BO3 se déroulent en générale sur 1heures de jeu et permet de caller 3 manches ! Nos tournois FNM "Fun Night Magic" ( en semaine et pas forcément le Vendredi ) sont joués avec une limite de temps pour permettre à un maximum de joueurs de se rencontrer / et de jouer.
 
@@ -60,7 +62,7 @@ L'un des plus grands avantages de Pioneer est sa stabilité. Contrairement à de
 | 2021  | Kaldheim, Strixhaven: School of Mages, Adventures in the Forgotten Realms, Innistrad: Midnight Hunt, Innistrad: Crimson Vow |
 | 2022  | Kamigawa: Neon Dynasty, Streets of New Capenna, Dominaria United, The Brothers' War |
 | 2023  | Phyrexia: All Will Be One, March of the Machine, March of the Machine: The Aftermath, Wilds of Eldraine, The Lost Caverns of Ixalan |
-| 2024  | Thunder of Junction |
+| 2024  | Thunder of Junction , Bloomburrow |
 
 ## Métagame en évolution
 
