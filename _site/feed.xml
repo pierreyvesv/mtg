@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://pierreyvesv.github.io/mtg/mtg/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pierreyvesv.github.io/mtg/mtg/" rel="alternate" type="text/html" /><updated>2024-09-02T20:55:58+01:00</updated><id>https://pierreyvesv.github.io/mtg/mtg/feed.xml</id><title type="html">Magic The Gathering</title><subtitle>MTG Pioneer blog post.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="https://pierreyvesv.github.io/mtg/mtg/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pierreyvesv.github.io/mtg/mtg/" rel="alternate" type="text/html" /><updated>2024-09-23T20:59:34+01:00</updated><id>https://pierreyvesv.github.io/mtg/mtg/feed.xml</id><title type="html">Magic The Gathering</title><subtitle>MTG Pioneer blog post.
 </subtitle><author><name>Khancell</name></author><entry><title type="html">Top 5 Pioneer deck en 2024</title><link href="https://pierreyvesv.github.io/mtg/mtg/pioneer/Pioneer-top5-deck-en-2024/" rel="alternate" type="text/html" title="Top 5 Pioneer deck en 2024" /><published>2024-07-20T14:40:46+01:00</published><updated>2024-07-20T14:40:46+01:00</updated><id>https://pierreyvesv.github.io/mtg/mtg/pioneer/Pioneer-top5-deck-en-2024</id><content type="html" xml:base="https://pierreyvesv.github.io/mtg/mtg/pioneer/Pioneer-top5-deck-en-2024/">&lt;p&gt;&lt;img src=&quot;/mtg/assets/images/banner_1000x400.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;top-5-pioneer-decks-juillet-2024&quot;&gt;Top 5 Pioneer Decks Juillet 2024&lt;/h1&gt;
@@ -270,4 +270,356 @@ Ce deck a un plan de jeu plus rapide et plus aggro que son cousin Midrange, bien
   &lt;li&gt;choisi ton format “Pioneer” et/ou “Modern” voir même “Standard”.&lt;/li&gt;
   &lt;li&gt;présente toi dans le channel #Taverne&lt;/li&gt;
   &lt;li&gt;indique tes disponibilités sur #recherche-parties&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Khancell</name></author><category term="pioneer" /><summary type="html"></summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Khancell</name></author><category term="pioneer" /><summary type="html"></summary></entry><entry><title type="html">améliorer son deck avec l’IA</title><link href="https://pierreyvesv.github.io/mtg/mtg/pioneer/mtg-Ia-deck/" rel="alternate" type="text/html" title="améliorer son deck avec l’IA" /><published>2024-06-11T14:40:46+01:00</published><updated>2024-06-11T14:40:46+01:00</updated><id>https://pierreyvesv.github.io/mtg/mtg/pioneer/mtg-Ia-deck</id><content type="html" xml:base="https://pierreyvesv.github.io/mtg/mtg/pioneer/mtg-Ia-deck/">&lt;p&gt;&lt;img src=&quot;/mtg/assets/images/banner_1000x400.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;conseils-pour-utiliser-lia-et-améliorer-vos-decks&quot;&gt;Conseils pour utiliser l’IA et améliorer vos decks&lt;/h1&gt;
+
+&lt;p&gt;Dans cet article je vous montre comment améliorer votre deck à l’aide de l’IA tchat GPT. J’ai noté la pertinence de ses réponses sur 5.&lt;/p&gt;
+
+&lt;p&gt;Seul GPT4o permet d’obtenir des réponses avec les maj des derniers sets.&lt;/p&gt;
+
+&lt;h2 id=&quot;les-bases-de-lintérogation-de-lia&quot;&gt;les bases de l’intérogation de l’IA&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1 définir le context&lt;/li&gt;
+  &lt;li&gt;2 poser une question&lt;/li&gt;
+  &lt;li&gt;3 poser une autre question ou faites corriger la réponse.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;indiquer-votre-deck-et-format&quot;&gt;indiquer votre deck et format.&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;pour entrer votre deck , ajoutez le comme de code entre triple “back quote”.&lt;/li&gt;
+  &lt;li&gt;ou indiquer lui le deck “mono green stompy Pioneer”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;rentrer votre deck&lt;/p&gt;
+
+&lt;h2 id=&quot;example-de-demande&quot;&gt;example de demande&lt;/h2&gt;
+
+&lt;h3 id=&quot;hello-please-create-a-mtg-explorer-deck-using-the-latest-set-outlow-thunder-of-junction-the-deck-should-be-a-mono-green-stompy-deck&quot;&gt;Hello, please create a MTG explorer deck using the latest set Outlow thunder of Junction. The deck should be a mono green stompy deck&lt;/h3&gt;
+
+&lt;p&gt;Qualité de la réponse: 2/5&lt;/p&gt;
+
+&lt;p&gt;/### Hello, create a Mono Green Stompy MTG explorer deck using the latest set Outlow thunder of Junction.&lt;/p&gt;
+
+&lt;p&gt;Qualité de la réponse: 2/5&lt;/p&gt;
+
+&lt;p&gt;il ne prend pas de cartes du set.&lt;/p&gt;
+
+&lt;h3 id=&quot;hello-create-a-mono-green-stompy-mtg-explorer-deck-using-deck-since-2022&quot;&gt;Hello, create a Mono Green Stompy MTG explorer deck using deck since 2022”.&lt;/h3&gt;
+
+&lt;p&gt;Qualité de la réponse 4/5&lt;/p&gt;
+
+&lt;p&gt;C’est beaucoup mieux mais il ne prend toujours pas de cartes du set OTJ.&lt;/p&gt;
+
+&lt;h3 id=&quot;polukranos-is-a-legendary-creature-you-set-too-much-of-them&quot;&gt;Polukranos is a legendary creature, you set too much of them”&lt;/h3&gt;
+
+&lt;p&gt;Qualité de la réponse 5/5&lt;/p&gt;
+
+&lt;p&gt;il réduit le nombre de Polukranos de 4 à 2.&lt;/p&gt;
+
+&lt;h3 id=&quot;update-the-deck-so-that-it-can-compete-with-the-2024-explorer-meta&quot;&gt;update the deck so that it can compete with the 2024 Explorer meta&lt;/h3&gt;
+
+&lt;p&gt;Qualité de la réponse 5/5”&lt;/p&gt;
+
+&lt;p&gt;exemple il change les forets basique et met les terrain suivants&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;18 Forest
+2 Boseiju, Who Endures
+2 Lair of the Hydra
+2 Nykthos, Shrine to Nyx
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;improve-the-sideboard-to-tackle-with-other-2024-decks-like-rakdos-vampire-izzert-phenix-or-blue-white-control-deck&quot;&gt;improve the sideboard to tackle with other 2024 decks like “rakdos vampire”, “Izzert Phenix” or “blue white control” deck”&lt;/h3&gt;
+
+&lt;p&gt;Qualité 5/5&lt;/p&gt;
+
+&lt;p&gt;il ajoute les cartes suivantes et explique pourquoi.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;2 Carnage Tyrant
+3 Pithing Needle
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;C’est un bon moyen de découvrir de nouvelles cartes ou idée, mais il ne révolutionnera pas la meta !&lt;/p&gt;</content><author><name>Khancell</name></author><category term="pioneer" /><summary type="html"></summary></entry><entry><title type="html">Pioneer un format compétitif</title><link href="https://pierreyvesv.github.io/mtg/mtg/pioneer/mtg-pioneer-avantage/" rel="alternate" type="text/html" title="Pioneer un format compétitif" /><published>2024-05-29T14:40:46+01:00</published><updated>2024-05-29T14:40:46+01:00</updated><id>https://pierreyvesv.github.io/mtg/mtg/pioneer/mtg-pioneer-avantage</id><content type="html" xml:base="https://pierreyvesv.github.io/mtg/mtg/pioneer/mtg-pioneer-avantage/">&lt;p&gt;&lt;img src=&quot;/mtg/assets/images/banner_1000x400.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;les-atouts-du-format-pioneer-dans-magic-the-gathering&quot;&gt;Les Atouts du Format Pioneer dans Magic The Gathering&lt;/h1&gt;
+
+&lt;p&gt;Le format Pioneer offre une combinaison unique de stabilité, diversité et profondeur stratégique. Voici pourquoi il se démarque :&lt;/p&gt;
+
+&lt;h2 id=&quot;stratégie-générale&quot;&gt;Stratégie Générale&lt;/h2&gt;
+
+&lt;p&gt;Le format encourage le développement de stratégies cohérentes. Le format 60 cartes , avec maximum 4 cartes identiques permet aux joueurs de construire des decks robustes avec des plans de jeu bien définis. Les combos se déploient plus facilement chez les deux adversaires.&lt;/p&gt;
+
+&lt;h2 id=&quot;qualité-de-jeu&quot;&gt;Qualité de Jeu&lt;/h2&gt;
+
+&lt;p&gt;Le Pioneer plus que dans le Commander permet de mettre en place des stratégies permettant un enchainement de cartes qui arrivent facilement par pioche naturelle / filtrage sans avoir besoin de passer par des cartes permettant de trouver une carte spécifique dans le deck ( cartes de “fetchs” ) !&lt;/p&gt;
+
+&lt;p&gt;Le Pioneer n’a pas de combo de cartes permettant de gagner au tour 2 comme en Legacy ou en Modern. La partie sera un peu plus longue et finira dans le meilleur des cas en 4 ou 5 tour.&lt;/p&gt;
+
+&lt;p&gt;Lors des parties organisées, une partie en Pioneer BO3 se déroulent en générale sur 1heures de jeu et permet de caller 3 manches ! Nos tournois FNM “Fun Night Magic” ( en semaine et pas forcément le Vendredi ) sont joués avec une limite de temps pour permettre à un maximum de joueurs de se rencontrer / et de jouer.&lt;/p&gt;
+
+&lt;p&gt;Nos parties sur spelltable finissent régulièrement par une discussion sur les points fort et faibles de chaques decks, pour permettre à chacun d’améliorer sa stratégie et de se remémorer les points chaud de la partie.&lt;/p&gt;
+
+&lt;p&gt;Ces échanges améliorent le niveau des joueurs et leur connaissance des stratégies.&lt;/p&gt;
+
+&lt;h2 id=&quot;profils-de-la-communauté&quot;&gt;Profils de la communauté&lt;/h2&gt;
+
+&lt;p&gt;Les joueurs de notre serveur Discord jouent sur Spelltable dans une ambiance serieuse et bienveillante. Joueurs, occasionnels ou réguliers&lt;/p&gt;
+
+&lt;p&gt;Certains joueurs maitrisent plusieurs decks basés sur ceux de la meta et aussi des decks de leurs cru !&lt;/p&gt;
+
+&lt;p&gt;S’entrainer à plusieurs et relever les défis est bien plus captivant.&lt;/p&gt;
+
+&lt;h2 id=&quot;compétitions-améliorée&quot;&gt;Compétitions Améliorée&lt;/h2&gt;
+
+&lt;p&gt;Nos joueurs jouent pour:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;se préparer aux tournois en magasins&lt;/li&gt;
+  &lt;li&gt;visent de participer au RCQ “Regional Championship Qualifier”&lt;/li&gt;
+  &lt;li&gt;d’autres jouent de façon casual&lt;/li&gt;
+  &lt;li&gt;certains participent au tournois en ligne que nous organisons.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;stabilité-sans-rotation-de-carte&quot;&gt;Stabilité sans Rotation de Carte&lt;/h2&gt;
+
+&lt;p&gt;L’un des plus grands avantages de Pioneer est sa stabilité. Contrairement à des formats comme Standard, Pioneer ne subit pas de rotations fréquentes. Les cartes restent jouables plus longtemps, rendant l’investissement dans des cartes de Pioneer plus rentable à long terme et permettant aux joueurs de construire des collections et des decks durables.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Année&lt;/th&gt;
+      &lt;th&gt;Sets&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2012&lt;/td&gt;
+      &lt;td&gt;Return to Ravnica&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2013&lt;/td&gt;
+      &lt;td&gt;Gatecrash, Dragon’s Maze, Theros&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;Born of the Gods, Journey into Nyx, Khans of Tarkir&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;Fate Reforged, Dragons of Tarkir, Battle for Zendikar&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;Oath of the Gatewatch, Shadows over Innistrad, Eldritch Moon, Kaladesh&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2017&lt;/td&gt;
+      &lt;td&gt;Aether Revolt, Amonkhet, Hour of Devastation, Ixalan&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;Rivals of Ixalan, Dominaria, Core Set 2019, Guilds of Ravnica&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2019&lt;/td&gt;
+      &lt;td&gt;Ravnica Allegiance, War of the Spark, Core Set 2020, Throne of Eldraine&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2020&lt;/td&gt;
+      &lt;td&gt;Theros Beyond Death, Ikoria: Lair of Behemoths, Core Set 2021, Zendikar Rising&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2021&lt;/td&gt;
+      &lt;td&gt;Kaldheim, Strixhaven: School of Mages, Adventures in the Forgotten Realms, Innistrad: Midnight Hunt, Innistrad: Crimson Vow&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2022&lt;/td&gt;
+      &lt;td&gt;Kamigawa: Neon Dynasty, Streets of New Capenna, Dominaria United, The Brothers’ War&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2023&lt;/td&gt;
+      &lt;td&gt;Phyrexia: All Will Be One, March of the Machine, March of the Machine: The Aftermath, Wilds of Eldraine, The Lost Caverns of Ixalan&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2024&lt;/td&gt;
+      &lt;td&gt;Thunder of Junction , Bloomburrow&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;métagame-en-évolution&quot;&gt;Métagame en évolution&lt;/h2&gt;
+
+&lt;p&gt;Le métagame de Pioneer est en constante évolution, les nouvelles sorties des séries Magic altèrent la meta, mais ceci est fait très progressivement. Certains decks s’en trouvent parfois renforcés.&lt;/p&gt;
+
+&lt;h2 id=&quot;utilisation-du-sideboard&quot;&gt;Utilisation du Sideboard&lt;/h2&gt;
+
+&lt;p&gt;Le sideboard est un élément crucial de la stratégie en Pioneer. La capacité d’ajuster votre deck après la première manche d’une partie permet de mieux répondre aux menaces spécifiques de votre adversaire, de compenser vos faiblesses , ou de contrer certaines combos.&lt;/p&gt;
+
+&lt;p&gt;Pour un début le sideboard, n’est pas un prérequis, mais son besoin se fera rapidement sentir.&lt;/p&gt;
+
+&lt;p&gt;La construction d’un sideboard bien pensé et son utilisation stratégique dans les parties suivantes ajoutent une dimension supplémentaire à la maîtrise du jeu en Pioneer.&lt;/p&gt;
+
+&lt;h2 id=&quot;accessibilité&quot;&gt;Accessibilité&lt;/h2&gt;
+
+&lt;p&gt;Certains type de deck restent constant dans leur résultat ce qui donne une accessibilité au format. Aussi les deck Pioneer du commerce sont une bonne base pour leur format, leur choix et leur évolutivité..&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;En conclusion, le format Pioneer offre un équilibre parfait entre stratégie, compétition intense et stabilité. Que vous soyez un vétéran de MTG ou un nouveau joueur Pioneer, la communauté prend facilement sous son aile les nouveaux. Alliez Combos et stratégies globales pour rivaliser avec les adversaires de la communauté.&lt;/p&gt;
+
+&lt;p&gt;Que vous prépariez un tournois, essayiez de nouveau concept ou jouer juste de façon occasionnel, ne laissez pas votre deck sous clé ! Venez trouvez des adversaires pour vos parties de Modern et de Pioneer sur notre serveur Discord “Spelltable Duels” =» https://discord.gg/9eYZCpQMU2.&lt;/p&gt;</content><author><name>Khancell</name></author><category term="pioneer" /><summary type="html"></summary></entry><entry><title type="html">comment construire un deck Pioneer</title><link href="https://pierreyvesv.github.io/mtg/mtg/pioneer/mtg-Pioneer-deck/" rel="alternate" type="text/html" title="comment construire un deck Pioneer" /><published>2023-11-18T13:40:46+00:00</published><updated>2023-11-18T13:40:46+00:00</updated><id>https://pierreyvesv.github.io/mtg/mtg/pioneer/mtg-Pioneer-deck</id><content type="html" xml:base="https://pierreyvesv.github.io/mtg/mtg/pioneer/mtg-Pioneer-deck/">&lt;p&gt;&lt;img src=&quot;/mtg/assets/images/banner_1000x400.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;conseils-pour-préparer-un-deck-pioneer&quot;&gt;Conseils pour préparer un deck Pioneer&lt;/h1&gt;
+
+&lt;p&gt;Cet article offre des conseils essentiels pour préparer un deck Magic: The Gathering. Vous y trouverez des lignes directrices et des stratégies pour créer un deck équilibré et performant.&lt;/p&gt;
+
+&lt;p&gt;Ayez en tête que le Pioneer est un format plus rapide que le Standard , dans la majorité des cas au tour 4 ou 5 vous devriez être fixé sur l’issue de la partie.&lt;/p&gt;
+
+&lt;h2 id=&quot;choisir-une-stratégie&quot;&gt;Choisir une Stratégie&lt;/h2&gt;
+
+&lt;p&gt;Pour construire un deck de 60 cartes, plusieurs approches sont possibles:&lt;/p&gt;
+
+&lt;p&gt;Vous pouvez baser votre deck sur une carte que vous appréciez ou exploiter une mécanique que vous avez découverte. Pas besoin de se faire des noeuds , d’autres personnes on déjà tester / éprouver&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- regardez la meta : https://thegathering.gg/pioneer-tier-list/
+- renseignez vous sur son classement et aussi sur sa complexité et facilité de mise en place.
+- sur ses forces et faiblesses
+- ne faites pas confiances à certaines vidéos youtube ayant en face des decks peu préparer, ou ceval &quot;$(ssh-agent -s)&quot; ssh-add ~/.ssh/id_pyverdon_ymail_comombattant des decks trop lents.
+- adapter avec vos cartes préférées.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Ayez en tête que votre deck fera correspondre les composantes suivantes :&lt;/p&gt;
+
+&lt;p&gt;Stratégie globale x Accélération (ramp) x Condition de victoire (win condition).&lt;/p&gt;
+
+&lt;h3 id=&quot;la-meta&quot;&gt;la Meta&lt;/h3&gt;
+
+&lt;p&gt;Ci dessous un lien vers la meta qui vous donnera une vision des decks les plus pratiqués / performant.&lt;/p&gt;
+
+&lt;p&gt;Attention chaque deck est unique, et une stratégie très connue peut être contrecarré plus facilement.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://thegathering.gg/pioneer-tier-list/&quot;&gt;https://thegathering.gg/pioneer-tier-list/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;définir-votre-stratégie-globale&quot;&gt;Définir votre Stratégie Globale&lt;/h3&gt;
+
+&lt;p&gt;Votre stratégie globale peut être un mélange des suivantes :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Aggro&lt;/strong&gt; : decks mono-rouge&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Aggro / Stax&lt;/strong&gt; : decks mono-blanc Soldat&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Aggro / Contrôle&lt;/strong&gt; : decks mono-bleu Esprit&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ramp&lt;/strong&gt; : decks mono-vert&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Combo&lt;/strong&gt; : decks Lotus Field, Izzet Phoenix&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Aggro&lt;/strong&gt; : Cette stratégie consiste à jouer des créatures rapides et peu coûteuses pour infliger rapidement des dégâts à l’adversaire, le forçant à réagir sous la pression.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Contrôle&lt;/strong&gt; : Les stratégies de contrôle se concentrent sur la manipulation du jeu en limitant les actions de l’adversaire. Utilisez des contresorts, des créatures qui annulent des pouvoirs, et d’autres cartes pour maintenir l’adversaire à distance.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Combo&lt;/strong&gt; : Les decks de combo reposent sur des interactions spécifiques entre les cartes pour créer des combinaisons puissantes et souvent inattendues, permettant de gagner instantanément. Mais se faisant bloquer si une des cartes vient à manquer.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ramp&lt;/strong&gt; : Cette stratégie se concentre sur l’accélération de la production de mana pour jouer des cartes coûteuses plus tôt, déployant des menaces plus grandes et puissantes plus rapidement.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Midrange&lt;/strong&gt; : Les decks Midrange cherchent un équilibre entre les stratégies agressives et contrôlantes, utilisant des créatures polyvalentes pour dominer le milieu de la partie.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Stax&lt;/strong&gt; : Cette stratégie vise à ralentir et gêner l’adversaire en jouant des cartes qui limitent ses options, comme forcer la perte de permanents ou augmenter les coûts de mana.&lt;/p&gt;
+
+&lt;h3 id=&quot;les-clés-de-votre-stratégie&quot;&gt;Les Clés de votre Stratégie&lt;/h3&gt;
+
+&lt;p&gt;Votre stratégie doit être mise en place à chaque tour, et les cartes que vous jouez doivent :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Participer ou avoir une synergie avec la stratégie et les autres cartes.&lt;/li&gt;
+  &lt;li&gt;Protéger la stratégie.&lt;/li&gt;
+  &lt;li&gt;Gagner du temps pour mettre en place la stratégie.&lt;/li&gt;
+  &lt;li&gt;Contrer ou ralentir la stratégie adverse.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Finishers&lt;/strong&gt; : Ces cartes permettent de conclure la partie. Protégez-les et préparez leur déploiement avec des cartes jouées en début de partie. Exemples de finishers : Sphinx of the Final Word, Hullbreaker Horror, Archfiend of the Dross, Vraska the Unseen, Approach of the Second Sun.&lt;/p&gt;
+
+&lt;h2 id=&quot;construire-un-deck-efficace&quot;&gt;Construire un Deck Efficace&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Le Ramp-Up&lt;/strong&gt; : Déployer progressivement votre stratégie en fonction de votre mana disponible. Évitez les “cartes mortes”, qui sont trop coûteuses pour être jouées en début de partie.&lt;/p&gt;
+
+&lt;h3 id=&quot;choisir-ses-cartes&quot;&gt;Choisir ses Cartes&lt;/h3&gt;
+
+&lt;p&gt;Assurez-vous d’avoir un terrain à poser chaque tour pour mettre en place votre stratégie sans perdre de temps. Variez les coûts de mana de vos cartes pour garantir une progression fluide.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Cartes de pioche&lt;/strong&gt; : Stabilisez votre jeu et augmentez vos chances d’obtenir les terrains nécessaires et vos cartes maîtresses. Exemples : The Restoration of Eijango, Sign in Blood.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Cartes de filtre&lt;/strong&gt; : Elle permettent de changer les cartes que vous avez en main.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Cartes “mortes”&lt;/strong&gt; : Évitez les cartes trop coûteuses ou spécialisées qui ne servent pas contre certains adversaires.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Équilibrer les premiers tours&lt;/strong&gt; : Ne restez pas passif en début de partie. Jouez des cartes dès le premier tour pour prendre l’avantage.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Stabilisation&lt;/strong&gt; : Utilisez des cartes pour stabiliser la pioche et garantir que vous piocherez vos terrains, ou vos cartes clés.&lt;/p&gt;
+
+&lt;h2 id=&quot;nombre-de-terrains&quot;&gt;Nombre de Terrains&lt;/h2&gt;
+
+&lt;p&gt;Comptez au minimum 19 terrains + N terrains, où N est le coût de mana maximum de votre carte la plus coûteuse. Si le nombre de terrains dépasse 26, ajoutez d’autres sources de production de mana comme Llanowar Elves. Certains decks peuvent se permettre moins de terrains si leurs cartes sont moins coûteuses en mana.&lt;/p&gt;
+
+&lt;p&gt;Dans le doute vous pouvez aussi commencer avec 25 terrains, oubien avoir une répartition 20 terrains, 20 créatures 20 sorts.&lt;/p&gt;
+
+&lt;p&gt;Pour plus de détails vous pouvez lire cet article : &lt;a href=&quot;https://www.channelfireball.com/article/how-many-sources-do-you-need-to-consistently-cast-your-spells-a-2022-update/dc23a7d2-0a16-4c0b-ad36-586fcca03ad8/&quot;&gt;https://www.channelfireball.com/article/how-many-sources-do-you-need-to-consistently-cast-your-spells-a-2022-update/dc23a7d2-0a16-4c0b-ad36-586fcca03ad8/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;taplands&quot;&gt;Taplands&lt;/h3&gt;
+
+&lt;p&gt;Les taplands peuvent être tentants, mais en avoir trop ralentira votre jeu. Évitez d’en dépasser 4-8 en fonction de leurs avantages et limitations.&lt;/p&gt;
+
+&lt;h3 id=&quot;quantité-de-cartes-identiques&quot;&gt;Quantité de Cartes Identiques&lt;/h3&gt;
+
+&lt;p&gt;La probabilité de piocher une carte dépend du nombre de fois où elle est incluse dans votre deck :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;x4 : très souvent&lt;/li&gt;
+  &lt;li&gt;x3 : souvent&lt;/li&gt;
+  &lt;li&gt;x2 : parfois&lt;/li&gt;
+  &lt;li&gt;x1 : rarement&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;préparer-les-premiers-tours&quot;&gt;Préparer les Premiers Tours&lt;/h3&gt;
+
+&lt;p&gt;Ayez 8 à 10 cartes ayant un coût de mana de 1 pour assurer l’avantage en début de partie. Exemples : Thoughtseize, Fatal Push, Llanowar Elves.&lt;/p&gt;
+
+&lt;p&gt;Choisissez la quantité de chaque carte pour garantir une main de départ équilibrée et efficace.&lt;/p&gt;
+
+&lt;h2 id=&quot;déroulement-du-jeu&quot;&gt;Déroulement du Jeu&lt;/h2&gt;
+
+&lt;h3 id=&quot;la-bataille&quot;&gt;La Bataille&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Choisir de commencer ou de jouer en second&lt;/strong&gt; : Gagner le jet de dé vous permet de choisir si vous commencez de jouer en premier (sur le play) ou en second (sur la draw). Si vous commencez, vous jouerez vos cartes en premier, obligeant l’adversaire à réagir à vos choix, mais ne piochez pas de carte en début de partie. Le second a droit de piocher une carte.&lt;/p&gt;
+
+&lt;h4 id=&quot;tour-1&quot;&gt;Tour 1&lt;/h4&gt;
+
+&lt;p&gt;Le premier tour est crucial. Jouez des cartes clés pour prendre un avantage dès le début. Exemples : Kumano Faces Kakkazan, Evolve Sleeper.&lt;/p&gt;
+
+&lt;h4 id=&quot;tour-2&quot;&gt;Tour 2&lt;/h4&gt;
+
+&lt;p&gt;Tour de transition :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Continuez à déployer vos cartes.&lt;/li&gt;
+  &lt;li&gt;Gardez du mana pour contrer ou détruire une carte de l’adversaire.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;tours-3-et-4&quot;&gt;Tours 3 et 4&lt;/h4&gt;
+
+&lt;p&gt;Ces tours sont décisifs en Pioneer pour prendre l’ascendant. Voici quelques cartes à jouer au tour 4 : Mastermind’s Acquisition, Sheoldred, the Apocalypse, Cavalier of Thorns.&lt;/p&gt;
+
+&lt;h4 id=&quot;main-vide-ou-top-deck&quot;&gt;Main Vide ou Top Deck&lt;/h4&gt;
+
+&lt;p&gt;Évitez d’être à court de cartes en main, ce qui donnerait un avantage à l’adversaire. Avoir une main vide est très pénalisante dans le format Pioneer.&lt;/p&gt;
+
+&lt;h4 id=&quot;color-death&quot;&gt;Color Death&lt;/h4&gt;
+
+&lt;p&gt;Jouer plusieurs couleurs nécessite une gestion attentive des terrains. L’absence de terrains d’une couleur spécifique pendant plusieurs tours peut offrir un avantage à votre adversaire.&lt;/p&gt;
+
+&lt;h4 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h4&gt;
+
+&lt;p&gt;En suivant ces conseils, vous pourrez construire un deck Magic: The Gathering équilibré et compétitif.&lt;/p&gt;
+
+&lt;p&gt;Que vous soyez débutant ou compétiteur venez trouvez des adversaires pour vos parties de Pioneer et Modern sur notre serveur Discord “Spelltable Duels” =» https://discord.gg/9eYZCpQMU2.&lt;/p&gt;</content><author><name>Khancell</name></author><category term="pioneer" /><summary type="html"></summary></entry></feed>
