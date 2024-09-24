@@ -5,6 +5,12 @@ var store = [{
         "url": "/mtg/pioneer/mtg-Pioneer-deck/",
         "teaser": null
       },{
+        "title": "test",
+        "excerpt":"                  &quot;Knight of the Reliquary&quot;     ","categories": ["pioneer"],
+        "tags": [],
+        "url": "/mtg/pioneer/test/",
+        "teaser": null
+      },{
         "title": "Pioneer un format compétitif",
         "excerpt":"Les Atouts du Format Pioneer dans Magic The Gathering Le format Pioneer offre une combinaison unique de stabilité, diversité et profondeur stratégique. Voici pourquoi il se démarque : Stratégie Générale Le format encourage le développement de stratégies cohérentes. Le format 60 cartes , avec maximum 4 cartes identiques permet aux...","categories": ["pioneer"],
         "tags": [],

@@ -1,11 +1,12 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.22.0 by Michael Rose
-  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Minimal Mistakes Jekyll Theme 4.26.2 by Michael Rose
+  Copyright 2013-2024 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
-<html lang="en" class="no-js">
+
+<html lang="en-US" class="no-js">
   <head>
     <meta charset="utf-8">
 
@@ -21,7 +22,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Magic The Gathering">
 <meta property="og:title" content="Magic The Gathering">
-<meta property="og:url" content="https://pierreyvesv.github.io/mtg/mtg/">
+<meta property="og:url" content="http://localhost:4000/mtg/">
 
 
   <meta property="og:description" content="MTG Pioneer blog post.">
@@ -33,7 +34,7 @@
   <meta name="twitter:site" content="@spelltableduels">
   <meta name="twitter:title" content="Magic The Gathering">
   <meta name="twitter:description" content="MTG Pioneer blog post.">
-  <meta name="twitter:url" content="https://pierreyvesv.github.io/mtg/mtg/">
+  <meta name="twitter:url" content="http://localhost:4000/mtg/">
 
   
     <meta name="twitter:card" content="summary">
@@ -49,21 +50,23 @@
 
 
 
-<link rel="canonical" href="https://pierreyvesv.github.io/mtg/mtg/">
+<link rel="canonical" href="http://localhost:4000/mtg/">
 
 
 
 
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    
-      "@type": "Person",
-      "name": "Khancell",
-      "url": "https://pierreyvesv.github.io/mtg/mtg/"
-    
-  }
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+    "name": "Khancell",
+    "url": "http://localhost:4000/mtg/"
+}
 </script>
+
+
+
 
 
 
@@ -75,33 +78,18 @@
 
 
   <link href="/mtg/feed.xml" type="application/atom+xml" rel="alternate" title="Magic The Gathering Feed">
-
-
-<!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
 </script>
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="/mtg/assets/css/main.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
 
-<!--[if IE]>
-  <style>
-    /* old IE unsupported flexbox fixes */
-    .greedy-nav .site-title {
-      padding-right: 3em;
-    }
-    .greedy-nav button {
-      position: absolute;
-      top: 0;
-      right: 0;
-      height: 100%;
-    }
-  </style>
-<![endif]-->
 
 
     <!-- start custom head snippets -->
@@ -112,19 +100,14 @@
 
   </head>
 
-  <body class="layout--home">
+  <body class="layout--home" dir="ltr">
     <nav class="skip-links">
-  <h2 class="screen-reader-text">Skip links</h2>
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
     <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
     <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
   </ul>
 </nav>
-
-    <!--[if lt IE 9]>
-<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
-<![endif]-->
 
     
 
@@ -161,16 +144,16 @@
   
 
 
-<div itemscope itemtype="https://schema.org/Person">
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
 
   
 
   <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/mtg/" itemprop="url">Khancell</a>
+    </h3>
     
-      <h3 class="author__name" itemprop="name">Khancell</h3>
-    
-    
-      <div class="author__bio" itemprop="description">
+      <div class="author__bio p-note" itemprop="description">
         <p>Discard your hand</p>
 
       </div>
@@ -182,7 +165,7 @@
     <ul class="author__urls social-icons">
       
         <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Angers FR</span>
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">Angers FR</span>
         </li>
       
 
@@ -191,19 +174,19 @@
           
         
           
-            <li><a href="https://twitter.com/spelltableduels" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+            <li><a href="https://twitter.com/spelltableduels" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
           
         
           
-            <li><a href="https://github.com/pierreyvesv/mtg" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+            <li><a href="https://github.com/pierreyvesv/mtg" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
           
         
           
-            <li><a href="https://www.facebook.com/profile.php?id=61561511954519&notif_id=1724284140418899&notif_t=page_user_activity" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span class="label">Facebook</span></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=61561511954519&notif_id=1724284140418899&notif_t=page_user_activity" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span class="label">Facebook</span></a></li>
           
         
           
-            <li><a href="https://discord.gg/9eYZCpQMU2" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-discord" aria-hidden="true"></i><span class="label">Discord</span></a></li>
+            <li><a href="https://discord.gg/9eYZCpQMU2" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-discord" aria-hidden="true"></i><span class="label">Discord</span></a></li>
           
         
       
@@ -258,7 +241,7 @@
 
       <!--
   <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
       <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
     </a>
   </li>
@@ -285,7 +268,10 @@
 
 <div class="entries-list">
   
-    
+
+
+
+
 
 
 
@@ -325,8 +311,6 @@
   </article>
 </div>
 
-  
-    
 
 
 
@@ -366,8 +350,6 @@
   </article>
 </div>
 
-  
-    
 
 
 
@@ -407,8 +389,6 @@
   </article>
 </div>
 
-  
-    
 
 
 
@@ -448,8 +428,50 @@
   </article>
 </div>
 
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/mtg/pioneer/test/" rel="permalink">test
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">
   
     
+    
+    &quot;Knight of the Reliquary&quot;
+  
+
+</p>
+  </article>
+</div>
+
 
 
 
@@ -489,7 +511,6 @@
   </article>
 </div>
 
-  
 </div>
 
 
@@ -497,6 +518,8 @@
 
   </div>
 </div>
+
+      
     </div>
 
     
@@ -518,14 +541,13 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2024 Khancell. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2024 <a href="http://localhost:4000">Magic The Gathering</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
 
     
   <script src="/mtg/assets/js/main.min.js"></script>
-
 
 
 
