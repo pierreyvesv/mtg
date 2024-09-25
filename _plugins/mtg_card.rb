@@ -23,7 +23,7 @@ module Jekyll
       <div class="mtg-card">
         <a href="#{card_url}" target="_blank">
           <img src="#{image_url}" alt="#{escape_html(@card_name)}" />
-          
+          <p>
           #{escape_html(@card_name)}
         </a>
       </div>
