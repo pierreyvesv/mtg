@@ -6,7 +6,7 @@ var store = [{
         "teaser": null
       },{
         "title": "test",
-        "excerpt":"                  &quot;Knight of the Reliquary&quot;   &lt;/a&gt; &lt;/div&gt;   ","categories": ["pioneer"],
+        "excerpt":"                   &quot;Knight of the Reliquary&quot;     ","categories": ["pioneer"],
         "tags": [],
         "url": "/mtg/pioneer/test/",
         "teaser": null
