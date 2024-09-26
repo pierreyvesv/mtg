@@ -23,8 +23,6 @@ module Jekyll
       <div class="mtg-card">
         <a href="#{card_url}" target="_blank">
           <img src="#{image_url}" alt="#{escape_html(@card_name)}" />
-          <p></p>
-          #{escape_html(@card_name)}
         </a>
       </div>
       HTML
@@ -35,7 +33,9 @@ module Jekyll
     private
 
     def fetch_card_data(card_name)
-      uri = URI.parse("https://api.scryfall.com/cards/named?fuzzy=#{CGI.escape(card_name)}")
+      encoded_name = URI.encode_www_form_component(card_name) # Properly encode the card name
+      uri = URI.parse("https://api.scryfall.com/cards/named?fuzzy=#{encoded_name}")
+      #uri = URI.parse("https://api.scryfall.com/cards/named?fuzzy=#{CGI.escape(card_name)}")
       response = Net::HTTP.get_response(uri)
 
       if response.is_a?(Net::HTTPSuccess)

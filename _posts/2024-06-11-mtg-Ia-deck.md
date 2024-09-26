@@ -51,6 +51,7 @@ Qualité de la réponse 5/5
 
 il réduit le nombre de Polukranos de 4 à 2.
 
+{% mtg_card "Polokranos Reborn" %}
 
 ### update the deck so that it can compete with the 2024 Explorer meta
 
@@ -58,22 +59,31 @@ Qualité de la réponse 5/5"
 
 exemple il change les forets basique et met les terrain suivants
 
-```
-18 Forest
-2 Boseiju, Who Endures
-2 Lair of the Hydra
-2 Nykthos, Shrine to Nyx
-```
+- 18 Forest
+- 2 Boseiju, Who Endures
+- 2 Lair of the Hydra
+- 2 Nykthos, Shrine to Nyx
+
+<div class="mtg-card-container">
+  {% mtg_card "Boseiju, Who Endures" %}
+  {% mtg_card "Lair of the Hydra" %}
+  {% mtg_card "Nykthos, Shrine to Nyx" %}
+</div>
 
 ### improve the sideboard to tackle with other 2024 decks like "rakdos vampire", "Izzert Phenix" or "blue white control" deck"
 
 Qualité 5/5
 
 il ajoute les cartes suivantes et explique pourquoi.
-```
-2 Carnage Tyrant
-3 Pithing Needle
-```
+
+- 2 Carnage Tyrant
+- 3 Pithing Needle
+
+<div class="mtg-card-container">
+  {% mtg_card "Carnage Tyrant" %}
+  {% mtg_card "Pithing Needle" %}
+</div>
+
 
 ## Conclusion
 
