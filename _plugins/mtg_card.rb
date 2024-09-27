@@ -11,13 +11,19 @@ module Jekyll
 
     def render(context)
       card_data = fetch_card_data(@card_name)
-      
+
       if card_data.nil?
         return "Card not found: #{@card_name}"
       end
 
       card_url = card_data["scryfall_uri"]
-      image_url = card_data["image_uris"]["normal"]
+      
+      # Check for 'transform' layout and adjust the image URL
+      image_url = if card_data["layout"] == "transform"
+                    card_data["card_faces"][0]["image_uris"]["normal"]
+                  else
+                    card_data["image_uris"]["normal"]
+                  end
 
       html_output = <<~HTML
       <div class="mtg-card">
@@ -35,7 +41,6 @@ module Jekyll
     def fetch_card_data(card_name)
       encoded_name = URI.encode_www_form_component(card_name) # Properly encode the card name
       uri = URI.parse("https://api.scryfall.com/cards/named?fuzzy=#{encoded_name}")
-      #uri = URI.parse("https://api.scryfall.com/cards/named?fuzzy=#{CGI.escape(card_name)}")
       response = Net::HTTP.get_response(uri)
 
       if response.is_a?(Net::HTTPSuccess)
