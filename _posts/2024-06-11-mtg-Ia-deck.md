@@ -51,6 +51,8 @@ Qualité de la réponse 5/5
 
 il réduit le nombre de Polukranos de 4 à 2.
 
+{% mtg_card_link "Polukranos Reborn" %}
+
 {% mtg_card "Polukranos Reborn" %}
 
 ### update the deck so that it can compete with the 2024 Explorer meta
