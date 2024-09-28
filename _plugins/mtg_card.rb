@@ -17,21 +17,33 @@ module Jekyll
       end
 
       card_url = card_data["scryfall_uri"]
-      
-      # Check for 'transform' layout and adjust the image URL
-      image_url = if card_data["layout"] == "transform"
-                    card_data["card_faces"][0]["image_uris"]["normal"]
-                  else
-                    card_data["image_uris"]["normal"]
-                  end
 
-      html_output = <<~HTML
-      <div class="mtg-card">
-        <a href="#{card_url}" target="_blank">
-          <img src="#{image_url}" alt="#{escape_html(@card_name)}" />
-        </a>
-      </div>
-      HTML
+      if card_data["layout"] == "transform"
+        # Display both faces of the card side by side
+        image_url_front = card_data["card_faces"][0]["image_uris"]["normal"]
+        image_url_back = card_data["card_faces"][1]["image_uris"]["normal"]
+
+        html_output = <<~HTML
+        <div class="mtg-card" style="display: flex; gap: 10px;">
+          <a href="#{card_url}" target="_blank" style="display: flex;">
+            <img src="#{image_url_front}" alt="#{escape_html(@card_name)} - Front" />
+            <img src="#{image_url_back}" alt="#{escape_html(@card_name)} - Back" />
+          </a>
+        </div>
+        HTML
+
+      else
+        # Normal layout, single face
+        image_url = card_data["image_uris"]["normal"]
+
+        html_output = <<~HTML
+        <div class="mtg-card">
+          <a href="#{card_url}" target="_blank">
+            <img src="#{image_url}" alt="#{escape_html(@card_name)}" />
+          </a>
+        </div>
+        HTML
+      end
 
       html_output.strip
     end
