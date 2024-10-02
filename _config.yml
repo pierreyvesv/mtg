@@ -5,7 +5,7 @@ name: "Khancell"
 description: > # this means to ignore newlines until "baseurl:"
   MTG Pioneer blog post.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://spelltableduels.fr"
+url: "https://www.spelltableduels.fr"
 twitter_username: pverdon
 github_username:  pierreyvesv
 locale                   : "en-US"
