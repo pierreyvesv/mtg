@@ -53,7 +53,7 @@ twitter:
 analytics:
   provider               : "google-gtag" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : "G-0NFPJJR9PV"
+    tracking_id          : "G-86LX6LSXWG"
     anonymize_ip         : false # true, false (default)
 
 
