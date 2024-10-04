@@ -7,11 +7,6 @@ published: true
 ---
 ![Image]({{ site.baseurl }}/assets/images/banner_1000x400.png)
 
-
-Voici un résumé simplifié et organisé pour une rédaction sur Magic the Gathering, format Pioneer, avec les liens formatés comme demandé :
-
----
-
 Le format **Pioneer** se trouve actuellement dans une phase dynamique, marquée par des interdictions récentes qui ont bouleversé le métagame, offrant plus d'innovation et de diversité. C'est un moment propice pour s'intéresser à ce format, que vous cherchiez à trouver votre archétype idéal ou simplement à étudier la concurrence. Voici un aperçu des decks en ce moment.
 
 ### Decks Tier 2 en Pioneer
