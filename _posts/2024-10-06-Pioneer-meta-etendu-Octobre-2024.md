@@ -1,3 +1,12 @@
+---
+layout: single
+title:  "Pioneer Meta étendue Octobre 2024"
+date:   2024-10-07 23:45:46 +0100
+categories: pioneer
+published: true
+---
+![Image]({{ site.baseurl }}/assets/images/banner_1000x400.png)
+
 # Meta Pioneer
 
 Le format Pioneer est actuellement dans une situation plutôt positive. Autrefois marqué par des decks dominants. Néanmoins, le format a bougé notamment grâce aux récentes interdictions, ce qui a considérablement bouleversé le métagame. 
