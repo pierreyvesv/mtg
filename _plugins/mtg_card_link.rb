@@ -18,8 +18,14 @@ module Jekyll
 
       card_url = card_data["scryfall_uri"]
       # Display the card name and link to Scryfall
+      #         <a href="#{card_url}" target="_blank">#{escape_html(@card_name)}</a>
       <<~HTML
-        <a href="#{card_url}" target="_blank">#{escape_html(@card_name)}</a>
+        <a href="#" onclick="return false;" class="text-dark">
+        #{escape_html(@card_name)}
+    <span class="hover-image">
+        <img src="#{card_url}" alt="#{escape_html(@card_name)}" height="311" width="223">
+    </span>
+</a>
       HTML
     end
 
