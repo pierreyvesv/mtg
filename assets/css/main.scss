@@ -18,3 +18,15 @@ search: false
     display: inline-block;
     max-width: 400px; /* Adjust as needed for card size */
 }
+
+a span.hover-image img {
+  display: none;
+  position: relative;
+  z-index: 10;
+  right: 0;
+}
+
+a:hover span.hover-image img {
+  display: block;
+  gap: 10px; /* Optional: adds some space between the images */
+}
