@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Pioneer Meta étendue Octobre 2024"
+title:  "Pioneer Meta etendue Octobre 2024"
 date:   2024-10-07 23:45:46 +0100
 categories: pioneer
 published: true
