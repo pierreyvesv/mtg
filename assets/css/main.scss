@@ -19,15 +19,20 @@ search: false
     max-width: 400px; /* Adjust as needed for card size */
 }
 
+a {
+  position: relative; /* Ensure the image is positioned relative to the link */
+}
+
 a span.hover-image img {
   display: none;
-  position: relative;
-  top: 0; /* Adjust as needed */
-  left: 100%; /* Show the image to the right of the link */
-  z-index: 10;
+  position: absolute; /* Float the image freely */
+  top: 0; /* Adjust as needed to align vertically */
+  left: 100%; /* Place it to the right of the link */
+  z-index: 100px;
 }
 
 a:hover span.hover-image img {
   display: block;
-  gap: 10px; /* Optional: adds some space between the images */
+  z-index: 100px;
+  /* Optional: Add padding or margin for spacing */
 }
