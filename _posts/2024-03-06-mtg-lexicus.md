@@ -1,14 +1,14 @@
 ---
 layout: single
-title:  "Lexique Pioneer"
+title:  "Lexique"
 date:   2023-11-18 14:40:46 +0100
-categories: pioneer
+categories: standard
 published: false
 ---
 ![Image]({{ site.baseurl }}/assets/images/banner_1000x400.png)
 
 
-# Lexique des termes utilisé dans le jeu Pioneer
+# Lexique des termes utilisé dans le jeu
 
 Pour les nouveaux joueurs de Magic, le langage et les termes spécifiques utilisés par la communauté peuvent sembler déroutants. Par exemple les Youtubeurs commencent souvent à jouer en disant "ok I am on the play" ou "ok I am on the draw" .
 
