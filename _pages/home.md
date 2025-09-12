@@ -31,7 +31,7 @@ feature_row:
 #    alt: "Pauper"
     title: "Pauper"
     excerpt: "un format très actifs basé sur les cartes communes"
-    url: "/categories/pioneer"
+    url: "/categories/pauper"
     btn_class: "btn--primary"
     btn_label: "Articles"
   - image_path: /assets/images/mm-free-feature.png
@@ -45,7 +45,7 @@ feature_row:
    # alt: "Standard"
     title: "Standard"
     excerpt: "le format avec les extensions récentes"
-    url: "/categories/pioneer"
+    url: "/categories/standard"
     btn_class: "btn--primary"
     btn_label: "Articles"
   - image_path: /assets/images/mm-free-feature.png
