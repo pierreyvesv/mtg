@@ -14,31 +14,24 @@ excerpt: >
 
 feature_row:
   - image_path: /assets/images/mm-responsive-feature.png
-#    alt: "le serveur"
-    title: "Le serveur"
-    excerpt: "nos évènements"
-    url: "/docs/layouts/"
-    btn_class: "btn--primary"
-    btn_label: "Articles"
-  - image_path: /assets/images/mm-responsive-feature.png
 #    alt: "Evènements"
-    title: "Evènements"
-    excerpt: "Organisations et Mini tournois et parties régulières"
-    url: "/docs/layouts/"
+    title: "Infos"
+    excerpt: "Infos et évènements"
+    url: "/categories/infos"
     btn_class: "btn--primary"
     btn_label: "Articles"
   - image_path: /assets/images/mm-responsive-feature.png
 #    alt: "Ranking"
-    title: "Ranking"
+    title: "Meta et Ranking"
     excerpt: "un Elo ranking sur l'année. Choisi tes adversaires et grimpe le ladder"
-    url: "/docs/layouts/"
+    url: "/categories/meta-ranking"
     btn_class: "btn--primary"
     btn_label: "Articles"
   - image_path: /assets/images/mm-responsive-feature.png
 #    alt: "Pauper"
     title: "Pauper"
     excerpt: "un format très actifs basé sur les cartes communes"
-    url: "/docs/layouts/"
+    url: "/categories/pioneer"
     btn_class: "btn--primary"
     btn_label: "Articles"
   - image_path: /assets/images/mm-free-feature.png
