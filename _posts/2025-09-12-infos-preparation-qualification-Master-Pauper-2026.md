@@ -4,6 +4,7 @@ title:  "Preparation qualification Master Pauper 2026"
 date:   2025-09-12 23:09:00 +0100
 category: infos
 published: true
+author_profile: false
 ---
 ![Image]({{ site.baseurl }}/assets/images/banner_1000x400.png)
 
