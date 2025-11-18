@@ -15,11 +15,13 @@ Bonjour communauté Spelltable !
 Voici les règles à suivre pour participer aux tournois sur Spelltable. Ce sontr les règles de tournois habituelle auxquels on ajoute la possibilités de faire les parties sur 1 mois. Cel a donne à chacun la possibilité d'organiser ses rencontres.
 
 ## Type de tournoi
-Le tournoi se joue en simple round robin chaque joueur affronte 1 fois tout le monde.
+Le tournoi se joue en simple "round robin" chaque joueur affronte 1 fois tout le monde.
 
 Vous aurez 1 mois pour faire l'ensemble de vos matchs dans n'importe quel ordre, l'essentiel est que chaque joueur affronte tout le monde une fois.
 
 Le vainqueur sera le joueur en tête du classement au bout d'un mois.
+
+En cas d'un grand nombre de participant pour garder le tournois sur un seul mois on organisera des rondes suisses.
 
 ## Les infos à retenir
 - 8 à 16 joueurs max
@@ -43,6 +45,21 @@ Les résultats sont à rapporter sur le Challonge ET dans le channel [#Tournoi >
 En cas de match non joué les deux joueurs auront zéro points.
 
 Un joueur peut rejoindre la Ligue en cours de route mais s'il ne parvient pas à jouer l'intégralité des match a temps il sera considéré perdant par défaut sur tous les matchs non joués (on compte sur vous pour jouer le jeu et pas refuser des matchs pour obtenir des freewin).
+
+
+## Bonus de participation
+
+Un joueur gagne 1 point pour chaque match réalisé.
+un joueur finissant tous ses matchs reçoit un bonus de +3 pts. 
+Ces points sont rajoutés après le résultat dans challonge.
+
+## Gestion des égalitées
+
+Dans l'ordre de résolution du tie breaker:
+
+- Match Wins: total de matchs gagnés, indicateur brut de performance (proche du nombre total de matchs joués).
+- Game/Set Win %: pourcentage de manches gagnées sur l’ensemble des manches jouées, mesure plus fine que les matchs.
+- Wins vs Tied Participant: nombre de victoires obtenues directement contre les joueurs avec qui tu es à égalité.
 
 ## Questions de règles
 Si vous avez des questions de règles utilisez le channel [#Communauté > Question de règles](https://discord.com/channels/995806042808135760/1074958699501715557)
