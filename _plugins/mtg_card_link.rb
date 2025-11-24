@@ -52,6 +52,7 @@ module Jekyll
     private
 
     def fetch_card_data(card_name)
+      sleep 1
       encoded_name = URI.encode_www_form_component(card_name) # Properly encode the card name
       uri = URI.parse("https://api.scryfall.com/cards/named?fuzzy=#{encoded_name}")
       response = Net::HTTP.get_response(uri)

@@ -73,7 +73,7 @@ En somme, **Azorius Control** est un deck très punitif, bien adapté au méta a
 
 ### Rakdos Prowess
 
-Dans un retournement surprenant, {% mtg_card_link "Rakdos Prowess" %} ressemble à un deck Standard légèrement amélioré. Ce deck aggro implacable se concentre sur des cartes comme {% mtg_card_link "Heartfire Hero" %} et {% mtg_card_link "Slickshot Show-Off" %} pour infliger des dégâts massifs très tôt dans la partie.
+Dans un retournement surprenant, "Rakdos Prowess" ressemble à un deck Standard légèrement amélioré. Ce deck aggro implacable se concentre sur des cartes comme {% mtg_card_link "Heartfire Hero" %} et {% mtg_card_link "Slickshot Show-Off" %} pour infliger des dégâts massifs très tôt dans la partie.
 
 Bien que puissant, **Rakdos Prowess** n'est pas invincible. Le deck lutte particulièrement contre **Izzet Phoenix**, l'un des decks les plus populaires en ce moment.
 
