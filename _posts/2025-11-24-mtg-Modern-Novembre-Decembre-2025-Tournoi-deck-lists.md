@@ -28,6 +28,8 @@ Cela permetta aussi de conserver et de pouvoir revoir les decks jouées pendant 
 
 ## Hypnotik Mono Green Devotion {#hypnotik-monogreen}
 
+Deck
+
 3 {% mtg_card_alink "Boseiju, Who Endures" %}
 3 {% mtg_card_alink "Cavalier of Thorns" %}
 1 {% mtg_card_alink "Disciple of Freyalise" %}
@@ -62,6 +64,8 @@ Sideboard
 1 {% mtg_card_alink "Vexing Bauble" %}
 
 ## Khancell Azorius Spirit {#khancell-azoriusspirit}
+
+Deck 
 
 4 {% mtg_card_alink "Seam Rip" %}
 3 {% mtg_card_alink "Spell Queller" %}
@@ -146,6 +150,8 @@ Sideboard
 
 ## Jambz Jeskai blink {#jambz-jeskai-blink}
 
+Deck
+
 2 {% mtg_card_alink "Arena of Glory" %}
 4 {% mtg_card_alink "Arid Mesa" %}
 3 {% mtg_card_alink "Consign to Memory" %}
@@ -172,7 +178,8 @@ Sideboard
 2 {% mtg_card_alink "Teferi, Time Raveler" %}
 1 {% mtg_card_alink "Thundering Falls" %}
 
-SIDEBOARD:
+Sideboard
+
 2 {% mtg_card_alink "Ashiok, Dream Render" %}
 1 {% mtg_card_alink "March of Otherworldly Light" %}
 3 {% mtg_card_alink "Mystical Dispute" %}
