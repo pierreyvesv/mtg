@@ -59,6 +59,8 @@ module Jekyll
       if response.is_a?(Net::HTTPSuccess)
         JSON.parse(response.body)
       else
+        printf("Error fetching card data for '%s' - '%s': %s\n", encoded_name, card_name, response.message)
+        # Return nil if the card is not found or there's an error
         nil
       end
     end
