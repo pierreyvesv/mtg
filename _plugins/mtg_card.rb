@@ -18,7 +18,7 @@ module Jekyll
 
       card_url = card_data["scryfall_uri"]
 
-      if card_data["layout"] == "transform"
+      if card_data["layout"] == "transform" || card_data["layout"] == "modal_dfc"
         # Display both faces of the card side by side
         image_url_front = card_data["card_faces"][0]["image_uris"]["normal"]
         image_url_back = card_data["card_faces"][1]["image_uris"]["normal"]

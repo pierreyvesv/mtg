@@ -18,20 +18,19 @@ module Jekyll
 
       card_url = card_data["scryfall_uri"]
 
-      if card_data["layout"] == "transform"
+      if card_data["layout"] == "transform" || card_data["layout"] == "modal_dfc"
         # Display both faces of the card side by side
         image_url_front = card_data["card_faces"][0]["image_uris"]["normal"]
         image_url_back = card_data["card_faces"][1]["image_uris"]["normal"]
 
         html_output = <<~HTML
         <a href="#{card_url}" target="_blank">#{escape_html(@card_name)}
-        <span class="hover-image"  style="display: flex;">
-            <img src="#{image_url_front}" alt="#{escape_html(@card_name)} - Front" />
-            <img src="#{image_url_back}" alt="#{escape_html(@card_name)} - Back" />
+        <span class="hover-image dual" style="display: inline-block; width: 446px; height: 311px;">
+            <img src="#{image_url_front}" alt="#{escape_html(@card_name)} - Front" style="width: 223px; height: 311px; float: left;" />
+            <img src="#{image_url_back}" alt="#{escape_html(@card_name)} - Back" style="width: 223px; height: 311px; float: left;" />
         </span>
         </a>
         HTML
-
       else
         # Normal layout, single face
         image_url = card_data["image_uris"]["normal"]
@@ -39,7 +38,7 @@ module Jekyll
 
         html_output = <<~HTML
         <a href="#{card_url}" target="_blank">#{escape_html(@card_name)}
-        <span class="hover-image">
+        <span class="hover-image single">
           <img src="#{image_url}" alt="#{escape_html(@card_name)}" height="311" width="223">
         </span>
         </a>
@@ -52,7 +51,7 @@ module Jekyll
     private
 
     def fetch_card_data(card_name)
-      sleep 1
+      # sleep 1
       encoded_name = URI.encode_www_form_component(card_name) # Properly encode the card name
       uri = URI.parse("https://api.scryfall.com/cards/named?fuzzy=#{encoded_name}")
       response = Net::HTTP.get_response(uri)
