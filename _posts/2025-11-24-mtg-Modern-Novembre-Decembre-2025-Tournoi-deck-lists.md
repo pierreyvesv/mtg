@@ -78,23 +78,20 @@ Deck
 1 {% mtg_card_alink "Katilda, Dawnhart Martyr" %}
 4 {% mtg_card_alink "Skyclave Apparition" %}
 1 {% mtg_card_alink "Cemetery Illuminator" %}
-1 {% mtg_card_alink "Cemetery Illuminator" %}
 3 {% mtg_card_alink "Supreme Phantom" %}
 1 {% mtg_card_alink "Sejiri Shelter" %}
 4 {% mtg_card_alink "Island" %}
-2 {% mtg_card_alink "Island" %}
-2 {% mtg_card_alink "Plains" %}
 3 {% mtg_card_alink "Plains" %}
 4 {% mtg_card_alink "Seachrome Coast" %}
 3 {% mtg_card_alink "Prairie Stream" %}
 2 {% mtg_card_alink "Adarkar Wastes" %}
-2 {% mtg_card_alink "Temple of Enlightenment" %}
 1 {% mtg_card_alink "Port Town" %}
 1 {% mtg_card_alink "Glasspool Mimic" %}
 1 {% mtg_card_alink "Jwari Disruption" %}
 1 {% mtg_card_alink "Rattlechains" %}
+3 {% mtg_card_alink "Temple of Enlightenment" %}
 
-Sideboard
+Side
 
 3 {% mtg_card_alink "Unable to Scream" %}
 2 {% mtg_card_alink "Split Up" %}
@@ -104,7 +101,6 @@ Sideboard
 2 {% mtg_card_alink "Clarion Spirit" %}
 1 {% mtg_card_alink "Phantom Interference" %}
 3 {% mtg_card_alink "Rattlechains" %}
-
 
 ## HeVo W-U-B-G Goryo's Vengeance {#hevo-goryos-vengeance}
 
