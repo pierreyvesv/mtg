@@ -1,9 +1,9 @@
 ---
 layout: single
 title:  "Lexique"
-date:   2023-11-18 14:40:46 +0100
-categories: standard
-published: false
+date:   2025-12-22 14:40:46 +0100
+categories: infos
+published: true
 ---
 ![Image]({{ site.baseurl }}/assets/images/banner_1000x400.png)
 
@@ -50,3 +50,8 @@ C'est pour comprendre ce jargon que ce lexique a été créé.
 - tempo : contrôle du rythme du jeu en utilisant des cartes ou actions pour retarder les plans de l'adversaire tout en avançant les siens
 - splash damage : effets ou dégâts affectant plusieurs cibles ou joueurs
 - hardcast : jouer une carte en payant son coût de mana total
+- win: gagne la partie
+- loss: perd la partie
+- untap: détappe
+- upkeep: phase de jeu avant la pioche
+- draw: pioche
