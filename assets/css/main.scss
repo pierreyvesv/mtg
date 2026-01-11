@@ -28,12 +28,13 @@ a span.hover-image img {
   position: absolute; /* Float the image freely */
   top: 0; /* Adjust as needed to align vertically */
   left: 100%; /* Place it to the right of the link */
-  z-index: 100px;
+  z-index: 100;
+  max-width: none;
 }
 
 a:hover span.hover-image img {
   display: block;
-  z-index: 100px;
+  z-index: 100;
   /* Optional: Add padding or margin for spacing */
 }
 
