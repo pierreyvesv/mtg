@@ -64,6 +64,10 @@ Dans l'ordre de résolution du tie breaker:
 - Game/Set Win %: pourcentage de manches gagnées sur l’ensemble des manches jouées, mesure plus fine que les matchs.
 - Wins vs Tied Participant: nombre de victoires obtenues directement contre les joueurs avec qui tu es à égalité.
 
+## Outils
+
+Chaque joueurs doit avoir un Spelltable fonctionnel avant le tournoi avec caméra ou téléphone. Il n'est pas autorisé de jouer en utilisant une caméra virtuelle pointant vers des logiciels comme Archidekt ou Moxfield.
+
 ## Questions diverses
 
 Les channels suivants sont dédiés pour vos questions:

@@ -16,7 +16,8 @@ search: false
   
 .mtg-card {
     display: inline-block;
-    max-width: 400px; /* Adjust as needed for card size */
+    min-height: 800px;
+    aspect-ratio: 5/7;
 }
 
 a {
@@ -29,13 +30,17 @@ a span.hover-image img {
   top: 0; /* Adjust as needed to align vertically */
   left: 100%; /* Place it to the right of the link */
   z-index: 100;
-  max-width: none;
+  min-height: 800px;
+  aspect-ratio: 5/7;
+
 }
 
 a:hover span.hover-image img {
   display: block;
   z-index: 100;
-  /* Optional: Add padding or margin for spacing */
+  min-height: 800px;
+  aspect-ratio: 5/7;
+  /* Optional: Add pa  min-width: 400px;dding or margin for spacing */
 }
 
 // .feature__wrapper {
